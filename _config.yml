@@ -13,9 +13,9 @@ theme: minima
 paginate: 10
 paginate_path: page/:num/
 giscus_repo: JakeSteam/blog-history
-giscus_repo_id: R_kgDOG3ebnw
+giscus_repo_id: R_kgDOICp35A
 giscus_category: Comments
-giscus_category_id: DIC_kwDOG3ebn84CQ06P
+giscus_category_id: DIC_kwDOICp35M4CRj3_
 rss: RSS
 
 # Build settings
