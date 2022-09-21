@@ -1,0 +1,35 @@
+# Blog settings
+title: Internet History
+email: blog@jakelee.co.uk
+description: Welcome to Internet History! A collection of deep dives into the long forgotten past of the internet.
+baseurl: ""
+url: "https://history.jakelee.co.uk"
+permalink: /:title/
+show_excerpts: true
+timezone: Europe/London
+
+# Theme settings
+theme: minima
+paginate: 10
+paginate_path: page/:num/
+giscus_repo: JakeSteam/blog-history
+giscus_repo_id: R_kgDOG3ebnw
+giscus_category: Comments
+giscus_category_id: DIC_kwDOG3ebn84CQ06P
+rss: RSS
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+
+# Syntax highlighter settings
+kramdown:
+  syntax_highlighter_opts:
+    default_lang: kotlin
+    guess_lang: true
+
+# Analytics settings
+google_analytics: UA-220119060-3
+
