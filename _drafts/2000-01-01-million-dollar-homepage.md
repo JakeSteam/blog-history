@@ -9,7 +9,7 @@ tags:
     - Advertising
 ---
 
-When I was at school in the early 2000s, the internet was a very different place. Bizarre dotcom ideas were exploding everywhere, online shopping was taking over, and digital entrepreneur's moneymaking creativity was unbounded. One outcome of this that I strongly remember being covered in mainstream news back in 2005 was [Alex Tew](https://twitter.com/tewy)'s Million Dollar Homepage.
+When I was at school in the early 2000s, the internet was a very different place. Websites could be built in a couple of days, and if they had a good idea end up making $1m like [Alex Tew](https://twitter.com/tewy)'s Million Dollar Homepage. Read on for a link analysis, colour analysis, and a bit of history!
 
 ## What was the Million Dollar Homepage?
 
@@ -17,7 +17,7 @@ Tew's concept was simple: A page with 1,000,000 pixels, $1 each, anyone can purc
 
 This basic idea, simple execution, and astonishing success truly embodied the "novel idea makes thousands overnight" vibe a lot of the early internet had. There was no reason for the website to be of any value to advertisers besides the fact... it was there. There was no product, no investors, no corporate backing, just 1,000,000 pixels of unused advertising space. 
 
-Of course, this was back when online adverts were a beautiful wild west, with gambling, dating, free software (or malware) and illegal video downloads were all fair game. The end result is a beautiful montage of mid-2000s internet, preserved in a 1000 x 1000 pixel bubble. Whilst I'd recommending visiting [the eye burning original](http://www.milliondollarhomepage.com/) for a pixel-perfect version, here's a smaller version (click to view full size):
+Of course, this was back when online adverts were a beautiful wild west, where gambling, dating, free software (or malware) and illegal video downloads were all fair game. The end result is a beautiful montage of mid-2000s internet, preserved in a 1000 x 1000 pixel bubble. Whilst I'd recommend visiting [the eye burning original](http://www.milliondollarhomepage.com/) for a pixel-perfect version, here's a smaller version (click to view full size):
 
 [![million dollar homepage](/assets/images/2022/milliondollarhomepage.png)](/assets/images/2022/milliondollarhomepage.png)
 
@@ -61,13 +61,13 @@ Alex Tew was a student looking to make a bit of cash to pay for his university d
 [^2017-links]: https://lil.law.harvard.edu/blog/2017/07/21/a-million-squandered-the-million-dollar-homepage-as-a-decaying-digital-artifact/
 [^2019-links]: https://www.bbc.com/future/article/20190401-why-theres-so-little-left-of-the-early-internet
 
-### Overview 
+### Link overview 
 
-In total the 1,000,000 pixels have 3,306 different adverts. Many of these are by the same websites or companies, but this is the number defined on the page.
+In total, the 1,000,000 pixels have 3,306 different adverts. Many of these are by the same websites or companies, but this is the number defined on the page.
 
-Out of these, 143 were "pending", "reserved", or otherwise never valid URLs for one reason or another. This leaves us with 3,163 valid adverts. However, some of these are for the same domains (e.g. myspace), so we end up with 2,804 unique domains that our adverts point to.
+Out of these, 143 are "pending", "reserved", or otherwise never valid URLs for one reason or another. This leaves us with 3,163 valid adverts (see [valids.txt](/assets/txt/valids.txt)). However, some of these are for the same domains (e.g. myspace), so we end up with 2,804 unique domains that our adverts point to (see [domains.txt](/assets/txt/domains.txt)).
 
-Out of these 2,804 domains, 550 completely fail to respond or don't exist, 29 give server errors, and 531 give other errors, usually that the content is forbidden or can't be found. 
+From these 2,804 domains, 550 completely fail to respond or don't exist, 29 give server errors, and 531 give other errors, usually that the content is forbidden or can't be found. 
 
 **In conclusion, 1,694 of the 2,804 advert domains are still alive and responding properly!**.
 
@@ -80,19 +80,21 @@ Out of these 2,804 domains, 550 completely fail to respond or don't exist, 29 gi
 | 5XX Server Error | 29 (1.0%) | 500 Internal Server Error: 12<br>501 Not Implemented: 1<br>502 Bad Gateway: 2<br>503 Service Unavailable: 11<br>521: 1<br>530: 1<br>999: 1 |
 | Timed out / unreachable | 550 (19.6%) | |
 
+A full set of response codes (and errors) is available at [domain-status.txt](/assets/txt/domain-status.txt)
+
 ### HTTPS
 
 Interestingly, only 8 of these domains are HTTPS addresses on the site, whereas now almost all sites use it by default. 
 
 I had a theory that many of the errors above might be due to HTTPS redirects not working properly. To test this, I changed the list of 2,804 domains to all use HTTPS by default, and ran my checker again. 
 
-I was wrong however, and the 2,257 / 2,804 domains that could at least be connected to enough to throw an error dropped to a rather awful 1,498 / 2,804. Further investigation showed that this was likely due to my tool using an outdated HTTPS (technically SSL) protocol however, with the failed sites consisting of a mixture of very outdated (doesn't support HTTPS) to very up to date (only supports modern HTTPS).
+I was wrong however, and the 2,257 / 2,804 domains that could at least be connected to enough to throw an error dropped to a rather awful 1,498 / 2,804. Further investigation showed that this was likely due to my tool using an outdated HTTPS (technically SSL) protocol however, with the failed sites consisting of a mixture of very outdated (doesn't support HTTPS) to very up-to-date (only supports modern HTTPS).
 
 ## What colours are used?
 
-When looking at the image, your eyes are drawn to... all of it at once. However, certain colours "pop" more, such as the neon pink, green, or yellows. A logical question is... which colours are most used, and does this match how our eyes see the image?
+When looking at the image, your eyes are drawn to... all of it at once. However, certain colours "pop" more, such as neon pink, green, or yellow. A logical question is... which colours are most used, and does this match how our eyes see the image?
 
-Here's the top 10 colours used:
+WHere are the top 10 colours used:
 
 | Colour | Hex code | # of pixels |
 | --- | --- | --- |
@@ -109,7 +111,9 @@ Here's the top 10 colours used:
 
 As expected, the neon colours are the most widely used, in addition to the greyscale black / white colours.
 
-Interestingly though, despite red, yellow, green being the top 3, looking at the image green pixels seem much more visible. This may be because green pixels tend to be part of larger advertisements, whilst yellow pixels are usually smaller adverts trying to be noticed.
+Interestingly though, despite red, yellow, green being the top 3, looking at the site green pixels seem much more visible. This may be because green pixels tend to be part of larger advertisements, whilst yellow pixels are usually smaller adverts trying to be noticed.
+
+A full list of colours (and # of pixels) are available [as a JSON object](/assets/txt/colours.json).
 
 ## What is Million Dollar Homepage's legacy?
 
@@ -119,11 +123,11 @@ Perhaps more surprisingly, elements of this "canvas of pixels" idea can be seen 
 
 For evidence of their similarity, compare the Million Dollar Homepage's final canvas to the 2017 and 2022 r/place results (click to view fullsize):
 
-| r/place 2017 | r/place 2022 |
-| --- | --- |
-| [![r/place 2017](/assets/images/2022/rplace2017-thumbnail.png)](/assets/images/2022/rplace2017.png) | [![r/place 2017](/assets/images/2022/rplace2022-thumbnail.png)](/assets/images/2022/rplace2022.png) |
+| Million Dollar Homepage | r/place 2017 | r/place 2022 |
+| --- | --- | --- |
+| [![million dollar homepage](/assets/images/2022/milliondollarhomepage-thumbnail.png)](/assets/images/2022/milliondollarhomepage.png) | [![r/place 2017](/assets/images/2022/rplace2017-thumbnail.png)](/assets/images/2022/rplace2017.png) | [![r/place 2017](/assets/images/2022/rplace2022-thumbnail.png)](/assets/images/2022/rplace2022.png) |
 
-Perhaps even more impressively given how quickly events and websites can fade into obscurity on the internet, Tew's Million Dollar Homepage is still referenced pretty regularly today, usually as a motivational "your idea can go big too!" example. Considering it still lives in mine and others[^rent-free] heads 17 years later, it's hard to understate the effect this relatively small idea has had on countless online creators over the years. 
+Perhaps even more impressive given how quickly events and websites can fade into obscurity on the internet, Tew's Million Dollar Homepage is still referenced pretty regularly today, usually as a motivational "your idea can go big too!" example. Considering it still lives in mine and others[^rent-free] heads 17 years later, it's hard to understate the effect this relatively small idea has had on countless online creators over the years. 
 
 [^rent-free]: https://justinferriman.com/your-1m-dollar-homepage
 
@@ -131,45 +135,25 @@ Perhaps even more impressively given how quickly events and websites can fade in
 
 Even more impressive than Alex Tew's first $1m business idea was his ability to eventually spin this online clout and creativity into the meditation-focused startup Calm.com in 2013, now a unicorn (valuation >$1bn)[^unicorn-startup]. 
 
-For a more detailed story of his journey from Million Dollar Homepage to co-founder of a billion dollar company, I recommend [The Hustle's biopiece](https://thehustle.co/million-dollar-homepage-alex-tew/).
+For a more detailed story of his journey from Million Dollar Homepage to co-founder of a billion-dollar company, I recommend [The Hustle's biopiece](https://thehustle.co/million-dollar-homepage-alex-tew/).
 
 [^unicorn-startup]: https://www.bloomberg.com/news/articles/2019-02-06/meditation-app-backed-by-ashton-kutcher-is-valued-at-1-billion
 
+## Notes
 
-## For programming post
+### How were the domains checked?
 
-How calculated:
-* Grab source clickmap
-* Replace pretext `^.*?(href=")`
-* Replace posttext `(" title).*$`
-* Sort ascending `Ctrl+P and type the greater than sign ( > ). Next type sort and choose Sort Lines Ascending or choose the Descending option.`
-* Skim through, remove any immediately broken / reserved etc
-* Search for "delete duplicate"
-* To check domains https://www.ilovefreesoftware.com/26/programming/how-to-bulk-check-http-status-codes-for-urls-from-command-line.html
-    * vl domains.txt --debug > domain-status.txt
-    * 10m to process
-* Sort ascending again
-* Search [400] etc
+The process to check links was straightforward, but somewhat technical:
 
-How coloured:
-* https://townsean.github.io/canvas-pixel-color-counter/
-* Breakpoint, pull out colorCounts
+1. Pull the full list of links from the source code of Million Dollar Homepage.
+2. Remove the surrounding HTML using regexes `^.*?(href=")` & `(" title).*$`.
+3. [Sort the domains alphabetically](https://thechrisgreen.com/2021/08/vs-code-sort-lines-of-code-in-ascending-or-descending-order/), and [remove duplicate domains](https://stackoverflow.com/a/45829605/608312).
+4. Manually look for & remove any fake domains (e.g. `http://reserved`).
+5. Check the domains [using `vl`](https://www.ilovefreesoftware.com/26/programming/how-to-bulk-check-http-status-codes-for-urls-from-command-line.html), specifically `vl domains.txt --debug > domain-status.txt` taking around 10 minutes.
+6. Sorting the results alphabetically, resulting in a list of domains grouped by response codes.
 
-```
-var newArray = []; 
-Object.keys(colorCounts).forEach(key => {
-    var keyNumbers = key.substring(
-        key.indexOf("(") + 1, 
-        key.lastIndexOf(")")
-    )
-    var keyRGB = keyNumbers.split(", ", 3)
-    var keyHex = "#" + ((1 << 24) + (parseInt(keyRGB[0]) << 16) + (parseInt(keyRGB[1]) << 8) + parseInt(keyRGB[2])).toString(16).slice(1);
-    newArray[keyHex] = colorCounts[key]
-}); 
-var sortedArray = Object.fromEntries(
-    Object.entries(newArray).sort( (a,b) => b[1] - a[1] )    
-);
-console.log(sortedArray)
-```
+### How were the colours counted and sorted?
+
+This ended up being pretty technical, so a full write-up is available on my programming blog as [How to count the number of pixels for each colour in an image](https://blog.jakelee.co.uk/counting-pixel-colours-in-an-image).
 
 ## References
