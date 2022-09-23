@@ -31,7 +31,7 @@ Alex Tew was a student looking to make a bit of cash to pay for his university d
 >
 > So anyway, after an hour of two of jotting random things on paper, the idea seemingly popped out of nowhere. Almost like my subconscious mind had been ticking over in the background, working it all out. So it just kind of happened. That's about it. I scribbled it down and within about 10 minutes a picture of what needed to be done had emerged.
 
-[^broken-faq]: https://web.archive.org/web/20120311152809/http://milliondollarhomepage.com/faq.php
+[^broken-faq]: [https://web.archive.org/web/20120311152809/http://milliondollarhomepage.com/faq.php](https://web.archive.org/web/20120311152809/http://milliondollarhomepage.com/faq.php)
 
 ## What's the timeline?
 
@@ -43,14 +43,14 @@ Alex Tew was a student looking to make a bit of cash to pay for his university d
 * 2006-01-01: Auction opened for final 1000 pixels[^auction-opened]
 * 2006-01-11: Final pixels sold[^final-sale]
 
-[^domain-registered]: https://www.whatsmydns.net/domain-age?q=milliondollarhomepage.com
-[^domain-cost]: http://news.bbc.co.uk/1/hi/magazine/4585026.stm#:~:text=Snowballing-,Alex%20spent%20%C2%A350,-on%20buying%20the
-[^site-launched]: https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=Friday%2026th%20Aug%202005
-[^first-sale]: https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=Monday%2029th%20Aug%202005
-[^bbc-coverage]: http://news.bbc.co.uk/1/hi/england/wiltshire/4271694.stm
-[^half-sold]: https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=Wednesday%2026th%20October%202005
-[^auction-opened]: https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=%40%2011%3A56pm-,Sunday%201st%20January%202006,-Last%201%2C000%20pixels
-[^final-sale]: https://www.theregister.com/2006/01/12/million_pixels/
+[^domain-registered]: [https://www.whatsmydns.net/domain-age?q=milliondollarhomepage.com](https://www.whatsmydns.net/domain-age?q=milliondollarhomepage.com)
+[^domain-cost]: [http://news.bbc.co.uk/1/hi/magazine/4585026.stm#:~:text=Snowballing-,Alex%20spent%20%C2%A350,-on%20buying%20the](http://news.bbc.co.uk/1/hi/magazine/4585026.stm#:~:text=Snowballing-,Alex%20spent%20%C2%A350,-on%20buying%20the)
+[^site-launched]: [https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=Friday%2026th%20Aug%202005](https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=Friday%2026th%20Aug%202005)
+[^first-sale]: [https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=Monday%2029th%20Aug%202005](https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=Monday%2029th%20Aug%202005)
+[^bbc-coverage]: [http://news.bbc.co.uk/1/hi/england/wiltshire/4271694.stm](http://news.bbc.co.uk/1/hi/england/wiltshire/4271694.stm)
+[^half-sold]: [https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=Wednesday%2026th%20October%202005](https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=Wednesday%2026th%20October%202005)
+[^auction-opened]: [https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=%40%2011%3A56pm-,Sunday%201st%20January%202006,-Last%201%2C000%20pixels](https://web.archive.org/web/20090201203927/http://milliondollarhomepage.com/blog-archive.php#:~:text=%40%2011%3A56pm-,Sunday%201st%20January%202006,-Last%201%2C000%20pixels)
+[^final-sale]: [https://www.theregister.com/2006/01/12/million_pixels/](https://www.theregister.com/2006/01/12/million_pixels/)
 
 ## Do all the links still work?
 
@@ -58,8 +58,8 @@ Alex Tew was a student looking to make a bit of cash to pay for his university d
 * 2019: 40% of links broken[^2019-links]. 
 * 2022: 40% of links broken, as per Internet History's investigation below:
 
-[^2017-links]: https://lil.law.harvard.edu/blog/2017/07/21/a-million-squandered-the-million-dollar-homepage-as-a-decaying-digital-artifact/
-[^2019-links]: https://www.bbc.com/future/article/20190401-why-theres-so-little-left-of-the-early-internet
+[^2017-links]: [https://lil.law.harvard.edu/blog/2017/07/21/a-million-squandered-the-million-dollar-homepage-as-a-decaying-digital-artifact/](https://lil.law.harvard.edu/blog/2017/07/21/a-million-squandered-the-million-dollar-homepage-as-a-decaying-digital-artifact/)
+[^2019-links]: [https://www.bbc.com/future/article/20190401-why-theres-so-little-left-of-the-early-internet](https://www.bbc.com/future/article/20190401-why-theres-so-little-left-of-the-early-internet)
 
 ### Link overview 
 
@@ -69,7 +69,7 @@ Out of these, 143 are "pending", "reserved", or otherwise never valid URLs for o
 
 From these 2,804 domains, 550 completely fail to respond or don't exist, 29 give server errors, and 531 give other errors, usually that the content is forbidden or can't be found. 
 
-**In conclusion, 1,694 of the 2,804 advert domains are still alive and responding properly!**.
+**In conclusion, 1,694 of the 2,804 advert domains are still alive and responding properly!**
 
 ### Detailed results
 
@@ -94,7 +94,7 @@ I was wrong however, and the 2,257 / 2,804 domains that could at least be connec
 
 When looking at the image, your eyes are drawn to... all of it at once. However, certain colours "pop" more, such as neon pink, green, or yellow. A logical question is... which colours are most used, and does this match how our eyes see the image?
 
-WHere are the top 10 colours used:
+Here are the top 10 colours used:
 
 | Colour | Hex code | # of pixels |
 | --- | --- | --- |
@@ -129,7 +129,7 @@ For evidence of their similarity, compare the Million Dollar Homepage's final ca
 
 Perhaps even more impressive given how quickly events and websites can fade into obscurity on the internet, Tew's Million Dollar Homepage is still referenced pretty regularly today, usually as a motivational "your idea can go big too!" example. Considering it still lives in mine and others[^rent-free] heads 17 years later, it's hard to understate the effect this relatively small idea has had on countless online creators over the years. 
 
-[^rent-free]: https://justinferriman.com/your-1m-dollar-homepage
+[^rent-free]: [https://justinferriman.com/your-1m-dollar-homepage](https://justinferriman.com/your-1m-dollar-homepage)
 
 ## Where is the creator now?
 
@@ -137,7 +137,7 @@ Even more impressive than Alex Tew's first $1m business idea was his ability to 
 
 For a more detailed story of his journey from Million Dollar Homepage to co-founder of a billion-dollar company, I recommend [The Hustle's biopiece](https://thehustle.co/million-dollar-homepage-alex-tew/).
 
-[^unicorn-startup]: https://www.bloomberg.com/news/articles/2019-02-06/meditation-app-backed-by-ashton-kutcher-is-valued-at-1-billion
+[^unicorn-startup]: [https://www.bloomberg.com/news/articles/2019-02-06/meditation-app-backed-by-ashton-kutcher-is-valued-at-1-billion](https://www.bloomberg.com/news/articles/2019-02-06/meditation-app-backed-by-ashton-kutcher-is-valued-at-1-billion)
 
 ## Notes
 
