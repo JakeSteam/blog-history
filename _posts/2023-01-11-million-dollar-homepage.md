@@ -9,15 +9,15 @@ tags:
     - Advertising
 ---
 
-When I was at school in the early 2000s, the internet was a very different place. Websites could be built in a couple of days, and if they had a good idea end up making $1m like [Alex Tew](https://twitter.com/tewy)'s Million Dollar Homepage. Read on for a link analysis, colour analysis, and a bit of history!
+When I was at school in the early 2000s, the internet was a very different place. Websites could be built in a couple of days, and if they had a good idea end up making $1m like [Alex Tew](https://twitter.com/tewy)'s Million Dollar Homepage. Read on for an analysis of the links, popularity, colours used, and a bit of history!
 
 ## What was the Million Dollar Homepage?
 
-Tew's concept was simple: A page with 1,000,000 pixels, $1 each, anyone can purchase blocks of them for advertising, and once they're gone they're gone.
+Tew's concept was simple: A page with 1,000,000 pixels for $1 each, anyone can purchase blocks of them for advertising, and once they're gone they're gone.
 
 This basic idea, simple execution, and astonishing success truly embodied the "novel idea makes thousands overnight" vibe a lot of the early internet had. There was no reason for the website to be of any value to advertisers besides the fact... it was there. There was no product, no investors, no corporate backing, just 1,000,000 pixels of unused advertising space. 
 
-Of course, this was back when online adverts were a beautiful wild west, where gambling, dating, free software (or malware) and illegal video downloads were all fair game. The end result is a beautiful montage of mid-2000s internet, preserved in a 1000 x 1000 pixel bubble. Whilst I'd recommend visiting [the eye burning original](http://www.milliondollarhomepage.com/) for a pixel-perfect version, here's a smaller version (click to view full size):
+Of course, this was back when online adverts were a beautiful wild west, where gambling, dating, free software (or malware) and illegal video downloads were all fair game. The end result is a stunning montage of mid-2000s internet, preserved in a 1000 x 1000 pixel bubble. Whilst I'd recommend visiting [the eye burning original](http://www.milliondollarhomepage.com/) for a pixel-perfect version, here's a smaller version (click to view full size):
 
 [![million dollar homepage](/assets/images/2022/milliondollarhomepage.png)](/assets/images/2022/milliondollarhomepage.png)
 
@@ -25,7 +25,7 @@ So how on earth did this ~~monstrosity~~ masterpiece happen?
 
 ## Why did it happen?
 
-Alex Tew was a student looking to make a bit of cash to pay for his university degree, understandably wanting to break the "broke student" stereotype. The idea's origin story listed in the (currently broken) FAQ[^broken-faq] describes the situation in Alex Tew's own words:
+Alex Tew was a student looking to make a bit of cash to pay for his university degree, understandably wanting to break the "broke student" stereotype. The idea's origin story listed in the (currently broken) FAQ[^broken-faq] describes the situation in Tew's own words:
 
 > It was a muggy summer's night late in August (2005), the time around midnight, and there I was, lying on my bed with a notepad, brainstorming ideas to make money for uni. I think I'm quite a creative person, so I wanted to come up with an idea that was unique and would hopefully capture people's imagination, but with the whole purpose of making money. No point being shy about it! I think we brits can sometimes be too shy about money. Well bugger that, I DO NOT want to be a broke student!
 >
@@ -35,9 +35,9 @@ Alex Tew was a student looking to make a bit of cash to pay for his university d
 
 ## What's the timeline?
 
-* 2005-08-24: Domain is registered[^domain-registered], for an initial cost of £50 for both the domain and hosting[^domain-cost].
+* 2005-08-24: Domain is registered[^domain-registered], for an initial cost of £50 for both the domain and hosting[^domain-cost]
 * 2005-08-26: Site is launched[^site-launched]
-* 2005-08-29: First sale[^first-sale], with the first $1,000 to family and friends.
+* 2005-08-29: First pixel sold[^first-sale], with the first $1,000 from family and friends
 * 2005-09-22: Covered on BBC[^bbc-coverage]
 * 2005-10-26: Over half of all pixels sold[^half-sold]
 * 2006-01-01: Auction opened for final 1000 pixels[^auction-opened]
@@ -56,7 +56,7 @@ Alex Tew was a student looking to make a bit of cash to pay for his university d
 
 * 2017: 37% of links broken[^2017-links].
 * 2019: 40% of links broken[^2019-links]. 
-* 2022: 40% of links broken, as per Internet History's investigation below:
+* 2022: 40% of links broken, as per the investigation below:
 
 [^2017-links]: [https://lil.law.harvard.edu/blog/2017/07/21/a-million-squandered-the-million-dollar-homepage-as-a-decaying-digital-artifact/](https://lil.law.harvard.edu/blog/2017/07/21/a-million-squandered-the-million-dollar-homepage-as-a-decaying-digital-artifact/)
 [^2019-links]: [https://www.bbc.com/future/article/20190401-why-theres-so-little-left-of-the-early-internet](https://www.bbc.com/future/article/20190401-why-theres-so-little-left-of-the-early-internet)
@@ -90,6 +90,16 @@ I had a theory that many of the errors above might be due to HTTPS redirects not
 
 I was wrong however, and the 2,257 / 2,804 domains that could at least be connected to enough to throw an error dropped to a rather awful 1,498 / 2,804. Further investigation showed that this was likely due to my tool using an outdated HTTPS (technically SSL) protocol however, with the failed sites consisting of a mixture of very outdated (doesn't support HTTPS) to very up-to-date (only supports modern HTTPS).
 
+### Link rot
+
+Whilst I was fairly surprised only 40% of the links no longer work, I am curious how many of these domains only still exist *due to* their presence on Million Dollar Homepage. Considering link rot (old links slowly breaking) is estimated at around 50% of links per year[^link-rot], so many links surviving 17 years later is truly astounding! Using average link rot figures, we would expect around 6% of links to still be working. 
+
+However, it's worth mentioning that these link rot estimates are for random web pages, not those explicitly used for advertising which may be assumed to have higher value in keeping active.
+
+Somewhat ironically, since most of the Million Dollar Homepage's internal pages no longer work, the site itself has suffered much higher bit rot than the domains the adverts link to!
+
+[^link-rot]: [https://blog.zomdir.com/2017/10/the-half-life-of-link-is-two-year.html](https://blog.zomdir.com/2017/10/the-half-life-of-link-is-two-year.html)
+
 ## What colours are used?
 
 When looking at the image, your eyes are drawn to... all of it at once. However, certain colours "pop" more, such as neon pink, green, or yellow. A logical question is... which colours are most used, and does this match how our eyes see the image?
@@ -119,6 +129,8 @@ A full list of colours (and # of pixels) are available [as a JSON object](/asset
 
 As with any simple idea that makes $1m in a few months, there were thousands of copycats! Most of these got negligible attention, and without the media attention quickly shut down.
 
+### r/place, a spiritual successor?
+
 Perhaps more surprisingly, elements of this "canvas of pixels" idea can be seen alive today in concepts like Reddit's r/place. Besides the general "individuals placing pixels, that form something greater than its parts" concept though, the differences are far more numerous than the similarities. r/place is free, pixels can be overwritten, and battles over areas of it are expected.
 
 For evidence of their similarity, compare the Million Dollar Homepage's final canvas to the 2017 and 2022 r/place results (click to view fullsize):
@@ -127,9 +139,41 @@ For evidence of their similarity, compare the Million Dollar Homepage's final ca
 | --- | --- | --- |
 | [![million dollar homepage](/assets/images/2022/milliondollarhomepage-thumbnail.png)](/assets/images/2022/milliondollarhomepage.png) | [![r/place 2017](/assets/images/2022/rplace2017-thumbnail.png)](/assets/images/2022/rplace2017.png) | [![r/place 2017](/assets/images/2022/rplace2022-thumbnail.png)](/assets/images/2022/rplace2022.png) |
 
-Perhaps even more impressive given how quickly events and websites can fade into obscurity on the internet, Tew's Million Dollar Homepage is still referenced pretty regularly today, usually as a motivational "your idea can go big too!" example. Considering it still lives in mine and others[^rent-free] heads 17 years later, it's hard to understate the effect this relatively small idea has had on countless online creators over the years. 
+Perhaps even more impressive given how quickly events and websites can fade into obscurity on the internet, Tew's Million Dollar Homepage is still referenced pretty regularly today, usually as a motivational "your idea can go big too!" example. Considering it still lives in mine and others[^rent-free] heads 17 years later, it's hard to understate the effect this relatively simple idea has had on countless online creators over the years. 
 
 [^rent-free]: [https://justinferriman.com/your-1m-dollar-homepage](https://justinferriman.com/your-1m-dollar-homepage)
+
+### Popularity over time
+
+Using Google Trends[^google-trends], we can get an idea of how interested the internet was in Million Dollar Homepage throughout the last ~18 years. 
+
+Whilst I expected one large spike of interest around the first media coverage (September '05), it turns out we actually have a "triple spike" pattern during the peak period. During this initial media coverage, there is an expected spike in search queries. However, there were over 5x as many around January '06, when the final pixels were being sold! 
+
+The third spike is less explainable, exactly a year later in January '07. My own theory is this is due to people remembering events from exactly a year ago. This theory unfortunately doesn't have any evidence, and is perhaps countered by later years not experiencing this same pattern.
+
+[![million dollar homepage google trends over time](/assets/images/2022/googletrends-mdh-740w.png)](/assets/images/2022/googletrends-mdh.png)
+
+Finally, the site is unsurprisingly very popular in the UK (given Alex Tew's nationality), but... also inexplicably Cyprus, Austria, Sweden, and Ireland. I have no idea why this is the case, suggestions welcome!
+
+[![million dollar homepage google trends by country](/assets/images/2022/googletrends-mdh-country-740w.png)](/assets/images/2022/googletrends-mdh-country.png)
+
+[^google-trends]: [https://trends.google.com/trends/explore?date=all&q=million%20dollar%20homepage](https://trends.google.com/trends/explore?date=all&q=million%20dollar%20homepage)
+
+## What order were the pixels purchased in?
+
+The Web Design Museum has created a wonderful timelapse video showing the order the pixels were purchased in, and it's worth watching the 14 seconds yourself:
+
+<iframe width="700" height="700" src="https://www.youtube.com/embed/MTZ8N2VJyl4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+A video of course speaks a thousand (million?) words, here's a few observations:
+* **Unsurprisingly pixels at the top sell first**. This is due to monitors at the time not being able to fit the entire page on the screen, leading to lower pixels being "below the fold" that 57% of viewing time is spent on[^viewing-time]. The top half of the pixels are almost full before many bottom half pixels are sold.
+* **Pixels towards the left sell slightly better**. This matches user experience research about horizontal attention[^horizontal-attention].
+* **Digital-first businesses moved in first**. Companies offering web hosting, online betting, and online financial services were the first big spenders, presumably due to existing experience with a competitive online advertising marketplace.
+* **Over time, the advert customers get less and less "seedy"**. Whilst the first adverts are "free" online content, dating, gambling, and similar services, towards the end adverts for Yahoo, eBay, The Times, and other large corporations are present. Of course, there's no guarantee they were put there by the actual companies, it is feasible they're intended to trick customers via an obscure method!
+* **There are very few creative pixel structures**. Unlike r/place's experience (see above), almost all purchased pixels were in rectangular blocks. The only visible exception is "Wizard Trivia", which went for an interesting diagonal approach despite plenty of rectangles remaining. This approach seems unwise by the end though, with the advert almost invisible amongst the general chaos.
+
+[^viewing-time]: [https://www.nngroup.com/articles/scrolling-and-attention/](https://www.nngroup.com/articles/scrolling-and-attention/)
+[^horizontal-attention]: [https://www.nngroup.com/articles/horizontal-attention-original-research/](https://www.nngroup.com/articles/horizontal-attention-original-research/)
 
 ## Where is the creator now?
 
@@ -138,6 +182,16 @@ Even more impressive than Alex Tew's first $1m business idea was his ability to 
 For a more detailed story of his journey from Million Dollar Homepage to co-founder of a billion-dollar company, I recommend [The Hustle's biopiece](https://thehustle.co/million-dollar-homepage-alex-tew/).
 
 [^unicorn-startup]: [https://www.bloomberg.com/news/articles/2019-02-06/meditation-app-backed-by-ashton-kutcher-is-valued-at-1-billion](https://www.bloomberg.com/news/articles/2019-02-06/meditation-app-backed-by-ashton-kutcher-is-valued-at-1-billion)
+
+## Conclusion
+
+Million Dollar Homepage is the perfect artefact of a forgotten era of the internet. Despite (because of?) having broken links, eye-burning colours, and services of various legality and safety offered, the juxtaposition of serious businesses, one-man startups, and hobbyists provides a better description of the 2000s internet than any words could.
+
+For me, the two most surprising discoveries during the creation of this article were:
+1. Alex Tew is flourishing and seems to have survived the early internet excellently. Many early internet online entrepreneurs have a much more mundane fate!
+2. There are more red and yellow pixels than green, despite being less noticeable. Modern advertising generally aims for a bit more design subtlety, and I struggled to find an article justifying this perception.
+
+Finally, Million Dollar Homepage's continued presence in hearts and minds 17 years later is a testament to how a fun little idea can quickly evolve into a major career contributor, and the importance of using family and friends for sales & promotion when possible!
 
 ## Notes
 
