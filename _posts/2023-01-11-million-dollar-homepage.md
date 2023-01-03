@@ -2,7 +2,7 @@
 title: 17 years ago today, the Million Dollar Homepage was completed
 author: Jake Lee
 layout: post
-image: /assets/images/2022/milliondollarhomepage.png
+image: /assets/images/2023/milliondollarhomepage.png
 tags:
     - 2005
     - 2006
@@ -19,7 +19,7 @@ This basic idea, simple execution, and astonishing success truly embodied the "n
 
 Of course, this was back when online adverts were a beautiful wild west, where gambling, dating, free software (or malware) and illegal video downloads were all fair game. The end result is a stunning montage of mid-2000s internet, preserved in a 1000 x 1000 pixel bubble. Whilst I'd recommend visiting [the eye burning original](http://www.milliondollarhomepage.com/) for a pixel-perfect version, here's a smaller version (click to view full size):
 
-[![million dollar homepage](/assets/images/2022/milliondollarhomepage.png)](/assets/images/2022/milliondollarhomepage.png)
+[![million dollar homepage](/assets/images/2023/milliondollarhomepage.png)](/assets/images/2023/milliondollarhomepage.png)
 
 So how on earth did this ~~monstrosity~~ masterpiece happen?
 
@@ -137,7 +137,7 @@ For evidence of their similarity, compare the Million Dollar Homepage's final ca
 
 | Million Dollar Homepage | r/place 2017 | r/place 2022 |
 | --- | --- | --- |
-| [![million dollar homepage](/assets/images/2022/milliondollarhomepage-thumbnail.png)](/assets/images/2022/milliondollarhomepage.png) | [![r/place 2017](/assets/images/2022/rplace2017-thumbnail.png)](/assets/images/2022/rplace2017.png) | [![r/place 2017](/assets/images/2022/rplace2022-thumbnail.png)](/assets/images/2022/rplace2022.png) |
+| [![million dollar homepage](/assets/images/2023/milliondollarhomepage-thumbnail.png)](/assets/images/2023/milliondollarhomepage.png) | [![r/place 2017](/assets/images/2023/rplace2017-thumbnail.png)](/assets/images/2023/rplace2017.png) | [![r/place 2017](/assets/images/2023/rplace2022-thumbnail.png)](/assets/images/2023/rplace2022.png) |
 
 Perhaps even more impressive given how quickly events and websites can fade into obscurity on the internet, Tew's Million Dollar Homepage is still referenced pretty regularly today, usually as a motivational "your idea can go big too!" example. Considering it still lives in mine and others[^rent-free] heads 17 years later, it's hard to understate the effect this relatively simple idea has had on countless online creators over the years. 
 
@@ -151,11 +151,11 @@ Whilst I expected one large spike of interest around the first media coverage (S
 
 The third spike is less explainable, exactly a year later in January '07. My own theory is this is due to people remembering events from exactly a year ago. This theory unfortunately doesn't have any evidence, and is perhaps countered by later years not experiencing this same pattern.
 
-[![million dollar homepage google trends over time](/assets/images/2022/googletrends-mdh-740w.png)](/assets/images/2022/googletrends-mdh.png)
+[![million dollar homepage google trends over time](/assets/images/2023/googletrends-mdh-740w.png)](/assets/images/2023/googletrends-mdh.png)
 
 Finally, the site is unsurprisingly very popular in the UK (given Alex Tew's nationality), but... also inexplicably Cyprus, Austria, Sweden, and Ireland. I have no idea why this is the case, suggestions welcome!
 
-[![million dollar homepage google trends by country](/assets/images/2022/googletrends-mdh-country-740w.png)](/assets/images/2022/googletrends-mdh-country.png)
+[![million dollar homepage google trends by country](/assets/images/2023/googletrends-mdh-country-740w.png)](/assets/images/2023/googletrends-mdh-country.png)
 
 [^google-trends]: [https://trends.google.com/trends/explore?date=all&q=million%20dollar%20homepage](https://trends.google.com/trends/explore?date=all&q=million%20dollar%20homepage)
 
