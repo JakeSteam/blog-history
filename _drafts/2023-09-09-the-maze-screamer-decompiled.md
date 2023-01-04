@@ -9,7 +9,17 @@ tags:
 
 intro
 
-## How does the detection work?
+## Timeline
+
+When was it initially released? Archive.org?
+
+## Decompiling The Maze
+
+mention write-up on other site
+
+gist of all actionscript
+
+### How does the detection work?
 
 A level is failed when your mouse leaves the blue area. You might think this means the game logic is to fail when you are no longer on blue but... nope! It's actually the opposite: You fail when you touch a black area.
 
@@ -22,7 +32,7 @@ These black areas are actually multiple giant rectangles, each of which has thei
 | Reset | `Level1Wall_MouseOverHandler` removes the "dot" (player) from the screen, and sends the player back to frame 3. | [![the maze game failure event](/assets/images/2023/maze-walkthrough-3.png)](/assets/images/2023/maze-walkthrough-3.png) |
 | Retry | Frame 3 is the main game screen. | [![the maze game main screen](/assets/images/2023/maze-frame-3-thumbnail.png)](/assets/images/2023/maze-frame-3.png) |
 
-## Is there a level 4?
+### Is there a level 4?
 
 Despite the many claims online (e.g., a video from 2008 with 1.4m views[^level-4]) there is no level 4. This can be proven definitively in the game's files:
 
@@ -34,7 +44,7 @@ Despite the many claims online (e.g., a video from 2008 with 1.4m views[^level-4
 
 [^level-4]: [https://www.youtube.com/watch?v=NedCSuGt0eg](https://www.youtube.com/watch?v=NedCSuGt0eg)
 
-## Is there anything hidden?
+### Is there anything hidden?
 
 Using the list of frames in the game, we can see everywhere the player could possibly go:
 
@@ -50,6 +60,18 @@ Using the list of frames in the game, we can see everywhere the player could pos
 | 8 - 112 | Scream sound plays. | [![the maze game frame 8](/assets/images/2023/maze-frame-8-thumbnail.png)](/assets/images/2023/maze-frame-8.png) |
 | 113 - 163 | Scream sound continues to play, whilst "www.winterrowd.com" slides down the screen. | [![the maze game frame 113](/assets/images/2023/maze-frame-113-thumbnail.png)](/assets/images/2023/maze-frame-113.png) |
 | 164 | Ending screen, with options to share the maze and contact the creator. | [![the maze game frame 164](/assets/images/2023/maze-frame-164-thumbnail.png)](/assets/images/2023/maze-frame-164.png) |
+
+-- mention there's no additional frames, but ads somewhere..?
+
+
+can find creation date with: https://stackoverflow.com/a/10900792/608312
+approx 2006? https://en.wikipedia.org/wiki/Adobe_Flash_Player
+
+----
+
+## Impact
+
+## Who created it?
 
 https://scarymazegameanthology.wordpress.com/
 https://videogaming.fandom.com/wiki/The_Maze_(Winterrowd)
