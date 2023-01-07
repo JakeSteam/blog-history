@@ -54,9 +54,9 @@ After some research, I can partially explain the discrepancy. The original versi
 
 ## Impact
 
-"The Scary Maze Game" might not have entirely hit the mainstream (besides the SNL appearance), but for those who experienced the shock first hand it has a lasting impact! Within the niche of free online games from a single developer, it's hard to think of any other game that spread as quickly and as widely in these earlier days of the internet.
+"The Scary Maze Game" might not have entirely hit the mainstream (besides the SNL appearance), but for those who experienced the shock first hand it had a lasting impact! Within the niche of free online games from a single developer, it's hard to think of any other game that spread as quickly and as widely in these earlier days of the internet.
 
-Despite the game's age it still resurfaces from time to time, either as nostalgia-bair[^buzzfeed] or by finding a new generation of children to scare via TikTok[^tiktok]. An article in 2010 describes the game as "the most well known of the screamer genre ... is still the most popular example of its kinda today"[^urlesque] whilst one from 2021 calls it "one of the most infamous jump scares in internet history"[^denofgeek].
+Despite the game's age it still resurfaces from time to time, either as nostalgia-bait[^buzzfeed] or by finding a new generation of children to scare via TikTok[^tiktok]. An article in 2010 describes the game as "the most well known of the screamer genre ... is still the most popular example of its kinda today"[^urlesque] whilst one from 2021 calls it "one of the most infamous jump scares in internet history"[^denofgeek].
 
 Speaking personally, I discovered this game whilst I was alone through one of the free online game sites I frequented when I was around 12-13. Even ~15 years later I can still remember the cold spike of fear and clammy hands that immediately followed, and how it absolutely stuck with me for weeks afterwards. Those that played it in a shared context (pranked by friends) might have had a less memorable shock, but for me it was easily one of the scariest things I've experienced.
 
@@ -72,7 +72,7 @@ Besides the immediate impact of the game itself, it undeniably had a hand in ush
 
 Jeremy Winterrowd, a programmer from Texas. 
 
-He's a pretty elusive guy, with the in-game linked Twitter inactive since 2012[^twitter]. Whilst I did find more up-to-date social media (only inactive for 3 years!) and personal information, I won't link them in case they are private.
+He's a pretty elusive guy, with his site now offline and the in-game linked Twitter inactive since 2012[^twitter]. Whilst I did find more up-to-date social media (only inactive for 3 years!) and personal information, I won't link them in case they are intended to be private.
 
 [^twitter]: [https://twitter.com/winterrowd](https://twitter.com/winterrowd)
 
@@ -152,9 +152,9 @@ My guess is that the original file gained limited popularity, then the creator c
 
 ## Conclusion
 
-The scary maze game was released at a perfect time, when "pranks" combined with viral content and simple content could spread extremely quickly around the world. Whilst it is a more damaging prank than a simple Rickroll, ultimately the shock is very short-lived, and counteracted by sharing the game to let others share your pain.
+The scary maze game was released at a perfect time, when "pranks" combined with simple content could spread extremely quickly around the world. Whilst it is a more damaging prank than a simple Rickroll, ultimately the shock is very short-lived, and counteracted by sharing the game to let others share your pain.
 
-With reaction-style content still widespread today (as parodied by Bo Burnham in "[Unpaid Intern](https://www.youtube.com/watch?v=FZVMB8mrNO0)"), it's a relief that online "prank" videos / games have mostly disappeared. There are a few reasons for this as engagingly [explored by Den of Geek in 2021](https://www.denofgeek.com/culture/forgotten-era-of-internet-jump-scares/), theorising 
+With reaction-style content still widespread today (as parodied by Bo Burnham in "[Unpaid Intern](https://www.youtube.com/watch?v=FZVMB8mrNO0)"), it's a relief that online "prank" videos / games have mostly disappeared. There are a few reasons for this engagingly [explored by Den of Geek in 2021](https://www.denofgeek.com/culture/forgotten-era-of-internet-jump-scares/), theorising 
 
 > the internet itself isn’t as much of an unchartable frontier as it once was 
 
@@ -162,11 +162,11 @@ or
 
 > Perhaps we all as Internet citizens came to an implicit understanding that enough was enough and we would no longer attempt to scare one another
 
-before ultimately coming to a somewhat depressing yet conclusion:
+before ultimately coming to a somewhat depressing yet convincing conclusion:
 
 > Moneyed interests like Amazon, Facebook, Twitter, Google, and more have bought up a considerable amount of online real estate and they have a vested interest in ensuring that the visitors to their many sites aren’t viewing them with their hands over their eyes.
 
-The rapid spread of a very simple concept reminds me of more modern phenomena such as Wordle, that quickly become a talking point online without any marketing budget. I've reached out to the game's creator via every medium I could find at the start of the year, but unfortunately didn't get a response. If you know him and think he might be willing, please send him this article, I'd love to get his memories / comments on the topic! 
+The rapid spread of a very simple concept reminds me of more modern phenomena such as Wordle, that quickly become a talking point online without any marketing budget. I've reached out to the game's creator via every medium I could find at the start of the year, but unfortunately didn't get a response. If you know him and think he might be willing to talk, please send him this article, I'd love to get his memories / comments on the topic! 
 
 ## References
 
