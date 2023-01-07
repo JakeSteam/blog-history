@@ -9,7 +9,7 @@ tags:
     - Advertising
 ---
 
-When I was at school in the early 2000s, the internet was a very different place. Websites could be built in a couple of days, and if they had a good idea end up making $1m like [Alex Tew](https://twitter.com/tewy)'s Million Dollar Homepage. Read on for an analysis of the links, popularity, colours used, and a bit of history!
+When I was at school in the early 2000s, the internet was a very different place. Websites could be built in a couple of days, and if they had a good idea end up making $1m like Alex Tew's Million Dollar Homepage. Read on for an analysis of the links, popularity, colours used, and a bit of history!
 
 ## What was the Million Dollar Homepage?
 
