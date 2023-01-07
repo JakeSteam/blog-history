@@ -51,7 +51,7 @@ After some research, I can partially explain the discrepancy. The original versi
 
 ## Decompiling The Maze
 
-Later in this post I'll mention how I decompiled the scary maze game, but if you'd like to view the game's source code I've [made it available as a GitHub Gist](https://gist.github.com/JakeSteam/fc1614c3f5a92b281dba55f6081e7288).
+Later in this post I describe [how I decompiled the scary maze game](#how-was-it-decompiled), but if you'd like to view the game's source code I've [made it available as a GitHub Gist](https://gist.github.com/JakeSteam/fc1614c3f5a92b281dba55f6081e7288).
 
 ### How does the detection work?
 
