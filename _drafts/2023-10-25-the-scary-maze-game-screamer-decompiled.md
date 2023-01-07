@@ -20,11 +20,11 @@ Before I dive into how the game works, here's some helpful links:
 
 ## Timeline
 
-Like many early viral games / sites from the 2000s, the timeline of "The Scary Maze Game" is very hard to determine with any certainty. The release date is often reported as either 2003[^2003] or 2004[^2004], however this doesn't match up with the fact that its popularity started in 2006 (and the game's metadata reports a similar date). 
+Like many early viral games / sites from the 2000s, the timeline of "The Scary Maze Game" is very hard to determine with any certainty. The release date is often reported as either 2003[^2003], 2004[^2004], or 2005[^2005], however this doesn't match up with the fact that its popularity started in 2006 (and the game's metadata reports a similar date). 
 
 After some research, I can partially explain the discrepancy. The original version of the game (V1.0) is from 2003-4, but the version everyone knows is actually from Oct 2005! Considering the major differences between the two (see [multiple versions](#multiple-versions)), these should be considered distinct games. This post will be about V1.1, as that version is by far the most widely known.
 
-* **2003-2004(?)**: V1.0 of the game (yellow / black) is created.
+* **2003-2004(?)**: V1.0 of the game (yellow / black) is created. A very unverified Yahoo Answers answerer claiming to be him states October 2004[^yahoo].
 * **25th October 2005**: V1.1 of the game (blue / black) is created[^original-release].
 * **27th November 2005**: The creator's website has received over 65,000 visitors since V1.1 was released[^original-release].
 * **January 2006**: "scary maze game" starts being Googled a non-negligible amount (see trend chart below).
@@ -36,11 +36,13 @@ After some research, I can partially explain the discrepancy. The original versi
 [![the maze game popularity trend](/assets/images/2023/maze-trend-740w.png)](/assets/images/2023/maze-trend.png)
 *Interest over time for "scary maze game", from Google Trends[^trends].*
 
+[^yahoo]: [https://web.archive.org/web/20210422070459/https://answers.yahoo.com/question/index?qid=20080810043147AA2Ssol](https://web.archive.org/web/20210422070459/https://answers.yahoo.com/question/index?qid=20080810043147AA2Ssol)
 [^afhv]: [https://web.archive.org/web/20070128184925/http://www.winterrowd.com/Blog/tabid/57/Default.aspx](https://web.archive.org/web/20070128184925/http://www.winterrowd.com/Blog/tabid/57/Default.aspx)
 [^original-release]: [https://web.archive.org/web/20051231034746/http://www.winterrowd.com/Blog/tabid/57/Default.aspx](https://web.archive.org/web/20051231034746/http://www.winterrowd.com/Blog/tabid/57/Default.aspx#:~:text=was%20created%20on-,October%2025th,-.%20That%27s%20only%C2%A0tracking)
 [^first-appearance]: [https://web.archive.org/web/20051208031833/http://www.winterrowd.com/maze1.swf](https://web.archive.org/web/20051208031833/http://www.winterrowd.com/maze1.swf)
 [^2003]: [https://knowyourmeme.com/memes/scary-maze-game#fn5:~:text=Jeremy%20Winterrowd%20in-,2003,-.%20Upon%20completion%20of](https://knowyourmeme.com/memes/scary-maze-game#fn5:~:text=Jeremy%20Winterrowd%20in-,2003,-.%20Upon%20completion%20of)
-[^2004]: [https://videogaming.fandom.com/wiki/The_Maze_(Winterrowd)#:~:text=Winterrowd%20in%20October-,2004,-%2C%20which%20was%20later](https://videogaming.fandom.com/wiki/The_Maze_(Winterrowd)#:~:text=Winterrowd%20in%20October-,2004,-%2C%20which%20was%20later)
+[^2004]: [https://videogaming.fandom.com/wiki/The_Maze_(Winterrowd)](https://videogaming.fandom.com/wiki/The_Maze_(Winterrowd))
+[^2005]: [https://www.mobygames.com/game/browser/the_maze_2004/release-info](https://www.mobygames.com/game/browser/the_maze_2004/release-info)
 [^youtube]: [https://www.youtube.com/watch?v=0WjDrQ0IhBw](https://www.youtube.com/watch?v=0WjDrQ0IhBw)
 [^youtube2]: [https://www.youtube.com/watch?v=W2R9YTXJeWE](https://www.youtube.com/watch?v=W2R9YTXJeWE)
 [^trends]: [https://trends.google.com/trends/explore?date=all&q=scary%20maze%20game](https://trends.google.com/trends/explore?date=all&q=scary%20maze%20game)
@@ -139,7 +141,7 @@ He's a pretty elusive guy, with the in-game linked Twitter inactive since 2012[^
 
 The scary maze game was released at a perfect time, when "pranks" combined with viral content and simple content could spread extremely quickly around the world. Whilst it is a more damaging prank than a simple Rickroll, ultimately the shock is very short-lived, and counteracted by sharing the game to let others share your pain.
 
-The rapid spread of a very simple concept reminds me of more modern phenomena such as Wordle, that quickly become a talking point online without any marketing budget. 
+The rapid spread of a very simple concept reminds me of more modern phenomena such as Wordle, that quickly become a talking point online without any marketing budget. I reached out to him via every medium I could find at the start of the year, but unfortunately didn't get a response. If you know him, please send him this article, I'd love to get his memories / comments on the topic! 
 
 ## References
 
