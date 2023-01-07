@@ -4,11 +4,11 @@
 }
 
 .site-header {
-    border-top: 5px solid #78076b;
+    border-top: 5px solid #075e78;
 }
 
 .card {
-    border: 1px solid #78076b;
+    border: 1px solid #075e78;
     border-radius: .25rem;
 }
 
@@ -28,7 +28,7 @@
     min-height: 180px;
     background-position: center;
     background-color: #fff;
-    border: 1px solid #78076b;
+    border: 1px solid #075e78;
     border-radius: .25rem;
 }
 
@@ -117,7 +117,7 @@ h1:hover .octicon, h2:hover .octicon, h3:hover .octicon, h4:hover .octicon, h5:h
 /* Table of contents */
 .toc {
     float: right;
-    border: 1px solid #78076b;
+    border: 1px solid #075e78;
     border-radius: 0.25rem;
     padding-top: 15px;
     padding-right: 15px;
@@ -139,5 +139,5 @@ h1:hover .octicon, h2:hover .octicon, h3:hover .octicon, h4:hover .octicon, h5:h
 
 /* Special override just for this site */
 .post-link {
-    color: #78076b !important;
+    color: #075e78 !important;
 }
