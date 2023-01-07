@@ -16,18 +16,20 @@ Before I dive into how the game works, here's some helpful links:
 
 * If you'd like to download the game to play yourself, [here's a link](/assets/other/scary-maze-game.swf). Remember it's intentionally a scary game! There's a few ways to play SWF files, I used JPEXS decompiler[^jpexs]. 
 * If you'd like more of an overview, [Videogaming wiki has a summary](https://videogaming.fandom.com/wiki/The_Maze_(Winterrowd)).
-* If you'd like to see more reaction videos, [KnowYourMeme has lots](https://knowyourmeme.com/memes/scary-maze-game).
+* If you'd like to see more reaction videos, [KnowYourMeme has lots](https://knowyourmeme.com/memes/scary-maze-game/videos/sort/score).
 
 ## Timeline
 
-Like many early viral games / sites from the 2000s, the timeline of "The Scary Maze Game" is very hard to determine with any certainty. The release date is often reported as either 2003[^2003], 2004[^2004], or 2005[^2005], however this doesn't match up with the fact that its popularity started in 2006 (and the game's metadata reports a similar date). 
+Like many early viral games / sites from the 2000s, the timeline of "The Scary Maze Game" is hard to determine with certainty, despite it's [impact](#impact) in helping trigger the "reaction" video format. The release date is often reported as either 2003[^2003], 2004[^2004], or 2005[^2005], however this doesn't match up with the fact that its popularity started in 2006 (and the game's metadata reports a similar date). 
 
 After some research, I can partially explain the discrepancy. The original version of the game (V1.0) is from 2003-4, but the version everyone knows is actually from Oct 2005! Considering the major differences between the two (see [multiple versions](#multiple-versions)), these should be considered distinct games. This post will be about V1.1, as that version is by far the most widely known.
 
-* **2003-2004(?)**: V1.0 of the game (yellow / black) is created. A very unverified Yahoo Answers answerer claiming to be him states October 2004[^yahoo].
+* **2003-2004(?)**: V1.0 of the game (yellow / black) is created. A very unverified Yahoo Answers answerer claiming to be the creator states October 2004[^yahoo].
 * **25th October 2005**: V1.1 of the game (blue / black) is created[^original-release].
 * **27th November 2005**: The creator's website has received over 65,000 visitors since V1.1 was released[^original-release].
 * **January 2006**: "scary maze game" starts being Googled a non-negligible amount (see trend chart below).
+* **May 2006**: The "first internet screamer reaction video"[^wiki] (a reaction to the maze) is uploaded to YouTube ([now deleted](https://www.youtube.com/watch?v=oh87njiWTmw)) as per the game's creator's request[^afhv].
+* **July 2006**: The game is featured in VH1's "Web Junk" (now lost media[^webjunk]) and "E! The Soup".
 * **29th October 2006**: Reaction videos to the game are shown on America's Funniest Home Videos.[^afhv]
 * **7th July 2007**: "Scary Maze Game" is uploaded on YouTube, a simple playthrough that eventually amasses 48m+ views[^youtube] (warning: jumpscare).
 * **8th June 2008**: "Scary Maze Game (official version)" is uploaded on YouTube, one of the most popular reaction videos that reaches 43m+ views[^youtube2] (warning: jumpscare).
@@ -36,6 +38,7 @@ After some research, I can partially explain the discrepancy. The original versi
 [![the maze game popularity trend](/assets/images/2023/maze-trend-740w.png)](/assets/images/2023/maze-trend.png)
 *Interest over time for "scary maze game", from Google Trends[^trends].*
 
+[^webjunk]: [https://www.reddit.com/r/lostmedia/comments/netxx7/vh1_show_web_junk_20/](https://www.reddit.com/r/lostmedia/comments/netxx7/vh1_show_web_junk_20/)
 [^yahoo]: [https://web.archive.org/web/20210422070459/https://answers.yahoo.com/question/index?qid=20080810043147AA2Ssol](https://web.archive.org/web/20210422070459/https://answers.yahoo.com/question/index?qid=20080810043147AA2Ssol)
 [^afhv]: [https://web.archive.org/web/20070128184925/http://www.winterrowd.com/Blog/tabid/57/Default.aspx](https://web.archive.org/web/20070128184925/http://www.winterrowd.com/Blog/tabid/57/Default.aspx)
 [^original-release]: [https://web.archive.org/web/20051231034746/http://www.winterrowd.com/Blog/tabid/57/Default.aspx](https://web.archive.org/web/20051231034746/http://www.winterrowd.com/Blog/tabid/57/Default.aspx#:~:text=was%20created%20on-,October%2025th,-.%20That%27s%20only%C2%A0tracking)
@@ -48,6 +51,30 @@ After some research, I can partially explain the discrepancy. The original versi
 [^trends]: [https://trends.google.com/trends/explore?date=all&q=scary%20maze%20game](https://trends.google.com/trends/explore?date=all&q=scary%20maze%20game)
 [^snl]: [https://youtu.be/4CD0ZbvIyQE?t=38](https://youtu.be/4CD0ZbvIyQE?t=38)
 [^jpexs]: [https://github.com/jindrapetrik/jpexs-decompiler/releases](https://github.com/jindrapetrik/jpexs-decompiler/releases)
+
+## Impact
+
+"The Scary Maze Game" might not have entirely hit the mainstream (besides the SNL appearance), but for those who experienced the shock first hand it has a lasting impact! Within the niche of free online games from a single developer, it's hard to think of any other game that spread as quickly and as widely in these earlier days of the internet.
+
+Despite the game's age it still resurfaces from time to time, either as nostalgia-bair[^buzzfeed] or by finding a new generation of children to scare via TikTok[^tiktok]. An article in 2010 describes the game as "the most well known of the screamer genre ... is still the most popular example of its kinda today"[^urlesque] whilst one from 2021 calls it "one of the most infamous jump scares in internet history"[^denofgeek].
+
+Speaking personally, I discovered this game whilst I was alone through one of the free online game sites I frequented when I was around 12-13. Even ~15 years later I can still remember the cold spike of fear and clammy hands that immediately followed, and how it absolutely stuck with me for weeks afterwards. Those that played it in a shared context (pranked by friends) might have had a less memorable shock, but for me it was easily one of the scariest things I've experienced.
+
+Besides the immediate impact of the game itself, it undeniably had a hand in ushering in the era of "reaction" style content that is still extremely widespread today. As mentioned in the [timeline](#timeline), a filmed reaction to the game is often credited as "first Internet screamer reaction video"[^wiki]. Whilst it's too much of a stretch to say the game is responsible for the rise of "personal branding" (in the style of Instagram, TikTok, etc), it seems reasonable to see it as partially responsible for the sustained popularity of "Let's Plays" and gaming on Twitch. 
+
+[^denofgeek]: [https://www.denofgeek.com/culture/forgotten-era-of-internet-jump-scares/](https://www.denofgeek.com/culture/forgotten-era-of-internet-jump-scares/)
+[^wiki]: [https://en.wikipedia.org/w/index.php?title=Jump_scare&oldid=679919634#cite_note-16](https://en.wikipedia.org/w/index.php?title=Jump_scare&oldid=679919634#cite_note-16)
+[^urlesque]: [https://web.archive.org/web/20150116083142/http://www.urlesque.com/2010/10/13/screamers-the-history-of-the-scary-maze-prank/](https://web.archive.org/web/20150116083142/http://www.urlesque.com/2010/10/13/screamers-the-history-of-the-scary-maze-prank/)
+[^buzzfeed]: [https://www.buzzfeed.com/hannahmarder/is-anyone-else-still-scarred-by-the-maze-game](https://www.buzzfeed.com/hannahmarder/is-anyone-else-still-scarred-by-the-maze-game)
+[^tiktok]: [https://www.the-sun.com/lifestyle/3959426/parents-slam-mum-pranked-son-scary-maze-game-terrifying/](https://www.the-sun.com/lifestyle/3959426/parents-slam-mum-pranked-son-scary-maze-game-terrifying/)
+
+## Who created it?
+
+Jeremy Winterrowd, a programmer from Texas. 
+
+He's a pretty elusive guy, with the in-game linked Twitter inactive since 2012[^twitter]. Whilst I did find more up-to-date social media (only inactive for 3 years!) and personal information, I won't link them in case they are private.
+
+[^twitter]: [https://twitter.com/winterrowd](https://twitter.com/winterrowd)
 
 ## Decompiling The Maze
 
@@ -123,25 +150,23 @@ My guess is that the original file gained limited popularity, then the creator c
 [^original]: [https://web.archive.org/web/20051230032809/http://www.winterrowd.com:80/maze1.swf](https://web.archive.org/web/20051230032809/http://www.winterrowd.com:80/maze1.swf)
 [^first-visible]: [https://web.archive.org/web/20060408211659/http://www.winterrowd.com/maze/](https://web.archive.org/web/20060408211659/http://www.winterrowd.com/maze/)
 
-## Impact
-
-"The Scary Maze Game" might not have entirely hit the mainstream (besides the SNL appearance), but for those who experienced the shock first hand it has a lasting impact! 
-
-Speaking personally, I discovered this game whilst I was alone through one of the free online game sites I frequented when I was around 12-13. Even ~15 years later I can still remember the cold spike of fear and clammy hands that immediately followed, and how it absolutely stuck with me for weeks afterwards. Those that played it in a shared context (pranked by friends) might have had a less memorable shock, but for me it was easily one of the scariest things I've experienced.
-
-## Who created it?
-
-Jeremy Winterrowd, a programmer from Texas. 
-
-He's a pretty elusive guy, with the in-game linked Twitter inactive since 2012[^twitter]. Whilst I did find more up-to-date social media (only inactive for 3 years!) and personal information, I won't link them in case they are private.
-
-[^twitter]: [https://twitter.com/winterrowd](https://twitter.com/winterrowd)
-
 ## Conclusion
 
 The scary maze game was released at a perfect time, when "pranks" combined with viral content and simple content could spread extremely quickly around the world. Whilst it is a more damaging prank than a simple Rickroll, ultimately the shock is very short-lived, and counteracted by sharing the game to let others share your pain.
 
-The rapid spread of a very simple concept reminds me of more modern phenomena such as Wordle, that quickly become a talking point online without any marketing budget. I reached out to him via every medium I could find at the start of the year, but unfortunately didn't get a response. If you know him, please send him this article, I'd love to get his memories / comments on the topic! 
+With reaction-style content still widespread today (as parodied by Bo Burnham in "[Unpaid Intern](https://www.youtube.com/watch?v=FZVMB8mrNO0)"), it's a relief that online "prank" videos / games have mostly disappeared. There are a few reasons for this as engagingly [explored by Den of Geek in 2021](https://www.denofgeek.com/culture/forgotten-era-of-internet-jump-scares/), theorising 
+
+> the internet itself isn’t as much of an unchartable frontier as it once was 
+
+or 
+
+> Perhaps we all as Internet citizens came to an implicit understanding that enough was enough and we would no longer attempt to scare one another
+
+before ultimately coming to a somewhat depressing yet conclusion:
+
+> Moneyed interests like Amazon, Facebook, Twitter, Google, and more have bought up a considerable amount of online real estate and they have a vested interest in ensuring that the visitors to their many sites aren’t viewing them with their hands over their eyes.
+
+The rapid spread of a very simple concept reminds me of more modern phenomena such as Wordle, that quickly become a talking point online without any marketing budget. I've reached out to the game's creator via every medium I could find at the start of the year, but unfortunately didn't get a response. If you know him and think he might be willing, please send him this article, I'd love to get his memories / comments on the topic! 
 
 ## References
 
