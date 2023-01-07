@@ -1,10 +1,13 @@
 ---
-title: 20 years ago today, 'The Scary Maze Game' was released, a screamer game that terrified millions
+title: 18 years ago today, 'The Scary Maze Game' was released, a screamer game that terrified millions
 author: Jake Lee
 layout: post
 image: /assets/images/2023/maze-header.png
 tags:
-    - 
+    - 2005
+    - 2006
+    - 2007
+    - Gaming
 ---
 
 If you're reading this and *don't* know the blue & black "scary maze game" from the mid 2000s, congratulations on escaping a horrific experience. This short "game" by Jeremy Winterrowd required moving your mouse through a maze. The difficulty increases, and inevitable failure causes a loud scream to play and Linda Blair from The Exorcist appears. It's scarier than it sounds, so consider this post me getting revenge on it!
@@ -17,21 +20,27 @@ Before I dive into how the game works, here's some helpful links:
 
 ## Timeline
 
-Like many early viral games / sites from the early 2000s, the timeline of "The Scary Maze Game" is very hard to determine with any certainty. The release date was either 2003[^2003] or 2004[^2004], but it didn't achieve much success until 2006-2007 when reaction videos on YouTube and other sites helped it spread extremely quickly.
+Like many early viral games / sites from the 2000s, the timeline of "The Scary Maze Game" is very hard to determine with any certainty. The release date is often reported as either 2003[^2003] or 2004[^2004], however this doesn't match up with the fact that its popularity started in 2006 (and the game's metadata reports a similar date). 
 
-Using archive.org, we can at least determine the following:
-* **January 2006**: "scary maze game" starts being searched Googled a non-negligible amount (see trend chart below).
-* **8th April 2006**: The maze is first visible on the creator's site[^first-visible].
-* **7th July 2007**: "Scary Maze Game" is uploaded on YouTube, a simple playthrough that eventually amasses >48m views[^youtube] (warning: jumpscare).
-* **8th June 2008**: "Scary Maze Game (official version)" is uploaded on YouTube, one of the first reaction videos that amasses >43m views[^youtube2] (warning: jumpscare).
+After some research, I can partially explain the discrepancy. The original version of the game (V1.0) is from 2003-4, but the version everyone knows is actually from Oct 2005! Considering the major differences between the two (see [multiple versions](#multiple-versions)), these should be considered distinct games. This post will be about V1.1, as that version is by far the most widely known.
+
+* **2003-2004(?)**: V1.0 of the game (yellow / black) is created.
+* **25th October 2005**: V1.1 of the game (blue / black) is created[^original-release].
+* **27th November 2005**: The creator's website has received over 65,000 visitors since V1.1 was released[^original-release].
+* **January 2006**: "scary maze game" starts being Googled a non-negligible amount (see trend chart below).
+* **29th October 2006**: Reaction videos to the game are shown on America's Funniest Home Videos.[^afhv]
+* **7th July 2007**: "Scary Maze Game" is uploaded on YouTube, a simple playthrough that eventually amasses 48m+ views[^youtube] (warning: jumpscare).
+* **8th June 2008**: "Scary Maze Game (official version)" is uploaded on YouTube, one of the most popular reaction videos that reaches 43m+ views[^youtube2] (warning: jumpscare).
 * **30th October 2010**: "Scary Maze Game" is used / parodied on Saturday Night Live, albeit with the copyrighted image replaced[^snl].
 
 [![the maze game popularity trend](/assets/images/2023/maze-trend-740w.png)](/assets/images/2023/maze-trend.png)
 *Interest over time for "scary maze game", from Google Trends[^trends].*
 
+[^afhv]: [https://web.archive.org/web/20070128184925/http://www.winterrowd.com/Blog/tabid/57/Default.aspx](https://web.archive.org/web/20070128184925/http://www.winterrowd.com/Blog/tabid/57/Default.aspx)
+[^original-release]: [https://web.archive.org/web/20051231034746/http://www.winterrowd.com/Blog/tabid/57/Default.aspx](https://web.archive.org/web/20051231034746/http://www.winterrowd.com/Blog/tabid/57/Default.aspx#:~:text=was%20created%20on-,October%2025th,-.%20That%27s%20only%C2%A0tracking)
+[^first-appearance]: [https://web.archive.org/web/20051208031833/http://www.winterrowd.com/maze1.swf](https://web.archive.org/web/20051208031833/http://www.winterrowd.com/maze1.swf)
 [^2003]: [https://knowyourmeme.com/memes/scary-maze-game#fn5:~:text=Jeremy%20Winterrowd%20in-,2003,-.%20Upon%20completion%20of](https://knowyourmeme.com/memes/scary-maze-game#fn5:~:text=Jeremy%20Winterrowd%20in-,2003,-.%20Upon%20completion%20of)
 [^2004]: [https://videogaming.fandom.com/wiki/The_Maze_(Winterrowd)#:~:text=Winterrowd%20in%20October-,2004,-%2C%20which%20was%20later](https://videogaming.fandom.com/wiki/The_Maze_(Winterrowd)#:~:text=Winterrowd%20in%20October-,2004,-%2C%20which%20was%20later)
-[^first-visible]: [https://web.archive.org/web/20060408211659/http://www.winterrowd.com/maze/](https://web.archive.org/web/20060408211659/http://www.winterrowd.com/maze/)
 [^youtube]: [https://www.youtube.com/watch?v=0WjDrQ0IhBw](https://www.youtube.com/watch?v=0WjDrQ0IhBw)
 [^youtube2]: [https://www.youtube.com/watch?v=W2R9YTXJeWE](https://www.youtube.com/watch?v=W2R9YTXJeWE)
 [^trends]: [https://trends.google.com/trends/explore?date=all&q=scary%20maze%20game](https://trends.google.com/trends/explore?date=all&q=scary%20maze%20game)
@@ -100,12 +109,17 @@ I used [JPEXS Decompiler v18.3.0](https://github.com/jindrapetrik/jpexs-decompil
 
 #### Multiple versions?
 
-The game file's metadata after downloading it from multiple independent sources shows it has a SWF version of 9. This maps to Flash Player 9.0.115.0[^flash-mapping], which was released December 2007[^flash-release], seemingly... a year and a half after the game was released.
+The popular game file's metadata after downloading it from multiple independent sources shows it has a SWF version of 9. This maps to Flash Player 9.0.115.0[^flash-mapping], which was released December 2007[^flash-release], seemingly... 2 years after the game was released.
 
-Initially I wondered how this was possible, then I realised the first time the game appeared on the author's site it was called "v1.1"[^first-visible]. Since this version also contains advertising, I can only assume this version was released *after* v1.0's success. 
+Initially I wondered how this was possible, then I realised the first time the game appeared on the author's site it was called "v1.1"[^first-visible]. Eventually I found the original version[^original] described as "maze1.swf" from an archived version of the creator's blog[^archived-blog]. It is pretty similar overall, but has a yellow colour scheme and only 1 level. This original version was made with SWF version 7, released in September 2003, which explains the reported release date!
+
+My guess is that the original file gained limited popularity, then the creator created v1.1 that was far more convincing (and encouraged turning sounds up). This version went far, far more viral, and may have received further updates to add advertising (without incrementing the version number).
 
 [^flash-mapping]: [https://stackoverflow.com/a/10900792/608312](https://stackoverflow.com/a/10900792/608312)
 [^flash-release]: [https://en.wikipedia.org/wiki/Adobe_Flash_Player#:~:text=Adobe%20Flash%20Player%209%20Update%203](https://en.wikipedia.org/wiki/Adobe_Flash_Player#:~:text=Adobe%20Flash%20Player%209%20Update%203)
+[^archived-blog]: [https://web.archive.org/web/20051231034746/http://www.winterrowd.com/Blog/tabid/57/Default.aspx](https://web.archive.org/web/20051231034746/http://www.winterrowd.com/Blog/tabid/57/Default.aspx)
+[^original]: [https://web.archive.org/web/20051230032809/http://www.winterrowd.com:80/maze1.swf](https://web.archive.org/web/20051230032809/http://www.winterrowd.com:80/maze1.swf)
+[^first-visible]: [https://web.archive.org/web/20060408211659/http://www.winterrowd.com/maze/](https://web.archive.org/web/20060408211659/http://www.winterrowd.com/maze/)
 
 ## Impact
 
@@ -115,12 +129,17 @@ Speaking personally, I discovered this game whilst I was alone through one of th
 
 ## Who created it?
 
-Jeremy Winterrowd. 
+Jeremy Winterrowd, a programmer from Texas. 
 
-He's a pretty elusive guy, with the in-game linked Twitter inactive since 2012[^twitter]. Whilst I did find more up-to-date social media (only inactive for 3 years!), I won't link them in case they are private.
+He's a pretty elusive guy, with the in-game linked Twitter inactive since 2012[^twitter]. Whilst I did find more up-to-date social media (only inactive for 3 years!) and personal information, I won't link them in case they are private.
 
 [^twitter]: [https://twitter.com/winterrowd](https://twitter.com/winterrowd)
 
 ## Conclusion
 
+The scary maze game was released at a perfect time, when "pranks" combined with viral content and simple content could spread extremely quickly around the world. Whilst it is a more damaging prank than a simple Rickroll, ultimately the shock is very short-lived, and counteracted by sharing the game to let others share your pain.
+
+The rapid spread of a very simple concept reminds me of more modern phenomena such as Wordle, that quickly become a talking point online without any marketing budget. 
+
+## References
 
