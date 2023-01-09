@@ -1,7 +1,7 @@
 # Blog settings
 title: Internet History
 email: blog@jakelee.co.uk
-description: Welcome to Internet History! A collection of deep dives into the long forgotten past of the internet.
+description: Welcome to Internet History! A collection of technical deep dives into the long forgotten past of the internet.
 baseurl: ""
 url: "https://history.jakelee.co.uk"
 permalink: /:title/
