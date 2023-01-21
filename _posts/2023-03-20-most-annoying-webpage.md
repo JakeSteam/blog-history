@@ -1,12 +1,11 @@
 ---
-title: 20 years ago today, the 'Most Annoying Webpage' was launched, forcing victims to click "OK" for a few minutes
+title: 20 years ago today, the 'Most Annoying Webpage' was launched, trapping victims in popups for a few minutes
 author: Jake Lee
 layout: post
 image: /assets/images/2023/annoying-header.png
 tags:
     - 2003
     - 2004
-    - 2005
     - Pranks
 ---
 
@@ -128,13 +127,20 @@ It's unlikely the creator had much JavaScript experience. The source code shows 
 
 [^referral-link]: (Dead) `http://tafmaster.com/taf/1641/250646/`
 
+### Webpage vs website
+
+It's entirely possible the phrase "webpage" looks weird to some readers! For a while this was a common term to refer to a page on a website. Looking at Google Trends however, it's clear "webpage" is now essentially unused, even in comparison to 2004. If the chart extended further back in time, I would expect an even sharper drop.
+
+| Webpage over time | Webpage vs website |
+| --- | --- |
+| [![](/assets/images/2023/annoying-webpage-thumbnail.png)](/assets/images/2023/annoying-webpage.png) | [![](/assets/images/2023/annoying-webpage-website-thumbnail.png)](/assets/images/2023/annoying-webpage-website.png) |
+
 ## Conclusion
 
-I'm stunned with how quickly this site dropped off the internet's radar. The fact that I must have experienced it aged 11-13, yet still remember it distinctly 18-20 years later is amazingly pointless knowledge!
+I'm stunned with how quickly this site dropped off the internet's radar. The fact that I must have experienced it aged 11-13, yet still remember it distinctly 18-20 years later is somewhat startling. This is the closest I've come to "lost media" on this site, hopefully I've helped ensure it lives on a little bit longer.
 
 I was hoping to be able to find the original creator, but as I write this (Jan 2023), there's no remaining avenues to follow. A couple of DMs / emails might still come back fruitful, but for now it will have to remain a mystery.
 
-Finally, the domain's registration expires *today*. I'd love to rescue the domain from the spam blog and resurrect the original site, but I strongly suspect it will just be automatically renewed by the current owner and continue to be forgotten about! 
+Finally, the domain's registration expires *today*. I'd love to rescue the domain from the German spam blog and resurrect the original site, but I strongly suspect it will just be automatically renewed by the current owner and continue to be forgotten about! Perhaps it's a satirical masterpiece, creating a site even more annoying than the original?
 
 ## References
-
