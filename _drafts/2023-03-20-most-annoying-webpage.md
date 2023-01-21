@@ -14,7 +14,7 @@ In 2003, the internet was a lot more innocent. People happily clicked suspicious
 
 ## What was it?
 
-The "Most Annoying Webpage" realistically wasn't *that* annoying. It queued up 150 dialogs, forcing the user to click "OK" on each one individually. Due to browsers being a bit too trusting of websites in the early internet, there was no way to change tab, dismiss all remaining alerts or any similar workaround. Additionally, as many users weren't expert computer users, many manually clicked the "OK" button.
+The "Most Annoying Webpage" realistically wasn't *that* annoying. It queued up 151 alerts, forcing the user to click "OK" on each one individually. Due to browsers being a bit too trusting of websites in the early internet, there was no way to change tab, dismiss all remaining alerts or any similar workaround. Additionally, as many users weren't expert computer users, many manually clicked the "OK" button.
 
 You can view an [archived version of the site here](https://web.archive.org/web/20030402051520/http://www.mostannoyingwebpage.com/v1/) and click "Yes, I'm Sure" to begin displaying the alerts. On any modern browser they won't cause any issues, and can be dismissed by just changing tab. 
 
@@ -48,16 +48,64 @@ Once a victim makes their way through all the alerts, they are prompted to send 
 
 ## Alert analysis
 
+The site's source code is available at [annoying-source.txt](/assets/txt/annoying-source.txt), and the plaintext alerts can be viewed at [annoying-alerts.txt](/assets/txt/annoying-alerts.txt). 
+
+### Dynamic alerts 
+
+In the plaintext alert file, there are 2 sets of messages that I have annotated with `(DYNAMIC)`. In the original source code these are small JavaScript functions that accept input from the user (for their name and a topic suggestion) before lightly mocking them.
+
+### Alert miscount 
+
+Despite the creator's claim of 150 alerts, there are actually 151! This miscount seems to creep in between alerts #105 and #116:
+
+[![](/assets/images/2023/annoying-miscount.png)](/assets/images/2023/annoying-miscount.png)
+
+### Metadata
+
+According to an online text analyser[^text-analyser]:
+
+* There are **893 words**.
+* The most used word is **you**, with **59 occurrences**.
+* The most used phrase is **you know** with **11 occurrences**.
+* The longest reused phrases are **alert after alert after alert** and **to get through 150 alerts**, both used twice.
+
+Whilst this was perhaps obvious from reading a few dialogs, basic online automated readability tools[^readability-tools] agreed the writing was very, very simple and easy to read for almost all ages:
+
+[![](/assets/images/2023/annoying-readability.png)](/assets/images/2023/annoying-readability.png)
+
+
+[^readability-tools]: [https://readabilityformulas.com/freetests/six-readability-formulas.php](https://readabilityformulas.com/freetests/six-readability-formulas.php)
+[^text-analyser]: [https://www.online-utility.org/text/analyzer.jsp](https://www.online-utility.org/text/analyzer.jsp)
+
 ## Legacy
 
 Evidence it blocks: 
     https://bugzilla-dev.allizom.org/show_bug.cgi?id=253239
     https://bugzilla.gnome.org/show_bug.cgi?id=112636
 
-Clean copy: http://www.vipergc.com/annoying.html
-Copy: http://www.justanotherpc.com/annoyance/alerts/alerts.htm
+There are still a few copies of the site available online, since it's very simple to copy the basic JavaScript & HTML. It is available on the previously popular Albino Blacksheep[^albino], as well as direct copies without referral links[^non-referral], and with[^with-referral].
+
+[^albino]: [https://www.albinoblacksheep.com/text/#:~:text=Annoying%20Joey%20Kilaita](https://www.albinoblacksheep.com/text/#:~:text=Annoying%20Joey%20Kilaita)
+[^non-referral]: [http://www.vipergc.com/annoying.html](http://www.vipergc.com/annoying.html)
+[^with-referral]: [http://www.justanotherpc.com/annoyance/alerts/alerts.htm](http://www.justanotherpc.com/annoyance/alerts/alerts.htm)
 
 ## Conclusion
+
+## Notes
+
+### Author 
+
+I tried to find the creator behind this site, and completely failed:
+
+* Original DNS records have privacy protection.
+* No contact details are provided, the only name in the source code is for a free-to-use code snippet.
+* The referral link[^referral-link] is on the now defunct "TAFMaster", which appears to have disappeared sometime between 2011 and 2017, with very little trace. It does not appear to have had any customer lookup / database leak.
+
+### Technical
+
+It's unlikely the creator had much JavaScript experience. The source code shows the only non-trivial JavaScript (using text from the user) is copied from elsewhere. More tellingly, the exact same code is used both times the site asks for user feedback, even down to the variable names! Storing both the user's name and their conversation topic in `namePrompt` for no reason is unlikely to be the work of an experienced programmer.
+
+[^referral-link]: (Dead) `http://tafmaster.com/taf/1641/250646/`
 
 ## References
 
