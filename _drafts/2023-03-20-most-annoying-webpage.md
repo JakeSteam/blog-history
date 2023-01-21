@@ -14,9 +14,11 @@ In 2003, the internet was a lot more innocent. People happily clicked suspicious
 
 ## What was it?
 
-The "Most Annoying Webpage" realistically wasn't *that* annoying. It queued up 151 alerts, forcing the user to click "OK" on each one individually. Due to browsers being a bit too trusting of websites in the early internet, there was no way to change tab, dismiss all remaining alerts or any similar workaround. Additionally, as many users weren't expert computer users, many manually clicked the "OK" button.
+The "Most Annoying Webpage" realistically wasn't *that* annoying. It queued up 151 alerts, forcing the user to click "OK" on each one individually. Due to browsers being a bit too trusting of websites in the early internet, there was no way to change tab, dismiss all remaining alerts or any similar workaround. Additionally, as many users weren't expert computer users, many would have manually clicked the "OK" button instead of holding down enter.
 
 You can view an [archived version of the site here](https://web.archive.org/web/20030402051520/http://www.mostannoyingwebpage.com/v1/) and click "Yes, I'm Sure" to begin displaying the alerts. On any modern browser they won't cause any issues, and can be dismissed by just changing tab. 
+
+[![](/assets/images/2023/annoying-example.png)](/assets/images/2023/annoying-example.png)
 
 Once a victim makes their way through all the alerts, they are prompted to send their friends a link via "TAF Master", an advertising link manager (similar to adf.ly today). Considering this link was active throughout the site's lifetime, it's likely advertising revenue was the main goal of the developer. The preticked boxes for the referral form[^referral-form] give a good indicator of how much spam you'd likely receive!
 
@@ -25,12 +27,12 @@ Once a victim makes their way through all the alerts, they are prompted to send 
 ## Timeline
 
 * **20th March 2003**: Most Annoying Webpage created and launched[^registered].
-* **1st April 2003**: First Wayback Machine archive of Most Annoying Webpage, appropriately on April Fool's Day[first-archive].
+* **1st April 2003**: First Wayback Machine archive of Most Annoying Webpage, appropriately on April Fool's Day[^first-archive].
 * **14th April 2003**: First mention of Most Annoying Webpage online, on Slashdot[^first-mention]
 * **May 2003**: Most Annoying Webpage spreads through technology forum's threads (Anandtech[^anandtech], Howard Forums[^howard-forums], Blender Artists[^blender-artists])
 * **July 2003**: Most Annoying Webpage spreads through general forum's threads (Digital Photography Challenge[^dpchallenge], Airliners.net[^airliners])
 * **11th July 2003**: First and only mention of Most Annoying Webpage in a (political) news site[^national-review].
-* **20th March 2005**: Most Annoying Webpage enters a chain of advertising / parking services[^full-dns-records].
+* **20th March 2005**: Most Annoying Webpage becomes owned by a series of advertising / parking services[^full-dns-records].
 * Between **17th May - 14th October 2014**, Most Annoying Webpage begins hosting a german spam blog[^german-spam], and continues to this day.
 
 [^first-mention]: [https://developers.slashdot.org/story/03/04/14/1154210/java-for-the-gameboy-advance](https://developers.slashdot.org/story/03/04/14/1154210/java-for-the-gameboy-advance)
@@ -73,15 +75,29 @@ Whilst this was perhaps obvious from reading a few dialogs, basic online automat
 
 [![](/assets/images/2023/annoying-readability.png)](/assets/images/2023/annoying-readability.png)
 
-
 [^readability-tools]: [https://readabilityformulas.com/freetests/six-readability-formulas.php](https://readabilityformulas.com/freetests/six-readability-formulas.php)
 [^text-analyser]: [https://www.online-utility.org/text/analyzer.jsp](https://www.online-utility.org/text/analyzer.jsp)
 
 ## Legacy
 
-Evidence it blocks: 
-    https://bugzilla-dev.allizom.org/show_bug.cgi?id=253239
-    https://bugzilla.gnome.org/show_bug.cgi?id=112636
+### Better alert blocking
+
+As described in the talk embedded below, alerts used to be all-powerful. They could lock your browser up, trapping you on the web page, potentially forcing you to restart your entire machine. Most of the web had this power, and due to countless abuses we finally ended up in the more regimented security structure we have now. The talk also discusses how that's now starting to change, potentially making the web more risky:
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/QFZ-pwErSl4?start=202" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Essentially every browser / OS with a public bug tracker saw complaints about these alert traps in the early-mid 2000s (e.g., Mozilla[^mozilla], GNOME[^gnome]). Since then, a number of changes have happened that took away any risk from these sorts of sites:
+
+1. Tabs became isolated. Now if a page shows you an alert, you can just change tabs and the problem is solved.
+2. Browsers became more aware of maliciuous JavaScript. If you change to another tab, when you return only the final alert will be shown.
+3. The ability to block additional dialogs was added to Chromium browsers (although this doesn't work for Most Annoying Webpage):
+
+[![](/assets/images/2023/annoying-dialogs.png)](/assets/images/2023/annoying-dialogs.png)
+
+[^mozilla]: [https://bugzilla.mozilla.org/show_bug.cgi?id=253239](https://bugzilla.mozilla.org/show_bug.cgi?id=253239)
+[^gnome]: [https://bugzilla.gnome.org/show_bug.cgi?id=112636](https://bugzilla.gnome.org/show_bug.cgi?id=112636)
+
+### Rehosts
 
 There are still a few copies of the site available online, since it's very simple to copy the basic JavaScript & HTML. It is available on the previously popular Albino Blacksheep[^albino], as well as direct copies without referral links[^non-referral], and with[^with-referral].
 
@@ -89,7 +105,11 @@ There are still a few copies of the site available online, since it's very simpl
 [^non-referral]: [http://www.vipergc.com/annoying.html](http://www.vipergc.com/annoying.html)
 [^with-referral]: [http://www.justanotherpc.com/annoyance/alerts/alerts.htm](http://www.justanotherpc.com/annoyance/alerts/alerts.htm)
 
-## Conclusion
+### Copycats
+
+Whilst looking into this topic, I found `TheAnnoyingSite.com` from 2017/2018. I'm not going to link to it directly, since it lives up to the name far more than "Most Annoying Webpage" does! Looking at [the source code](https://github.com/feross/TheAnnoyingSite.com/blob/master/static/index.js), it makes odd Google searches, plays noises, spawns popups, logs you out of various sites, and other things that might actually cause a problem. There's a full explanation in the [creator Feross Aboukhadijeh's talk on YouTube](https://www.youtube.com/watch?v=QFZ-pwErSl4) (also [embedded above](#better-alert-blocking)). In comparison, Most Annoying Webpage is far more innocent.
+
+However, considering the extremely obvious core concept behind both sites ("What if a site was annoying?"), I highly doubt there's any connection, although I have reached out just in case.
 
 ## Notes
 
@@ -99,6 +119,7 @@ I tried to find the creator behind this site, and completely failed:
 
 * Original DNS records have privacy protection.
 * No contact details are provided, the only name in the source code is for a free-to-use code snippet.
+* As mentioned in [Copycats](#copycats), I reached out to the author of a similar site (albeit 14 years later) in case there was any connection, but did not hear back.
 * The referral link[^referral-link] is on the now defunct "TAFMaster", which appears to have disappeared sometime between 2011 and 2017, with very little trace. It does not appear to have had any customer lookup / database leak.
 
 ### Technical
@@ -106,6 +127,8 @@ I tried to find the creator behind this site, and completely failed:
 It's unlikely the creator had much JavaScript experience. The source code shows the only non-trivial JavaScript (using text from the user) is copied from elsewhere. More tellingly, the exact same code is used both times the site asks for user feedback, even down to the variable names! Storing both the user's name and their conversation topic in `namePrompt` for no reason is unlikely to be the work of an experienced programmer.
 
 [^referral-link]: (Dead) `http://tafmaster.com/taf/1641/250646/`
+
+## Conclusion
 
 ## References
 
