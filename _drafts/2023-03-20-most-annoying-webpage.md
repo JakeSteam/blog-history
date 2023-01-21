@@ -130,5 +130,11 @@ It's unlikely the creator had much JavaScript experience. The source code shows 
 
 ## Conclusion
 
+I'm stunned with how quickly this site dropped off the internet's radar. The fact that I must have experienced it aged 11-13, yet still remember it distinctly 18-20 years later is amazingly pointless knowledge!
+
+I was hoping to be able to find the original creator, but as I write this (Jan 2023), there's no remaining avenues to follow. A couple of DMs / emails might still come back fruitful, but for now it will have to remain a mystery.
+
+Finally, the domain's registration expires *today*. I'd love to rescue the domain from the spam blog and resurrect the original site, but I strongly suspect it will just be automatically renewed by the current owner and continue to be forgotten about! 
+
 ## References
 
