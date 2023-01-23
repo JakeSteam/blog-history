@@ -104,11 +104,11 @@ There are still a few copies of the site available online, since it's very simpl
 [^non-referral]: [http://www.vipergc.com/annoying.html](http://www.vipergc.com/annoying.html)
 [^with-referral]: [http://www.justanotherpc.com/annoyance/alerts/alerts.htm](http://www.justanotherpc.com/annoyance/alerts/alerts.htm)
 
-### Copycats
+### Similar sites
 
 Whilst looking into this topic, I found `TheAnnoyingSite.com` from 2017/2018. I'm not going to link to it directly, since it lives up to the name far more than "Most Annoying Webpage" does! Looking at [the source code](https://github.com/feross/TheAnnoyingSite.com/blob/master/static/index.js), it makes odd Google searches, plays noises, spawns popups, logs you out of various sites, and other things that might actually cause a problem. There's a full explanation in the [creator Feross Aboukhadijeh's talk on YouTube](https://www.youtube.com/watch?v=QFZ-pwErSl4) (also [embedded above](#better-alert-blocking)). In comparison, Most Annoying Webpage is far more innocent.
 
-However, considering the extremely obvious core concept behind both sites ("What if a site was annoying?"), I highly doubt there's any connection, although I have reached out just in case.
+However, considering the different directions & complexity both sites took from the core concept ("What if a site was annoying?"), I highly doubt there's any connection. I reached out to Feross, and he confirmed the sites were unrelated, although he did remember stumbling across "Most Annoying Webpage" when younger!
 
 ## Notes
 
@@ -118,7 +118,7 @@ I tried to find the creator behind this site, and completely failed:
 
 * Original DNS records have privacy protection.
 * No contact details are provided, the only name in the source code is for a free-to-use code snippet.
-* As mentioned in [Copycats](#copycats), I reached out to the author of a similar site (albeit 14 years later) in case there was any connection, but did not hear back.
+* As mentioned in [Similar sites](#similar-sites), I reached out to the author of a similar site who confirmed there was no connection.
 * The referral link[^referral-link] is on the now defunct "TAFMaster", which appears to have disappeared sometime between 2011 and 2017, with very little trace. It does not appear to have had any customer lookup / database leak.
 
 ### Technical
