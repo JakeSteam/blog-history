@@ -1,37 +1,69 @@
-# Blog settings
+# Basic site setup
+remote_theme: JakeSteam/minimaJake@1.0.0
 title: Internet History
-email: blog@jakelee.co.uk
 description: Welcome to Internet History! A collection of technical deep dives into the long forgotten past of the internet.
-baseurl: ""
-url: "https://history.jakelee.co.uk"
-permalink: /:title/
-show_excerpts: true
-timezone: Europe/London
+accent_colour: "#075e78"
 
-# Theme settings
-theme: minima
-paginate: 10
-paginate_path: page/:num/
+# Optional native feature customisation (delete to turn off)
+table_of_contents_header: "Jump to:"
+post_end_promo: <i><b>Enjoyed this article? You'll like "<a href="https://jakeweeklee.substack.com">Jake Week Lee</a>", a weekly newsletter of articles & found media!</b></i>
+google_analytics: G-2FPGNNSTGN
+
+# Third party feature customisation (delete to turn off)
 giscus_repo: JakeSteam/blog-history
 giscus_repo_id: R_kgDOICp35A
 giscus_category: Comments
 giscus_category_id: DIC_kwDOICp35M4CRj3_
-substack: Jake Week Lee
-substack_url: https://jakeweeklee.substack.com/
-rss: RSS
+kofi_id: internethistory
+kofi_button_text: Tip on Ko-fi
+kofi_floating_text: Tip / Suggest
+
+# Social / dark mode settings
+minima:
+  skin: auto
+  social_links:
+    - { platform: github, user_url: "https://github.com/JakeSteam" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/Jake-Lee" }
+    - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/608312/Jake-Lee" }
+    - { platform: twitter, user_url: "https://www.twitter.com/JakeLeeUK" }
+    - { platform: email, user_url: "mailto:history@jakelee.co.uk", user_title: "history@jakelee.co.uk" }
+    - { platform: code, user_url: "https://github.com/JakeSteam/blog-history", user_title: "JakeSteam/blog-history" }
+    - { platform: rss, user_url: "/feed.xml", user_title: "RSS Feed" }
+    - { platform: substack, user_url: "https://jakeweeklee.substack.com/", user_title: "Jake Week Lee" }
+  #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
+  #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+  #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+  #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+  #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+  #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+  #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+  #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+  #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
+  #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+
+###
+# Below here probably doesn't need changing #
+###
+
+# Site settings
+permalink: /:title/
+show_excerpts: true
+timezone: Europe/London
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Pagination settings
+paginate: 10
+paginate_path: page/:num/
 
 # Syntax highlighter settings
 kramdown:
   syntax_highlighter_opts:
     default_lang: kotlin
     guess_lang: true
-
-# Analytics settings
-google_analytics: G-2FPGNNSTGN
-
