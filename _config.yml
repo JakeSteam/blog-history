@@ -1,7 +1,7 @@
 # Basic site setup
 remote_theme: JakeSteam/minimaJake@1.0.6
 title: Internet History
-description: Welcome to Internet History! A collection of technical deep dives into the long forgotten past of the internet.
+description: Welcome to Internet History! A collection of technical deep dives into the long forgotten past of the internet
 accent_colour: "#075e78"
 
 # Optional native feature customisation (delete to turn off)
