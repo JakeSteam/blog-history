@@ -14,7 +14,7 @@ If you're reading this and *don't* know the blue & black "scary maze game" from 
 
 Before I dive into how the game works, here's some helpful links:
 
-* If you'd like to download the game to play yourself, [here's a link](/assets/other/scary-maze-game.swf). Remember it's intentionally a scary game! There's a few ways to play SWF files, I used JPEXS decompiler[^jpexs]. 
+* If you'd like to download the game to play yourself, [here's a link](/assets/other/scary-maze-game.swf). Remember it's intentionally a scary game! There are a few ways to play SWF files, I used JPEXS decompiler[^jpexs]. 
 * If you'd like more of an overview, [Videogaming wiki has a summary](https://videogaming.fandom.com/wiki/The_Maze_(Winterrowd)).
 * If you'd like to see more reaction videos, [KnowYourMeme has lots](https://knowyourmeme.com/memes/scary-maze-game/videos/sort/score).
 
