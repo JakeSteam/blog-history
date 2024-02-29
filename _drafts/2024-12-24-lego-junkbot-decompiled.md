@@ -53,12 +53,14 @@ Lots of names in podcast, e.g. sound designer, people interviewed etc
 
 ## References
 
-## Temp notes
+## Temp
 
-- Spin-off with extra functionality? Part 3 on https://biomediaproject.com/bmp/lmp/games/
-- Available properly in Flashpoint Infinity? https://www.reddit.com/r/lego/comments/jnh6yi/how_to_play_junkbot_in_2020_on_pc/
+Misc:
+
+- Some sort of fixed version? Part 3 on https://biomediaproject.com/bmp/lmp/games/
 - C# port? https://github.com/rozniak/Junkbot
 - Amazing HTML 5 port with lots of new features https://github.com/1j01/janitorial-android
+- Soundtrack https://downloads.khinsider.com/game-soundtracks/album/junkbot-online-gamerip-2002
 
 Decompiler:
 
@@ -82,7 +84,8 @@ Non-technical history:
   - Can borrow for free? https://archive.org/details/designresearchme0000unse/page/n9/mode/2up
 - Gamelab created the game!
   - Mentioned here https://www.deepfun.com/gamelab-arcadia-blix-and-loop/, can archive.org their site
-  - Eric Zimmerman and Peter Lee (podcast)
+  - Founded by Eric Zimmerman and Peter Lee (podcast)
+  - Frank Latz was Director of Game Design... and made universal paperclips????? https://nodontdie.com/interviews/frank-lantz
   - Junkbot was first game made by Gamelab for lego
   - Gamelab shut down in 2009, some of the people teach at NYU Game Center?
 - Interview here: https://www.bzpower.com/topic/31378-the-history-of-junkbot/
