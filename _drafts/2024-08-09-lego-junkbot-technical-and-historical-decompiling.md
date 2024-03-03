@@ -1,5 +1,5 @@
 ---
-title: 23 years ago today, LEGO's "Junkbot" flash game was released, one of the most popular LEGO.com games of all time
+title: 23 years ago today, LEGO's "Junkbot" game was released, one of the most popular LEGO.com games of all time
 author: Jake Lee
 layout: post
 image: https://logos.fandom.com/wiki/Lego_Junkbot?file=Junkbot.png
@@ -15,26 +15,32 @@ links to related media
 
 ## Timeline
 
-- Spring 2000: gameLab (Junkbot creator) founded[^gamelab-founded].
-- October 2000: gameLab's NYC office opened[^gamelab-office].
-- 9th August 2001: Junkbot released[^junkbot-released] (also shown on gameLab's [Junkbot page](https://web.archive.org/web/20031009033531/http://gmlb.com/games/junkbot.html) and in a LEGO press release[^lugnet]).
-- August 18th 2001: First still-live mention online https://www.ttlg.com/Forums/showthread.php?t=6098
-- September - October 2001: First mentioned in official magazine: https://www.parrygamepreserve.com/media/magazines/lego_mania_magazine/2001/lego_mania_magazine_2001_09_September.php
-  - Not present in July - August: http://www.miniland.nl/LEGOclub/lego%20mania%20magazine%20jul%20aug%202001.htm
-- Oct 5th 2001: On LEGO's site: https://web.archive.org/web/20011005164311/http://www.lego.com:80/build/
-  - Aug 3 2002: https://web.archive.org/web/20020803205407/http://www.lego.com:80/build/junkbot/junkbot.asp?x=x&login=0 (on desktop as junkbot2_13g_asp.dcr)
-- 24th Oct 2003: Zimmerman contributes to Design Research https://www.google.co.uk/books/edition/Design_Research/xVeFdy44qMEC?hl=en
-- September 29, 2009: GameLab acquired https://venturebeat.com/business/arkadium-acquires-gamelabcom-game-development-firm/
+- **Spring 2000**: gameLab (Junkbot's creator) founded[^gamelab-founded].
+- **October 2000**: gameLab's NYC office opened[^gamelab-office].
+- **August 9th 2001**: Junkbot released[^junkbot-released] (also shown on gameLab's [Junkbot page](https://web.archive.org/web/20031009033531/http://gmlb.com/games/junkbot.html) and in a LEGO press release[^lugnet]).
+- **September / October 2001**: First mentioned in official LEGO mania magazine[^mania].
+- **October 5th 2001**: First archive.org mention of Junkbot on LEGO's site[^archive-first].
+- **August 3rd 2002**: First archive.org copy of Junkbot game files.[^archive-first-files].
+- **October 24th 2003**: Junkbot included in a case study by gameLab's CEO for "Design Research"[^case-study].
+- **September 29th 2009**: gameLab acquired[^gamelab-acquired].
+- **July 31st - September 30th 2012**: Junkbot is removed from LEGO.com ([July 30th](https://web.archive.org/web/20120730042921/http://www.lego.com/build/junkbot/junkbot.asp?x=x&login=0), [September 30th](https://web.archive.org/web/20120930001653/http://www.lego.com:80/build/junkbot/junkbot.asp?x=x&login=0)), likely as part of the 2012's site-wide redesign[^lego-redesign](?).
+- **April 9th 2019**: Shockwave Player (required for Junkbot) no longer available to download[^shockwave-eol].
 
-https://en.wikipedia.org/wiki/Gamelab#History
-
-junkbot from google trends
-_Interest over time for "junkbot", from Google Trends[^trends]._
+[![junkbot popularity trend](/assets/images/2024/junkbot-google-trends-740w.png)](/assets/images/2024/junkbot-google-trends.png)
+_Interest since 2004 (earliest available) for "junkbot", from Google Trends[^trends]._
 
 [^gamelab-founded]: <https://web.archive.org/web/20011108122328/http://www.onemedia.com/archive/zimmerman_jun01.html>
 [^gamelab-office]: <https://web.archive.org/web/20011027060409/http://www.gmlb.com/pr1.html>
 [^junkbot-released]: <https://web.archive.org/web/20011027062145/http://www.gmlb.com/pr4.html>
 [^lugnet]: <https://news.lugnet.com/lego/announce/?n=39>
+[^mania]: <https://www.parrygamepreserve.com/media/magazines/lego_mania_magazine/2001/lego_mania_magazine_2001_09_September.php> (specifically [Page 23](https://www.parrygamepreserve.com/images/media/magazines/lego_mania_magazine/2001/09_September/lego_mania_magazine_2001_09_September_14_L.jpg))
+[^archive-first]: <https://web.archive.org/web/20011005164311/http://www.lego.com:80/build/>
+[^archive-first-files]: <https://web.archive.org/web/20020803205407/http://www.lego.com:80/build/junkbot/junkbot.asp?x=x&login=0>
+[^case-study]: <https://www.google.co.uk/books/edition/Design_Research/xVeFdy44qMEC?hl=en> - Available for free [on archive.org](https://archive.org/details/designresearchme0000unse/mode/2up) or [from Zimmerman's site](https://ericzimmerman.com/assets/pdfs/Iterative_Design.pdf).
+[^gamelab-acquired]: <https://venturebeat.com/business/arkadium-acquires-gamelabcom-game-development-firm/>
+[^shockwave-eol]: <https://helpx.adobe.com/uk/enterprise/kb/eol-adobe-flash-shockwave-player.html#:~:text=About%20Shockwave%20Player%20end%2Dof,of%2Dlife%2Dfaq.html>
+[^lego-redesign]: <https://winners.webbyawards.com/2012/websites-and-mobile-sites/general-websites-and-mobile-sites/retail/148871/lego-e-commerce-redesign>
+[^trends]: <https://trends.google.com/trends/explore?date=all&q=junkbot&hl=en-GB>
 
 ## What is Junkbot?
 
@@ -135,11 +141,6 @@ She later ended up working at gameLab (and many other studios) as a Game Designe
 
   - Full transcript!!! https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf
 
-- Mentioned in "design research: methods and perspectives" by brenda laurel
-  - Can borrow for free? https://archive.org/details/designresearchme0000unse/page/n9/mode/2up
-  - Excerpt https://ericzimmerman.com/assets/pdfs/Iterative_Design.pdf
-  - Mentioned on zimmerman's site for authenticity
-
 "less than half a year of development" (podcast)
 
 gameLab design process: https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7.1.108
@@ -157,19 +158,46 @@ gameLab design process: https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7
 
 ## Junkbot's legacy
 
+Despite Junkbot's relative obscure status as a cult classic over the last 20 years, it is by no means forgotten! As well as the occasional fan content or nostalgic Reddit post, there are even subtle references in official LEGO products.
+
 ### Unofficial LEGO builds
 
+- https://www.reddit.com/r/lego/comments/x2z94k/this_is_the_junkboat_a_junkbot_themed_pirate_ship/
 - https://jkbrickworks.com/junkbot/ (improved: https://rebrickable.com/mocs/MOC-50835/jxu/junkbot/#details)
 - Soundtrack https://downloads.khinsider.com/game-soundtracks/album/junkbot-online-gamerip-2002
 - Detailed article from a fan, with nice info https://mackerelphones.com/2020/11/03/i-love-trash-an-ode-to-junkbot-the-lego-flash-game-legend/
 
 ### Official LEGO homages
 
-> The little bot Junkbot, or references to it, have popped up in a Ninjago theme
-> set and the Haunted House set as well.
-> https://www.lego.com/en-ch/legogames-25-transcripts > https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf
+Junkbot clearly has fans within LEGO too, since he continues to pop up in odd little places now and then. These two sets are explicitly mentioned in a "Bits N' Bricks" podcast, there may be others out there!
 
-https://www.bricklink.com/v2/catalog/catalogitem.page?P=3245cpb172#T=C&C=86
+> The little bot Junkbot, or references to it, have popped up in a Ninjago theme set and the Haunted House set as well[^podcast-transcript]
+
+[^podcast-transcript]: <https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf> (page 7)
+
+#### 70657: NINJAGO City Docks
+
+2018's [NINJAGO City Docks set](https://www.lego.com/en-gb/product/ninjago-city-docks-70657) seems to have no relation to Junkbot initially, however there is an entire Junkbot-themed arcade cabinet hidden inside the blue arcade room.
+
+This is just an arcade cabinet with Junkbot's colours and some stickers, but it's great to see the memory living on 17 years later. Here's how it looks:
+
+|                                                Hand-held[^ninjago-1]                                                 |                                               In context[^ninjago-2]                                                | All arcade machines[^ninjago-3]                                                                          |
+| :------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------------------------------------------- |
+| [![handheld Junkbot arcade machine](/assets/images/2024/ninjago-1-thumbnail.jpg)](/assets/images/2024/ninjago-1.jpg) | [![in situ Junkbot arcade machine](/assets/images/2024/ninjago-2-thumbnail.jpg)](/assets/images/2024/ninjago-2.jpg) | [![all arcade machines](/assets/images/2024/ninjago-3-thumbnail.jpg)](/assets/images/2024/ninjago-3.jpg) |
+
+[^ninjago-1]: <https://www.reddit.com/r/lego/comments/d173wv/junkbot_arcade_game_from_ninjago_city/>
+[^ninjago-2]: <https://www.eurobricks.com/forum/index.php?/forums/topic/170396-review-70657-ninjago-city-docks/>
+[^ninjago-3]: <https://brickset.com/article/36147/review-70657-ninjago-city-docks-(2)>
+
+#### 10273: Haunted House
+
+2020's [Haunted House set](https://www.lego.com/en-us/product/haunted-house-10273) is even further detached from Junkbot, and far more subtle!
+
+|                                           Minifigure [^hauntedhouse-1]                                            |                                     In disguise as a "box of junk" [^hauntedhouse-1]                                     |
+| :---------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
+| [![Junkbot minifigure](/assets/images/2024/hauntedhouse-1-thumbnail.jpg)](/assets/images/2024/hauntedhouse-1.jpg) | [![hidden Junkbot minifigure](/assets/images/2024/hauntedhouse-2-thumbnail.jpg)](/assets/images/2024/hauntedhouse-2.jpg) |
+
+[^hauntedhouse-1]: <https://www.eurobricks.com/forum/index.php?/forums/topic/178084-review-creator-expert-10273-haunted-house/>
 
 ### Junkbot rewrites & patches
 
