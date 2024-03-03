@@ -1,5 +1,5 @@
 ---
-title: X years ago today, LEGO's "Junkbot" flash game was released, one of the most popular LEGO.com games of all time
+title: 23 years ago today, LEGO's "Junkbot" flash game was released, one of the most popular LEGO.com games of all time
 author: Jake Lee
 layout: post
 image: https://logos.fandom.com/wiki/Lego_Junkbot?file=Junkbot.png
@@ -54,7 +54,7 @@ Just take a screenshot of each and make a grid of thumbnails?
 
 ### Who created Junkbot?
 
-Junkbot was created by "gameLab", a company founded in early 2001 by Eric Zimmerman and Peter Lee "simply because we wanted to make games"[^vice]. They quickly found work creating web games for LEGO.com due to their connections made whilst working on the extremely popular Sissyfight 2000. gameLab's story has been told in detail elsewhere (e.g. [Wikipedia](https://en.wikipedia.org/wiki/Gamelab)), with a LEGO podcast episode centred around Junkbot[^lego-podcast] ([transcript](https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf)).
+Junkbot was created by "gameLab", a company founded in early 2001 by Eric Zimmerman and Peter Lee "simply because we wanted to make games"[^vice]. They quickly found work creating web games for LEGO.com due to their connections made whilst working on the extremely popular Sissyfight 2000[^sissyfight]. gameLab's story has been told in detail elsewhere (e.g. [Wikipedia](https://en.wikipedia.org/wiki/Gamelab)), with a LEGO podcast episode centred around Junkbot[^lego-podcast] ([transcript](https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf)).
 
 These names are mostly taken from gameLab's website in October 2001[^gamelab-people] and are all included in Junkbot's August 9th press release[^junkbot-release-date]. I've included their bios verbatim, plus added information on their work in the last 20 years when appropriate. It's worth noting the extraordinarily high levels of continued collaboration even decades later, and how most continued to publicly talk about games and educate others.
 
@@ -78,10 +78,23 @@ Lantz (along with plenty of other former gameLab employees) teaches at NYU Game 
 
 Unbelievably, I've spent many hours with & completed one of Lantz's recent games (2017): [Universal Paperclips](https://decisionproblem.com/paperclips/)[^lantz-paperclips]. This is one of the most popular incremental / clicker games of all time, with a detailed Wikipedia article[^paperclips-wiki] and "In the first 11 days, 450,000 people played the game, most to completion"[^paperclips-wired]. It is based on the "[paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)" AI thought experiment, even more relevant today with the relentless pace of AI innovation.
 
-- **Ranjit Bhatnagar**: Director of R&D
-- **Peter Nicolai**: Game Programmer
-- **Nicholas Fortugno**: Game Designer
-- **Michael Sweet (Blister Media)**: Music & Sound Design
+#### Ranjit Bhatnagar (Director of R&D)
+
+> Ranjit has been involved with digital art on the Internet before the Web ever existed: he helped found sito.org, a pre-WWW collaborative arts community. For the last several years, Ranjit has been on the board of SCAN, an old-school annual digital arts conference dating back to 1979 . Ranjit was a member of the original design and implementation team for the Philadelphia Inquirer¹s website. Later, he worked as the Director of Technology at Word Magazine, where he led the technical development of the art toy Pixeltime (pixeltime.com) and the award-winning multiplayer game Sissyfight (www.sissyfight.com). Unsatisfied merely making games for a living, in his spare time Ranjit creates alternative musical instruments, such as the Silence Organ and the MIDI Ironing Board. His art and installations have appeared in solo and group exhibitions in California and Pennsylvania. Personal site: www.moonmilk.com.
+
+#### Peter Nicolai (Game Programmer)
+
+> Peter Nicolai graduated in 2001 from NYU's Interactive Telecommunications Program. There, he attended game design and programming classes taught by gameLab staff members Eric Zimmerman, Frank Lantz and Peter Lee, in which he was the subject of many strange experiments that he does not remember. He now works at gameLab. Past experience: Peter used to play accordion in a rock/cabaret band. He was a production assistant on the TV show Mystery Science Theater 3000. Other things he has done for a living include toy-store display construction, grading elementary-school reading tests and painting ceramic fish. Outside of gameLab, he is involved in various game, music and video projects.
+
+#### Nicholas Fortugno (Game Designer)
+
+> Nick was inducted into role-playing life at the age of five, and has been an avid consumer and producer of role-playing, live-action, and game culture ever since. Nick's bizarre sense of interactive aesthetics have led him to design a number of role-playing universes and narrative games; most notably, he founded and ran the Seasons of Darkness group, a 5 1/2 year live action project which was featured on Showtime. Nick's work on Seasons introduced him to Eric Zimmerman, and that introduction eventually brought him to gameLab. Nick also holds a Adjunct Teaching position at Bronx Community College, where he teaches developmental and compositional English, and is currently pursuing graduate study at Hunter College. In his spare time, Nick studies classical guitar, apprentices in T'ai Chi, and subjects more hapless players to his role-playing/art experiments.
+
+https://en.wikipedia.org/wiki/Nicholas_Fortugno
+
+#### Michael Sweet (Music & Sound Design)
+
+> Award winning composer and sound designer, Michael Sweet is a frequent collaborator with gameLab and his work can be heard in many of their games, including Shockwave's audio award winning BliX. Michael is the Creative Director of his own Silicon Alley music and sound design house Blister Media. After graduating from highly regarded Berklee College of Music, Michael's digital artistry led him to specialize in creating interactive scores for cutting edge new media projects. Credits include: the ground breaking multiplayer game Netwits for MSN, Shockwave's Loop, award-winning kiosks for the Discovery Network stores, and Sesame Workshop's Passport Kids. In broadcast, Michael's work can also be heard in many commercials and network identities, including HBO-Zone, CNN, General Motors, Kodak, and AT&T. Working with other digital artists, Michael sound sculptures have been exhibited at museums in London, Florence, Amsterdam, Toronto, and New York, and Hong Kong. Web site: www.blistermedia.com
 
 #### Naomi Clark (LEGO Game Specialist)
 
@@ -103,9 +116,10 @@ Whilst not part of gameLab, Naomi (who also teaches at NYU Game Center[^naomi-ny
 [^lego-podcast]: <https://www.youtube.com/watch?v=SKfeyeHIuCY>
 [^naomi-nyu]: <https://gamecenter.nyu.edu/faculty/naomi-clark/>
 [^naomi-tweet]: <https://twitter.com/LEGO_Group/status/1427963526002401285>
-[^universal-paperclips]: <https://www.franklantz.net/work#/universal-paperclips/>
+[^lantz-paperclips]: <https://www.franklantz.net/work#/universal-paperclips/>
 [^paperclips-wiki]: <https://en.wikipedia.org/wiki/Universal_Paperclips>
 [^paperclips-wired]: <https://www.wired.com/story/the-way-the-world-ends-not-with-a-bang-but-a-paperclip/>
+[^sissyfight]: <https://en.wikipedia.org/wiki/Sissyfight_2000>
 
 ### What inspired Junkbot?
 
@@ -139,7 +153,7 @@ gameLab design process: https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7
 
 ### Unofficial LEGO builds
 
-- https://jkbrickworks.com/junkbot/
+- https://jkbrickworks.com/junkbot/ (improved: https://rebrickable.com/mocs/MOC-50835/jxu/junkbot/#details)
 - Soundtrack https://downloads.khinsider.com/game-soundtracks/album/junkbot-online-gamerip-2002
 - Detailed article from a fan, with nice info https://mackerelphones.com/2020/11/03/i-love-trash-an-ode-to-junkbot-the-lego-flash-game-legend/
 
