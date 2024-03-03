@@ -158,7 +158,7 @@ gameLab design process: https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7
 
 ## Junkbot's legacy
 
-Despite Junkbot's relative obscure status as a cult classic over the last 20 years, it is by no means forgotten! As well as the occasional fan content or nostalgic Reddit post, there are even subtle references in official LEGO products.
+Despite Junkbot's relative obscure status as a cult classic over the last 20 years, it is by no means forgotten. As well as the occasional fan content or nostalgic Reddit post, there are even subtle references in official LEGO products.
 
 ### Unofficial LEGO builds
 
@@ -167,7 +167,7 @@ Despite Junkbot's relative obscure status as a cult classic over the last 20 yea
 - Soundtrack https://downloads.khinsider.com/game-soundtracks/album/junkbot-online-gamerip-2002
 - Detailed article from a fan, with nice info https://mackerelphones.com/2020/11/03/i-love-trash-an-ode-to-junkbot-the-lego-flash-game-legend/
 
-### Official LEGO homages
+### Official LEGO easter eggs
 
 Junkbot clearly has fans within LEGO too, since he continues to pop up in odd little places now and then. These two sets are explicitly mentioned in a "Bits N' Bricks" podcast, there may be others out there!
 
@@ -199,11 +199,24 @@ This is just an arcade cabinet with Junkbot's colours and some stickers, but it'
 
 [^hauntedhouse-1]: <https://www.eurobricks.com/forum/index.php?/forums/topic/178084-review-creator-expert-10273-haunted-house/>
 
-### Junkbot rewrites & patches
+### Play Junkbot online
 
-- Some sort of fixed version? Part 3 on https://biomediaproject.com/bmp/lmp/games/
-- C# port? https://github.com/rozniak/Junkbot
-- Amazing HTML 5 port with lots of new features https://github.com/1j01/janitorial-android
+Whilst Junkbot's game files can be downloaded from LEGO's site directly via archive.org[^can-be-downloaded], the game has also been recreated in more modern software (HTML / JavaScript), making it playable in a browser!
+
+[![play LEGO Junkbot online](/assets/images/2024/junkbot-html5.png)](https://1j01.github.io/janitorial-android/#junkbot)
+
+[1j01's "Janitorial Android"](https://1j01.github.io/janitorial-android/#junkbot) has clearly had extreme amounts of care put into it, and made a (controversially!) better game than the original. It contains all original functionality, plus lots of new extras. So, what's changed? Well, here's what I noticed:
+
+1. A complete custom level creator has been added[^custom-level-creator], as well as the ability to export & import.
+2. All levels in all 4 buildings are unlocked from the start, instead of further buildings requiring level completion.
+3. Zooming in and out with mouse wheel (or `+` / `-`).
+4. Minor changes to the sound effects (e.g. no music)[^html5-sound-effects].
+
+There are tens of additional ideas on the [project's GitHub page](https://github.com/1j01/janitorial-android?tab=readme-ov-file#various-ideas) if you're interested in contributing. The impressive project is based on [rozniak's earlier C# rebuild](https://github.com/rozniak/Junkbot), but has realistically replaced it.
+
+[^can-be-downloaded]: <https://web.archive.org/web/20020803205407oe_/http://www.lego.com/build/junkbot/junkbot2_13g_asp.dcr> (Note that this will directly download the `.dcr` file)
+[^custom-level-creator]: <https://1j01.github.io/janitorial-android/#level-editor>
+[^html5-sound-effects]: <https://github.com/1j01/janitorial-android?tab=readme-ov-file#some-sounds-taken-from>
 
 ## Conclusion
 
