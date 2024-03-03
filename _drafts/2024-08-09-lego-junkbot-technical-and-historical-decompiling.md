@@ -13,6 +13,15 @@ intro to junkbot
 
 links to related media
 
+## Todo
+
+- What is junkbot?
+- How to install & play
+- Finish team bios
+- What inspired junkbot
+- Junkbot decompiled
+- Conclusion
+
 ## Timeline
 
 - **Spring 2000**: gameLab (Junkbot's creator) founded[^gamelab-founded].
@@ -86,7 +95,7 @@ Lee (no relation) has continued contributing to games (often with Zimmerman) sin
 
 Lantz (along with plenty of other former gameLab employees) teaches at NYU Game Center[^lantz-interview], and continues to create games. This includes. Many of his talks, papers, and games (e.g. Junkbot!) are available on [franklantz.net](https://www.franklantz.net/).
 
-Unbelievably, I've spent many hours with & completed one of Lantz's recent games (2017): [Universal Paperclips](https://decisionproblem.com/paperclips/)[^lantz-paperclips]. This is one of the most popular incremental / clicker games of all time, with a detailed Wikipedia article[^paperclips-wiki] and "In the first 11 days, 450,000 people played the game, most to completion"[^paperclips-wired]. It is based on the "[paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)" AI thought experiment, even more relevant today with the relentless pace of AI innovation.
+Unbelievably, I've spent many hours with one of Lantz's recent games (2017): [Universal Paperclips](https://decisionproblem.com/paperclips/)[^lantz-paperclips]. This is one of the most popular incremental / clicker games of all time, with a detailed Wikipedia article[^paperclips-wiki] and "In the first 11 days, 450,000 people played the game, most to completion"[^paperclips-wired]. It is based on the "[paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)" AI thought experiment, even more relevant today with the relentless pace of AI innovation.
 
 #### Ranjit Bhatnagar (Director of R&D)
 
@@ -162,10 +171,23 @@ Despite Junkbot's relative obscure status as a cult classic over the last 20 yea
 
 ### Unofficial LEGO builds
 
-- https://www.reddit.com/r/lego/comments/x2z94k/this_is_the_junkboat_a_junkbot_themed_pirate_ship/
-- https://jkbrickworks.com/junkbot/ (improved: https://rebrickable.com/mocs/MOC-50835/jxu/junkbot/#details)
-- Soundtrack https://downloads.khinsider.com/game-soundtracks/album/junkbot-online-gamerip-2002
-- Detailed article from a fan, with nice info https://mackerelphones.com/2020/11/03/i-love-trash-an-ode-to-junkbot-the-lego-flash-game-legend/
+With the LEGO fanbase making unofficial sets of almost everything on Earth, it's perhaps not too surprising that Junkbot has had plenty of MOCs (My Own Creations) created over the years.
+
+Of special note is [JK Brickworks](https://jkbrickworks.com/junkbot/)' 8:1 scale model from 2003, and jxu's [improved 2020 version](https://rebrickable.com/mocs/MOC-50835/jxu/junkbot/#details) with instructions:
+
+|                                      JK Brickworks[^2003-moc]                                       |                                           jxu[^2020-moc]                                            |
+| :-------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: |
+| [![2003 Junkbot MOC](/assets/images/2024/moc-2003-thumbnail.jpg)](/assets/images/2024/moc-2003.jpg) | [![2020 Junkbot MOC](/assets/images/2024/moc-2020-thumbnail.png)](/assets/images/2024/moc-2020.jpg) |
+
+[^2003-moc]: <https://jkbrickworks.com/junkbot/>
+[^2020-moc]: <https://rebrickable.com/mocs/MOC-50835/jxu/junkbot/#details>
+
+In addition to builds of Junkbot itself, there's been all kinds of related content:
+
+- A [Junkbot themed LEGO pirate ship](https://www.flickr.com/photos/100403937@N04/albums/72177720301763243/with/52325861091).
+- An [ode to Junkbot](https://mackerelphones.com/2020/11/03/i-love-trash-an-ode-to-junkbot-the-lego-flash-game-legend/), that ends up asking surprisingly intriguing questions about the world of Junkbot!
+- A [rip of the game's funky soundtrack](https://downloads.khinsider.com/game-soundtracks/album/junkbot-online-gamerip-2002).
+- MOCs of [the game's enemies](https://board.ttvchannel.com/t/junkbot-mini-mocs/26186).
 
 ### Official LEGO easter eggs
 
@@ -219,9 +241,5 @@ There are tens of additional ideas on the [project's GitHub page](https://github
 [^html5-sound-effects]: <https://github.com/1j01/janitorial-android?tab=readme-ov-file#some-sounds-taken-from>
 
 ## Conclusion
-
-### Pending threads
-
-- Reply on Mobygames
 
 ## References
