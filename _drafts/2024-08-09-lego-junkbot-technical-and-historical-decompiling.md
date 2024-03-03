@@ -6,6 +6,7 @@ image: https://logos.fandom.com/wiki/Lego_Junkbot?file=Junkbot.png
 tags:
   - LEGO
   - Gaming
+maxheader: 3
 ---
 
 intro to junkbot
@@ -14,11 +15,9 @@ links to related media
 
 ## Timeline
 
-- Spring 2000: GameLab founded https://web.archive.org/web/20011108122328/http://www.onemedia.com/archive/zimmerman_jun01.html
-- 9th August 2001: Junkbot released: https://web.archive.org/web/20011027062145/http://www.gmlb.com/pr4.html
-  - https://web.archive.org/web/20031001162148/http://gmlb.com/games/games.html
-  - https://web.archive.org/web/20031009033531/http://gmlb.com/games/junkbot.html
-  - https://news.lugnet.com/lego/announce/?n=39
+- Spring 2000: gameLab (Junkbot creator) founded[^gamelab-founded].
+- October 2000: gameLab's NYC office opened[^gamelab-office].
+- 9th August 2001: Junkbot released[^junkbot-released] (also shown on gameLab's [Junkbot page](https://web.archive.org/web/20031009033531/http://gmlb.com/games/junkbot.html) and in a LEGO press release[^lugnet]).
 - August 18th 2001: First still-live mention online https://www.ttlg.com/Forums/showthread.php?t=6098
 - September - October 2001: First mentioned in official magazine: https://www.parrygamepreserve.com/media/magazines/lego_mania_magazine/2001/lego_mania_magazine_2001_09_September.php
   - Not present in July - August: http://www.miniland.nl/LEGOclub/lego%20mania%20magazine%20jul%20aug%202001.htm
@@ -31,6 +30,11 @@ https://en.wikipedia.org/wiki/Gamelab#History
 
 junkbot from google trends
 _Interest over time for "junkbot", from Google Trends[^trends]._
+
+[^gamelab-founded]: <https://web.archive.org/web/20011108122328/http://www.onemedia.com/archive/zimmerman_jun01.html>
+[^gamelab-office]: <https://web.archive.org/web/20011027060409/http://www.gmlb.com/pr1.html>
+[^junkbot-released]: <https://web.archive.org/web/20011027062145/http://www.gmlb.com/pr4.html>
+[^lugnet]: <https://news.lugnet.com/lego/announce/?n=39>
 
 ## What is Junkbot?
 
@@ -54,7 +58,7 @@ Just take a screenshot of each and make a grid of thumbnails?
 
 ### Who created Junkbot?
 
-Junkbot was created by "gameLab", a company founded in early 2001 by Eric Zimmerman and Peter Lee "simply because we wanted to make games"[^vice]. They quickly found work creating web games for LEGO.com due to their connections made whilst working on the extremely popular Sissyfight 2000[^sissyfight]. gameLab's story has been told in detail elsewhere (e.g. [Wikipedia](https://en.wikipedia.org/wiki/Gamelab)), with a LEGO podcast episode centred around Junkbot[^lego-podcast] ([transcript](https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf)).
+Junkbot was created by "gameLab", a company of 6 founded in early 2001 by Eric Zimmerman and Peter Lee "simply because we wanted to make games"[^vice]. They quickly found work creating web games for LEGO.com due to their connections made whilst working on the extremely popular Sissyfight 2000[^sissyfight]. gameLab's story has been told in detail elsewhere (e.g. [Wikipedia](https://en.wikipedia.org/wiki/Gamelab)), with a LEGO podcast episode centred around Junkbot[^lego-podcast] ([transcript](https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf)).
 
 These names are mostly taken from gameLab's website in October 2001[^gamelab-people] and are all included in Junkbot's August 9th press release[^junkbot-release-date]. I've included their bios verbatim, plus added information on their work in the last 20 years when appropriate. It's worth noting the extraordinarily high levels of continued collaboration even decades later, and how most continued to publicly talk about games and educate others.
 
@@ -96,12 +100,14 @@ https://en.wikipedia.org/wiki/Nicholas_Fortugno
 
 > Award winning composer and sound designer, Michael Sweet is a frequent collaborator with gameLab and his work can be heard in many of their games, including Shockwave's audio award winning BliX. Michael is the Creative Director of his own Silicon Alley music and sound design house Blister Media. After graduating from highly regarded Berklee College of Music, Michael's digital artistry led him to specialize in creating interactive scores for cutting edge new media projects. Credits include: the ground breaking multiplayer game Netwits for MSN, Shockwave's Loop, award-winning kiosks for the Discovery Network stores, and Sesame Workshop's Passport Kids. In broadcast, Michael's work can also be heard in many commercials and network identities, including HBO-Zone, CNN, General Motors, Kodak, and AT&T. Working with other digital artists, Michael sound sculptures have been exhibited at museums in London, Florence, Amsterdam, Toronto, and New York, and Hong Kong. Web site: www.blistermedia.com
 
-#### Naomi Clark (LEGO Game Specialist)
+#### Naomi Clark (LEGO Web & Digital Producer)
 
 Whilst not part of gameLab, Naomi (who also teaches at NYU Game Center[^naomi-nyu]) was producer of Junkbot for LEGO.com[^naomi-tweet]. This period is summarised in the LEGO podcast "Bits n Bricks" S3E29[^lego-podcast] ([transcript](https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf)):
 
 > That connection between Clark, Zimmerman and the rest of the Gamelab crew would eventually lead to a lasting relationship between Gamelab and the LEGO Group, with the studio creating a dozen games for the website. But the first was, perhaps, the most memorable: Junkbot.
 > When Clark approached Gamelab about making a game, the studio came up with a twopart pitch document that explored the play values of the LEGO Group and offered up a number of ideas.
+
+She later ended up working at gameLab (and many other studios) as a Game Designer, and can be found on Twitter/X as [@metasynthie](https://twitter.com/metasynthie).
 
 [^vice]: <https://www.vice.com/en/article/xyvnkj/peter-lee-5899ce1770caae4f186fc1ea>
 [^gamelab-people]: <https://web.archive.org/web/20011010051452/http://www.gmlb.com/people.html>
