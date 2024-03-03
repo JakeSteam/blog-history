@@ -17,7 +17,6 @@ links to related media
 
 - What is junkbot?
 - How to install & play
-- Finish team bios
 - What inspired junkbot
 - Junkbot decompiled
 - Conclusion
@@ -36,7 +35,7 @@ links to related media
 - **April 9th 2019**: Shockwave Player (required for Junkbot) no longer available to download[^shockwave-eol].
 
 [![junkbot popularity trend](/assets/images/2024/junkbot-google-trends-740w.png)](/assets/images/2024/junkbot-google-trends.png)
-_Interest since 2004 (earliest available) for "junkbot", from Google Trends[^trends]._
+_Interest since 2004 (earliest available) for "Junkbot", from Google Trends[^trends]._
 
 [^gamelab-founded]: <https://web.archive.org/web/20011108122328/http://www.onemedia.com/archive/zimmerman_jun01.html>
 [^gamelab-office]: <https://web.archive.org/web/20011027060409/http://www.gmlb.com/pr1.html>
@@ -101,6 +100,10 @@ Unbelievably, I've spent many hours with one of Lantz's recent games (2017): [Un
 
 > Ranjit has been involved with digital art on the Internet before the Web ever existed: he helped found sito.org, a pre-WWW collaborative arts community. For the last several years, Ranjit has been on the board of SCAN, an old-school annual digital arts conference dating back to 1979 . Ranjit was a member of the original design and implementation team for the Philadelphia Inquirer¹s website. Later, he worked as the Director of Technology at Word Magazine, where he led the technical development of the art toy Pixeltime (pixeltime.com) and the award-winning multiplayer game Sissyfight (www.sissyfight.com). Unsatisfied merely making games for a living, in his spare time Ranjit creates alternative musical instruments, such as the Silence Organ and the MIDI Ironing Board. His art and installations have appeared in solo and group exhibitions in California and Pennsylvania. Personal site: www.moonmilk.com.
 
+Bhatnagar has maintained [moonmilk.com](https://moonmilk.com/) for the past 30(!) years, writing articles about various creative _things_ he has been up to. Music, writing, programming, art, photography[^ranjit-photography], it's got it all.
+
+[^ranjit-photography]: <https://www.flickr.com/photos/ranjit/with/52755632468/>
+
 #### Peter Nicolai (Game Programmer)
 
 > Peter Nicolai graduated in 2001 from NYU's Interactive Telecommunications Program. There, he attended game design and programming classes taught by gameLab staff members Eric Zimmerman, Frank Lantz and Peter Lee, in which he was the subject of many strange experiments that he does not remember. He now works at gameLab. Past experience: Peter used to play accordion in a rock/cabaret band. He was a production assistant on the TV show Mystery Science Theater 3000. Other things he has done for a living include toy-store display construction, grading elementary-school reading tests and painting ceramic fish. Outside of gameLab, he is involved in various game, music and video projects.
@@ -109,11 +112,20 @@ Unbelievably, I've spent many hours with one of Lantz's recent games (2017): [Un
 
 > Nick was inducted into role-playing life at the age of five, and has been an avid consumer and producer of role-playing, live-action, and game culture ever since. Nick's bizarre sense of interactive aesthetics have led him to design a number of role-playing universes and narrative games; most notably, he founded and ran the Seasons of Darkness group, a 5 1/2 year live action project which was featured on Showtime. Nick's work on Seasons introduced him to Eric Zimmerman, and that introduction eventually brought him to gameLab. Nick also holds a Adjunct Teaching position at Bronx Community College, where he teaches developmental and compositional English, and is currently pursuing graduate study at Hunter College. In his spare time, Nick studies classical guitar, apprentices in T'ai Chi, and subjects more hapless players to his role-playing/art experiments.
 
-https://en.wikipedia.org/wiki/Nicholas_Fortugno
+Fortugno continued creating games at various studios (Rebel Monkey, Playmatics), and as with many other gameLab employees, continues writing and teaching[^fortugno-teacher] about games.
+
+[^fortugno-teacher]: <https://www.nytimes.com/2005/11/22/arts/design/video-games-are-their-major-so-dont-call-them-slackers.html>
 
 #### Michael Sweet (Music & Sound Design)
 
-> Award winning composer and sound designer, Michael Sweet is a frequent collaborator with gameLab and his work can be heard in many of their games, including Shockwave's audio award winning BliX. Michael is the Creative Director of his own Silicon Alley music and sound design house Blister Media. After graduating from highly regarded Berklee College of Music, Michael's digital artistry led him to specialize in creating interactive scores for cutting edge new media projects. Credits include: the ground breaking multiplayer game Netwits for MSN, Shockwave's Loop, award-winning kiosks for the Discovery Network stores, and Sesame Workshop's Passport Kids. In broadcast, Michael's work can also be heard in many commercials and network identities, including HBO-Zone, CNN, General Motors, Kodak, and AT&T. Working with other digital artists, Michael sound sculptures have been exhibited at museums in London, Florence, Amsterdam, Toronto, and New York, and Hong Kong. Web site: www.blistermedia.com
+> Award winning composer and sound designer, Michael Sweet is a frequent collaborator with gameLab and his work can be heard in many of their games, including Shockwave's audio award winning BliX. Michael is the Creative Director of his own Silicon Alley music and sound design house Blister Media. After graduating from highly regarded Berklee College of Music, Michael's digital artistry led him to specialize in creating interactive scores for cutting edge new media projects. Credits include: the ground breaking multiplayer game Netwits for MSN, Shockwave's Loop, award-winning kiosks for the Discovery Network stores, and Sesame Workshop's Passport Kids. In broadcast, Michael's work can also be heard in many commercials and network identities, including HBO-Zone, CNN, General Motors, Kodak, and AT&T. Working with other digital artists, Michael sound sculptures have been exhibited at museums in London, Florence, Amsterdam, Toronto, and New York, and Hong Kong.
+
+Sweet wasn't actually part of gameLab, but instead half of Blister Media[^blister-media-half] (Creative Director, founded 1998[^blister-media-founded]) that frequently collaborated with gameLab. He's an non-fiction author[^sweet-author] and currently a Professor at Berklee College of Music[^sweet-berklee].
+
+[^blister-media-half]: <https://web.archive.org/web/20020602203847/http://www.blistermedia.com/press/ia/ia.html>
+[^blister-media-founded]: <https://criticalnoise.blogspot.com/1998/10/blister-media-founded-101598.html>
+[^sweet-author]: <https://www.amazon.com/Writing-Interactive-Music-Video-Games/dp/0321961587/>
+[^sweet-berklee]: <https://www.berklee.edu/people/michael-sweet>
 
 #### Naomi Clark (LEGO Web & Digital Producer)
 
