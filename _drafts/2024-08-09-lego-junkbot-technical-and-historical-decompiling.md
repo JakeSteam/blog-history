@@ -11,7 +11,7 @@ maxheader: 3
 
 intro to junkbot
 
-links to related media
+links to key parts (playing online, MOCs)
 
 ## Todo
 
@@ -56,17 +56,13 @@ https://en.brickimedia.org/wiki/Junkbot
 
 ## How can I play Junkbot?
 
+Mention online exists, link to later section of article, but original guide too
+
 ### Installing Flashpoint Infinity
 
 ### Installing Junkbot
 
 - Note flashpoint files have a date of 24/12/1996... https://www.reddit.com/r/emulation/comments/64ekk3/how_come_some_gba_games_have_12241996_as_last/
-
-### All Junkbot levels
-
-- Basic info, list of levels https://brickipedia.fandom.com/wiki/Junkbot_(Game)
-
-Just take a screenshot of each and make a grid of thumbnails?
 
 ## About Junkbot
 
@@ -172,6 +168,8 @@ gameLab design process: https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7
 
 ### How was Junkbot created?
 
+Junkbot was created in the now abandoned Adobe Director, a less popular relative of Adobe Flash. To decompile the game files I used "[ProjectorRays](https://github.com/ProjectorRays/ProjectorRays)", and [wrote a full decompiling guide](https://blog.jakelee.co.uk/decompiling-adobe-director-files/).
+
 ### Are there any secrets?
 
 - Get flash decompiler, look inside the files
@@ -246,7 +244,7 @@ Whilst Junkbot's game files can be downloaded from LEGO's site directly via arch
 3. Zooming in and out with mouse wheel (or `+` / `-`).
 4. Minor changes to the sound effects (e.g. no music)[^html5-sound-effects].
 
-There are tens of additional ideas on the [project's GitHub page](https://github.com/1j01/janitorial-android?tab=readme-ov-file#various-ideas) if you're interested in contributing. The impressive project is based on [rozniak's earlier C# rebuild](https://github.com/rozniak/Junkbot), but has realistically replaced it.
+There are tens of additional ideas on the [project's GitHub page](?tab=readme-ov-file#various-ideas) if you're interested in contributing. The impressive project is based on [rozniak's earlier C# rebuild](https://github.com/rozniak/Junkbot), but has realistically replaced it.
 
 [^can-be-downloaded]: <https://web.archive.org/web/20020803205407oe_/http://www.lego.com/build/junkbot/junkbot2_13g_asp.dcr> (Note that this will directly download the `.dcr` file)
 [^custom-level-creator]: <https://1j01.github.io/janitorial-android/#level-editor>
