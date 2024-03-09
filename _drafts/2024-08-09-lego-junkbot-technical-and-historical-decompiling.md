@@ -1,5 +1,5 @@
 ---
-title: 23 years ago today, LEGO's "Junkbot" game was released, one of the most popular LEGO.com games of all time
+title: 23 years ago today, LEGO's Junkbot game was released, one of the most popular LEGO.com games of all time 🤖🧱
 author: Jake Lee
 layout: post
 image: https://logos.fandom.com/wiki/Lego_Junkbot?file=Junkbot.png
@@ -15,11 +15,23 @@ links to key parts (playing online, MOCs)
 
 ## Todo
 
-- What is junkbot?
-- How to install & play
 - What inspired junkbot
+- Finish people
 - Junkbot decompiled
+- Junkbot undercover
 - Conclusion
+
+## What is Junkbot?
+
+Junkbot is a puzzle game from 2001 with 60 levels, previously hosted on LEGO.com. Junkbot relentlessly walks forward, turning around when hitting a wall, the goal is to eat all the trashcans in a level.
+
+There are environmental threats (fire, drips, fans, springs)[^hazards] and enemies (gearbot, climbbot, flybot), but the main challenge is just getting Junkbot around the level without dying. Whilst most levels can be solved through trial and error, there is also an optional maximum moves target for each level.
+
+|                                                       Guide                                                        |                                                      Gameplay                                                       |
+| :----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+| [![Junkbot in-game guide](/assets/images/2024/junkbot-guide-thumbnail.png)](/assets/images/2024/junkbot-guide.png) | [![Junkbot gameplay](/assets/images/2024/junkbot-gameplay-thumbnail.png)](/assets/images/2024/junkbot-gameplay.png) |
+
+[^hazards]: <https://en.brickimedia.org/wiki/Junkbot#Hazards>
 
 ## Timeline
 
@@ -50,25 +62,47 @@ _Interest since 2004 (earliest available) for "Junkbot", from Google Trends[^tre
 [^lego-redesign]: <https://winners.webbyawards.com/2012/websites-and-mobile-sites/general-websites-and-mobile-sites/retail/148871/lego-e-commerce-redesign>
 [^trends]: <https://trends.google.com/trends/explore?date=all&q=junkbot&hl=en-GB>
 
-## What is Junkbot?
-
-https://en.brickimedia.org/wiki/Junkbot
-
 ## How can I play Junkbot?
 
-Mention online exists, link to later section of article, but original guide too
-
-### Installing Flashpoint Infinity
+Whilst you absolutely can install and play the original Junkbot, I'd actually recommend [a HTML5 remake](https://1j01.github.io/janitorial-android/#junkbot) (more info later in [Play Junkbot online](#play-junkbot-online)) for ease of use. It's missing the music (for copyright reasons), but has extra features!
 
 ### Installing Junkbot
 
+If you'd rather play the original, the Flashpoint Archive project can help ([FAQs](https://flashpointarchive.org/faq)). It's on [Windows](https://flashpointarchive.org/downloads), [Mac](https://flashpointarchive.org/datahub/Mac_Support) & [Linux](https://flashpointarchive.org/datahub/Linux_Support), and currently makes 150k+ old Flash / Macromedia games playable.
+
+1. **Download [Flashpoint Infinity](https://flashpointarchive.org/downloads)**: "Ultimate" includes all games and is _massive_, you don't want that!
+2. **Run the installer**: I only installed the "Core Components", since games prompt for any additional extensions they need.
+3. **Open Flashpoint & search for Junkbot**: The program can be a little unresponsive, but Junkbot should eventually show up.
+4. **Play**!
+
+|                                                              Installing Flashpoint                                                               |                                                           Searching for Junkbot                                                            | Playing Junkbot                                                                                                                  |
+| :----------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------------------------------------------------------------------- |
+| [![Installing Flashpoint](/assets/images/2024/junkbot-flashpoint-installer-thumbnail.png)](/assets/images/2024/junkbot-flashpoint-installer.png) | [![Searching for Junkbot](/assets/images/2024/junkbot-flashpoint-browse-thumbnail.png)](/assets/images/2024/junkbot-flashpoint-browse.png) | [![Playing Junkbot](/assets/images/2024/junkbot-flashpoint-play-thumbnail.png)](/assets/images/2024/junkbot-flashpoint-play.png) |
+
 - Note flashpoint files have a date of 24/12/1996... https://www.reddit.com/r/emulation/comments/64ekk3/how_come_some_gba_games_have_12241996_as_last/
+
+## Technical
+
+### How was Junkbot created?
+
+Junkbot was created in the now abandoned Adobe Director, a less popular relative of Adobe Flash. To decompile the game files I used "[ProjectorRays](https://github.com/ProjectorRays/ProjectorRays)", and [wrote a full decompiling guide](https://blog.jakelee.co.uk/decompiling-adobe-director-files/).
+
+### Are there any secrets?
+
+- Get flash decompiler, look inside the files
+- Note some pieces have been found: https://tcrf.net/Junkbot
 
 ## About Junkbot
 
 ### Who created Junkbot?
 
 Junkbot was created by "gameLab", a company of 6 founded in early 2001 by Eric Zimmerman and Peter Lee "simply because we wanted to make games"[^vice]. They quickly found work creating web games for LEGO.com due to their connections made whilst working on the extremely popular Sissyfight 2000[^sissyfight]. gameLab's story has been told in detail elsewhere (e.g. [Wikipedia](https://en.wikipedia.org/wiki/Gamelab)), with a LEGO podcast episode centred around Junkbot[^lego-podcast] ([transcript](https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf)).
+
+The game includes credits, although the nature of a small company is roles aren't very strictly defined! For example, Peter is listed as contributing to Art, Code, and Project Management, but also credit for the "cheeky design of the Junkbot itself ... Peter Lee deserves credit for that original design"[^junkbot-design].
+
+[![Junkbot credits](/assets/images/2024/junkbot-credits.png)](/assets/images/2024/junkbot-credits.png)
+
+[^junkbot-design]: <https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf> (Page 16)
 
 These names are mostly taken from gameLab's website in October 2001[^gamelab-people] and are all included in Junkbot's August 9th press release[^junkbot-release-date]. I've included their bios verbatim, plus added information on their work in the last 20 years when appropriate. It's worth noting the extraordinarily high levels of continued collaboration even decades later, and how most continued to publicly talk about games and educate others.
 
@@ -163,17 +197,6 @@ She later ended up working at gameLab (and many other studios) as a Game Designe
 gameLab design process: https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7.1.108
 
 ### Junkbot Undercover
-
-## Technical
-
-### How was Junkbot created?
-
-Junkbot was created in the now abandoned Adobe Director, a less popular relative of Adobe Flash. To decompile the game files I used "[ProjectorRays](https://github.com/ProjectorRays/ProjectorRays)", and [wrote a full decompiling guide](https://blog.jakelee.co.uk/decompiling-adobe-director-files/).
-
-### Are there any secrets?
-
-- Get flash decompiler, look inside the files
-- Note some pieces have been found: https://tcrf.net/Junkbot
 
 ## Junkbot's legacy
 
