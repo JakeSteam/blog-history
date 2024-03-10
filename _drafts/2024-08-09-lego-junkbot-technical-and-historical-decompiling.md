@@ -14,19 +14,15 @@ Junkbot: The mysterious little LEGO robot that relentlessly walked forward, and 
 
 This is a (very) long post, so you might want to skip straight to "[How can I play Junkbot today?](#how-can-i-play-junkbot)", or "[Are there any secrets?](#are-there-any-secrets)".
 
-## Todo
-
-- What inspired junkbot
-- Finish people
-- Junkbot decompiled
-- Junkbot undercover
-- Conclusion
-
 ## What is Junkbot?
 
 Junkbot is a puzzle game from 2001 with 60 levels, previously hosted on LEGO.com. Junkbot relentlessly walks forward, turning around when hitting a wall, the goal is to eat all the trashcans in a level.
 
 There are environmental threats (fire, drips, fans, springs)[^hazards] and enemies (gearbot, climbbot, flybot), but the main challenge is just getting Junkbot around the level without dying. Whilst most levels can be solved through trial and error, there is also an optional maximum moves target for each level.
+
+Junkbot itself is perhaps summarised best by [Naomi Clark](#naomi-clark-lego-web--digital-producer)[^lego-podcast]:
+
+> He's not super-powered. He just likes to eat trash ... He's a robot whose goal in life is to eat trash.
 
 |                                                       Guide                                                        |                                                      Gameplay                                                       |
 | :----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
@@ -102,7 +98,7 @@ This level editor has all the features you'd expect: selecting bricks to place, 
 
 #### Secret level names
 
-Before the game's 60 levels were organised into 4 buildings, draft versions were built by various developers (mostly [Frank](#frank-latz-director-of-game-design) and [Eric](#eric-zimmerman-founder--ceo), with some by James(?), [Nick](#nicholas-fortugno-game-designer), [Ranjit](#ranjit-bhatnagar-director-of-rd), and [Peter](#peter-lee-founder--president)).
+Before the game's 60 levels were organised into 4 buildings, draft versions were built by various developers (mostly [Frank](#frank-lantz-director-of-game-design) and [Eric](#eric-zimmerman-founder--ceo), with some by James(?), [Nick](#nicholas-fortugno-game-designer), [Ranjit](#ranjit-bhatnagar-director-of-rd), and [Peter](#peter-lee-founder--president)).
 
 How do I know who made the levels? There's [a text file with the level names and authors](https://github.com/JakeSteam/junkbot-code/blob/main/files/catalog/catalog%20text.txt)!
 
@@ -140,11 +136,11 @@ Zimmerman has continued creating / writing about / speaking about games _relentl
 
 Lee (no relation) has continued contributing to games (often with Zimmerman) since his time at gameLab, including "Additional Thanks" in 2013's Rogue Legacy[^peter-lee-thanks]. He has since helped start gaming festivals and nonprofit schools[^lee-schools], a Korean "big game" (e.g. immersive experience) design studio Nolgong[^nolgong], and speaks at events worldwide (e.g. Germany[^lee-germany], Hong Kong[^lee-hong-kong]).
 
-#### Frank Latz (Director of Game Design)
+#### Frank Lantz (Director of Game Design)
 
 > Before joining gameLab, Frank was Creative Director of the New York design firm R/GA Interactive, where he worked on a wide variety of game projects including the PC games Gearheads and The Robot Club, as well as multiple online and site-based games for such clients as Microsoft, Sony, The Discovery Channel, NASDAQ, and Children's Television Workshop. Frank is a member of the faculty of NYU's Interactive Telecommunications Program, where he teaches classes in game design and interactive narrative. His writing on games, technology and culture has appeared in a variety of publications. Frank is also the co-designer of several massively multiplayer real-world conference games including Quorum for the Re:Play Conference, MANIFESTO for AIGA's Collison conference, and LiNK for Flashforward 2000.
 
-Lantz (along with plenty of other former gameLab employees) teaches at NYU Game Center[^lantz-interview], and continues to create games. This includes. Many of his talks, papers, and games (e.g. Junkbot!) are available on [franklantz. net](https://www.franklantz.net/).
+Lantz (along with plenty of other former gameLab employees) teaches at NYU Game Center[^lantz-interview], and continues to create games. This includes. Many of his talks, papers, and games (e.g. Junkbot!) are available on [franklantz.net](https://www.franklantz.net/).
 
 Unbelievably, I've spent many hours with one of Lantz's recent games (2017): [Universal Paperclips](https://decisionproblem.com/paperclips/)[^lantz-paperclips]. This is one of the most popular incremental / clicker games of all time, with a detailed Wikipedia article[^paperclips-wiki] and "In the first 11 days, 450,000 people played the game, most to completion"[^paperclips-wired]. It is based on the "[paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)" AI thought experiment, even more relevant today with the relentless pace of AI innovation.
 
@@ -153,6 +149,8 @@ Unbelievably, I've spent many hours with one of Lantz's recent games (2017): [Un
 > Ranjit has been involved with digital art on the Internet before the Web ever existed: he helped found sito.org, a pre-WWW collaborative arts community. For the last several years, Ranjit has been on the board of SCAN, an old-school annual digital arts conference dating back to 1979 . Ranjit was a member of the original design and implementation team for the Philadelphia Inquirer¹s website. Later, he worked as the Director of Technology at Word Magazine, where he led the technical development of the art toy Pixeltime (pixeltime.com) and the award-winning multiplayer game Sissyfight (www.sissyfight.com). Unsatisfied merely making games for a living, in his spare time Ranjit creates alternative musical instruments, such as the Silence Organ and the MIDI Ironing Board. His art and installations have appeared in solo and group exhibitions in California and Pennsylvania. Personal site: www.moonmilk.com.
 
 Bhatnagar has maintained [moonmilk.com](https://moonmilk.com/) for the past 30(!) years, writing articles about various creative _things_ he has been up to. Music, writing, programming, art, photography[^ranjit-photography], it's got it all.
+
+Additionally, according to Brian Crecente[^lego-podcast]: "_Of all the games he worked on Ranjit Bhatnagar said that Junkbot remains his favorite_".
 
 [^ranjit-photography]: <https://www.flickr.com/photos/ranjit/with/52755632468/>
 
@@ -204,17 +202,47 @@ She later ended up working at gameLab (and many other studios) as a Game Designe
 
 ### What inspired Junkbot?
 
-"Peter Lee deserves credit for that original design." (podcast)
-
-- Interview here: https://www.bzpower.com/topic/31378-the-history-of-junkbot/
-
-  - Full transcript!!! https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf
-
 "less than half a year of development" (podcast)
 
-gameLab design process: https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7.1.108
+As shown by the [draft list of levels](#secret-level-names), most gameLab employees contributed to Junkbot in one way or another. Due to the highly collaborative nature of gameLab's design process (see next section), it's perhaps impossible to determine exactly who contributed what.
 
-### Junkbot Undercover
+Most of the details in this section are from a detailed podcast with some former gameLab / LEGO employees in 2021[^lego-podcast], with [a transcript available](https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf). The podcast covers Junkbot, LEGO's game making process, and related topics.
+
+The original idea pitched to LEGO as gameLab's first provided game was, according to gameLab CEO Eric Zimmerman:
+
+> about a character that walked on its own, in a sort of a 2D platformer kind of world, and that you were building staircases and moving LEGO bricks around to kind of help them get around.
+
+Eric describes the "important design lesson" the team learned in creating Junkbot, as unlike most games where the core mechanic drives the game, in Junkbot:
+
+> Sometimes you make a cake and it's so good you don't need the frosting, and other times
+> the frosting makes the cake. So in the case of Junkbot, it was the frosting.
+>
+> ...we had a hard time making levels. We just had to add stuff to the game. We had to add obstacles, hazards, enemies, power-ups, and then the game started getting fun
+
+By this, he means the core mechanic of Junkbot walking and the player moving LEGO bricks is the "cake". It works, it's functional, but it doesn't provide much fun. The enemies, hazards, and hints of story are the "frosting" that make the game what it is. Or, in his words: "the core mechanic was conceptually interesting but experientially lacking".
+
+The team evidently spent a lot of time on this core mechanic, as [Michael (Sound Design)](#michael-sweet-music--sound-design) "_sent us dozens of different prototypes for the sounds of bricks clicking together and the sound of bricks being pried apart_". Similarly, "_we had tons of brainstorming meetings, talking about possibilities for, how do you make something that feels like pulling apart and sticking together these LEGO bricks, but also then becomes a really challenging and interesting and fun game?_".
+
+This focus on LEGO bricks and their interactions were likely influenced by LEGO's [Naomi](#naomi-clark-lego-web--digital-producer), as she "_was kind of really interested in making games that were genuine expressions of the fun of LEGO bricks as a toy_".
+
+One certainty is around the Junkbot character itself's appearance, which according to Eric: "_Peter Lee deserves credit for that original design ... I guess there's a sort of R2-D2, like cute robot pet appeal to Junkbot._"
+
+#### gameLab's design process
+
+There's an absolutely excellent academic paper by Alice J. Daer in 2010 focused on gameLab's design processes[^design-processes], and covers them in far more detail than I ever could. The information is mostly provided by [Nick Fortugno](#nicholas-fortugno-game-designer), and covers collaboration within the team, designing experiences not levels, what it means to design, and far more. A few select quotes:
+
+- "_In sum, making games at Gamelab was a deeply contemplated effort, one that incorporated regular deliberative practices and reflections on those practices._" (Alice)
+- "_each member of the team was expected to be an equal contributor_" (Alice)
+- "_employees were given a monthly allowance so that they could purchase games and game-related things to help stimulate their creativity and knowledge of a variety of ideas and rule systems_" (Alice)
+- "_You can design a kind of emotional response. You can design a mental, physical, and social response and that’s when it’s interesting, because those things become meaningful experiences for people._" (Nick)
+- "_I noticed that Nick, as the lead on the project, turned the argument into a teaching moment, trying to lead Mattia to the same conclusions that he, Nick, had already reached._" (Alice)
+- "_Ultimately, an argument was settled through building the game prototype or level and then playing it_" (Alice)
+
+I'd highly recommend giving the full paper a read if at all interested in game design: <https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7.1.108>
+
+Note that Junkbot is incorrectly referred to only as "Jumpbot" on page 10, suggesting even by 2010 gameLab's first LEGO game had been essentially forgotten!
+
+[^design-processes]: <https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7.1.108>
 
 ## Junkbot's legacy
 
@@ -271,6 +299,14 @@ This is just an arcade cabinet with Junkbot's colours and some stickers, but it'
 | [![Junkbot minifigure](/assets/images/2024/hauntedhouse-1-thumbnail.jpg)](/assets/images/2024/hauntedhouse-1.jpg) | [![hidden Junkbot minifigure](/assets/images/2024/hauntedhouse-2-thumbnail.jpg)](/assets/images/2024/hauntedhouse-2.jpg) |
 
 [^hauntedhouse-1]: <https://www.eurobricks.com/forum/index.php?/forums/topic/178084-review-creator-expert-10273-haunted-house/>
+
+### LEGO Builder's Journey
+
+With the excellent [LEGO Builder's Journey](https://store.steampowered.com/app/1544360/LEGO_Builders_Journey/) having many similarities to Junkbot, albeit in a more relaxed style, it might seem obvious that one inspired the other. Alas, this isn't the case, as described by Brian Crecente[^lego-podcast]:
+
+> I actually spoke with Karsten Lund, the Creative Director of Builder's Journey about it, and he said, he actually hadn't heard about Junkbot until after Builder's Journey was designed and someone at the LEGO Group pointed out that this other much earlier web game existed.
+
+> ... I can't help but think that, you know, two decades apart, you have these really thoughtful game designers sitting down and trying to figure out what is at the core of LEGO bricks and play and creation, and how can you translate that into something that's fun ... [they] came to the same conclusion and created two very different sorts of games with the same sort of idea at its heart
 
 ### Play Junkbot online
 
