@@ -24,6 +24,8 @@ Junkbot itself is perhaps summarised best by [Naomi Clark](#naomi-clark-lego-web
 
 > He's not super-powered. He just likes to eat trash ... He's a robot whose goal in life is to eat trash.
 
+There is a sequel, "[Junkbot Undercover](https://en.brickimedia.org/wiki/Junkbot_Undercover)", but this article is only interested in the first game!
+
 |                                                       Guide                                                        |                                                      Gameplay                                                       |
 | :----------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
 | [![Junkbot in-game guide](/assets/images/2024/junkbot-guide-thumbnail.png)](/assets/images/2024/junkbot-guide.png) | [![Junkbot gameplay](/assets/images/2024/junkbot-gameplay-thumbnail.png)](/assets/images/2024/junkbot-gameplay.png) |
@@ -76,7 +78,7 @@ If you'd rather play the original, the Flashpoint Archive project can help ([FAQ
 | :----------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------------------------------------------------------------------- |
 | [![Installing Flashpoint](/assets/images/2024/junkbot-flashpoint-installer-thumbnail.png)](/assets/images/2024/junkbot-flashpoint-installer.png) | [![Searching for Junkbot](/assets/images/2024/junkbot-flashpoint-browse-thumbnail.png)](/assets/images/2024/junkbot-flashpoint-browse.png) | [![Playing Junkbot](/assets/images/2024/junkbot-flashpoint-play-thumbnail.png)](/assets/images/2024/junkbot-flashpoint-play.png) |
 
-- Note flashpoint files have a date of 24/12/1996... https://www.reddit.com/r/emulation/comments/64ekk3/how_come_some_gba_games_have_12241996_as_last/
+Note the game files provided by Flashpoint have a created date of 24/12/1996. This is unrelated to Junkbot, and is [a quirk of the utility "TorrentZIP"](https://www.reddit.com/r/emulation/comments/64ekk3/how_come_some_gba_games_have_12241996_as_last/).
 
 ## Technical
 
@@ -114,7 +116,7 @@ More importantly than the actual level names however, is the variety of people c
 
 ### Who created Junkbot?
 
-Junkbot was created by "gameLab", a company of 6 founded in early 2001 by Eric Zimmerman and Peter Lee "simply because we wanted to make games"[^vice]. They quickly found work creating web games for LEGO.com due to their connections made whilst working on the extremely popular Sissyfight 2000[^sissyfight]. gameLab's story has been told in detail elsewhere (e.g. [Wikipedia](https://en.wikipedia.org/wiki/Gamelab)), with a LEGO podcast episode centred around Junkbot[^lego-podcast] ([transcript](https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf)).
+Junkbot was created by "gameLab", a company of 6 founded in early 2001 by Eric Zimmerman and Peter Lee "_simply because we wanted to make games_"[^vice]. They quickly found work creating web games for LEGO.com due to their connections made whilst working on the extremely popular Sissyfight 2000[^sissyfight]. gameLab's story has been told in detail elsewhere (e.g. [Wikipedia](https://en.wikipedia.org/wiki/Gamelab)), with a LEGO podcast episode centred around Junkbot[^lego-podcast] ([transcript](https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf)).
 
 The game includes credits, although the nature of a small company is roles aren't very strictly defined! For example, Peter is listed as contributing to Art, Code, and Project Management, but also credit for the "cheeky design of the Junkbot itself ... Peter Lee deserves credit for that original design"[^junkbot-design].
 
@@ -202,9 +204,9 @@ She later ended up working at gameLab (and many other studios) as a Game Designe
 
 ### What inspired Junkbot?
 
-"less than half a year of development" (podcast)
+As shown by the [draft list of levels](#secret-level-names), most gameLab employees contributed to Junkbot in one way or another. Due to the highly collaborative nature of gameLab's design process (see next section), it's perhaps impossible to determine exactly who contributed what during the game's < 6 month development[^half-a-year].
 
-As shown by the [draft list of levels](#secret-level-names), most gameLab employees contributed to Junkbot in one way or another. Due to the highly collaborative nature of gameLab's design process (see next section), it's perhaps impossible to determine exactly who contributed what.
+[^half-a-year]: "Junkbot hit LEGO.com in 2001 after less than half a year of development." <https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf>
 
 Most of the details in this section are from a detailed podcast with some former gameLab / LEGO employees in 2021[^lego-podcast], with [a transcript available](https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf). The podcast covers Junkbot, LEGO's game making process, and related topics.
 
@@ -240,7 +242,7 @@ There's an absolutely excellent academic paper by Alice J. Daer in 2010 focused 
 
 I'd highly recommend giving the full paper a read if at all interested in game design: <https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7.1.108>
 
-Note that Junkbot is incorrectly referred to only as "Jumpbot" on page 10, suggesting even by 2010 gameLab's first LEGO game had been essentially forgotten!
+Note that Junkbot is incorrectly referred to only as "Jumpbot" on page 10, suggesting even by 2010 gameLab's first LEGO game had dropped from the public consciousness!
 
 [^design-processes]: <https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7.1.108>
 
@@ -270,7 +272,7 @@ In addition to builds of Junkbot itself, there's been all kinds of related conte
 
 ### Official LEGO easter eggs
 
-Junkbot clearly has fans within LEGO too, since he continues to pop up in odd little places now and then. These two sets are explicitly mentioned in a "Bits N' Bricks" podcast, there may be others out there!
+Junkbot clearly has fans within LEGO too, since it continues to pop up in odd little places now and then. These two sets are explicitly mentioned in a "Bits N' Bricks" podcast, there may be others out there!
 
 > The little bot Junkbot, or references to it, have popped up in a Ninjago theme set and the Haunted House set as well[^podcast-transcript]
 
@@ -292,7 +294,7 @@ This is just an arcade cabinet with Junkbot's colours and some stickers, but it'
 
 #### 10273: Haunted House
 
-2020's [Haunted House set](https://www.lego.com/en-us/product/haunted-house-10273) is even further detached from Junkbot, and far more subtle!
+2020's [Haunted House set](https://www.lego.com/en-us/product/haunted-house-10273) is even further detached from Junkbot, and the presence is far more subtle!
 
 |                                           Minifigure [^hauntedhouse-1]                                            |                                     In disguise as a "box of junk" [^hauntedhouse-1]                                     |
 | :---------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
@@ -328,5 +330,11 @@ There are tens of additional ideas on the [project's GitHub page](?tab=readme-ov
 [^html5-sound-effects]: <https://github.com/1j01/janitorial-android?tab=readme-ov-file#some-sounds-taken-from>
 
 ## Conclusion
+
+I spent tens of hours playing Junkbot as a child, although I'm sure most of that time was in the first few levels! Junkbot's excellent character design just made the game irresistable, especially at a time when the quality of web games was typically very low.
+
+Junkbot's legacy lives on via projects like Flashpoint, references within LEGO sets, and unofficial rewrites. I hope it makes a proper return one day, I feel like Junkbot never quite got the attention it deserved! Hopefully this article helps the legacy last a little bit longer, and remind people of the little trash-loving robot that just keeps walking.
+
+![Junkbot walking to the right](/assets/images/2024/junkbot-conclusion.png)
 
 ## References
