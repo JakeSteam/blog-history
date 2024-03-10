@@ -2,16 +2,17 @@
 title: 23 years ago today, LEGO's Junkbot game was released, one of the most popular LEGO.com games of all time 🤖🧱
 author: Jake Lee
 layout: post
-image: https://logos.fandom.com/wiki/Lego_Junkbot?file=Junkbot.png
+image: /assets/images/2024/junkbot-banner.png
 tags:
+  - 2001
   - LEGO
   - Gaming
 maxheader: 3
 ---
 
-intro to junkbot
+Junkbot: The mysterious little LEGO robot that relentlessly walked forward, and deserved far more attention than it ever received. 23 years ago, the first of 2 games featuring the orange walker was released on LEGO.com! Who made it, and where is Junkbot today?
 
-links to key parts (playing online, MOCs)
+This is a (very) long post, so you might want to skip straight to "[How can I play Junkbot today?](#how-can-i-play-junkbot)", or "[Are there any secrets?](#are-there-any-secrets)".
 
 ## Todo
 
@@ -87,10 +88,31 @@ If you'd rather play the original, the Flashpoint Archive project can help ([FAQ
 
 Junkbot was created in the now abandoned Adobe Director, a less popular relative of Adobe Flash. To decompile the game files I used "[ProjectorRays](https://github.com/ProjectorRays/ProjectorRays)", and [wrote a full decompiling guide](https://blog.jakelee.co.uk/decompiling-adobe-director-files/).
 
+Whilst working on this post I also [open sourced Junkbot](https://blog.jakelee.co.uk/lego-junkbot-files-and-director-tips/), meaning all the game's code and assets are now [available on GitHub](https://github.com/JakeSteam/junkbot-code)! This lets you dive into how every feature within the game works, like dynamically generated animations, all implemented using the obscure language "Lingo".
+
 ### Are there any secrets?
 
-- Get flash decompiler, look inside the files
-- Note some pieces have been found: https://tcrf.net/Junkbot
+There are some!
+
+#### Level editor
+
+First, there's a level editor used by the developers to create the game's levels. This was accessible via a button in each level, and [all of the code still exists in the game](https://github.com/JakeSteam/junkbot-code/tree/main/files/editor).
+
+This level editor has all the features you'd expect: selecting bricks to place, checking a brick fits, editing levels, exporting to text, and more. I couldn't get this actually running in the game, but it exists!
+
+#### Secret level names
+
+Before the game's 60 levels were organised into 4 buildings, draft versions were built by various developers (mostly [Frank](#frank-latz-director-of-game-design) and [Eric](#eric-zimmerman-founder--ceo), with some by James(?), [Nick](#nicholas-fortugno-game-designer), [Ranjit](#ranjit-bhatnagar-director-of-rd), and [Peter](#peter-lee-founder--president)).
+
+How do I know who made the levels? There's [a text file with the level names and authors](https://github.com/JakeSteam/junkbot-code/blob/main/files/catalog/catalog%20text.txt)!
+
+This is obviously an informal, casual level list, with some particular highlights being:
+
+- _"Shit Stormsof Floaters by Eric (exciting!!! )"_
+- _"Temple of Doom! by Eric (hard (but not too frustrating) complex level )"_
+- _"fires and fans by Eric (a few ways to solve it... )"_
+
+More importantly than the actual level names however, is the variety of people creating levels. The fact everyone from the CEO to Programmers are playing around and making levels show up involved the entire team was with Junkbot.
 
 ## About Junkbot
 
@@ -122,7 +144,7 @@ Lee (no relation) has continued contributing to games (often with Zimmerman) sin
 
 > Before joining gameLab, Frank was Creative Director of the New York design firm R/GA Interactive, where he worked on a wide variety of game projects including the PC games Gearheads and The Robot Club, as well as multiple online and site-based games for such clients as Microsoft, Sony, The Discovery Channel, NASDAQ, and Children's Television Workshop. Frank is a member of the faculty of NYU's Interactive Telecommunications Program, where he teaches classes in game design and interactive narrative. His writing on games, technology and culture has appeared in a variety of publications. Frank is also the co-designer of several massively multiplayer real-world conference games including Quorum for the Re:Play Conference, MANIFESTO for AIGA's Collison conference, and LiNK for Flashforward 2000.
 
-Lantz (along with plenty of other former gameLab employees) teaches at NYU Game Center[^lantz-interview], and continues to create games. This includes. Many of his talks, papers, and games (e.g. Junkbot!) are available on [franklantz.net](https://www.franklantz.net/).
+Lantz (along with plenty of other former gameLab employees) teaches at NYU Game Center[^lantz-interview], and continues to create games. This includes. Many of his talks, papers, and games (e.g. Junkbot!) are available on [franklantz. net](https://www.franklantz.net/).
 
 Unbelievably, I've spent many hours with one of Lantz's recent games (2017): [Universal Paperclips](https://decisionproblem.com/paperclips/)[^lantz-paperclips]. This is one of the most popular incremental / clicker games of all time, with a detailed Wikipedia article[^paperclips-wiki] and "In the first 11 days, 450,000 people played the game, most to completion"[^paperclips-wired]. It is based on the "[paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)" AI thought experiment, even more relevant today with the relentless pace of AI innovation.
 
@@ -133,10 +155,6 @@ Unbelievably, I've spent many hours with one of Lantz's recent games (2017): [Un
 Bhatnagar has maintained [moonmilk.com](https://moonmilk.com/) for the past 30(!) years, writing articles about various creative _things_ he has been up to. Music, writing, programming, art, photography[^ranjit-photography], it's got it all.
 
 [^ranjit-photography]: <https://www.flickr.com/photos/ranjit/with/52755632468/>
-
-#### Peter Nicolai (Game Programmer)
-
-> Peter Nicolai graduated in 2001 from NYU's Interactive Telecommunications Program. There, he attended game design and programming classes taught by gameLab staff members Eric Zimmerman, Frank Lantz and Peter Lee, in which he was the subject of many strange experiments that he does not remember. He now works at gameLab. Past experience: Peter used to play accordion in a rock/cabaret band. He was a production assistant on the TV show Mystery Science Theater 3000. Other things he has done for a living include toy-store display construction, grading elementary-school reading tests and painting ceramic fish. Outside of gameLab, he is involved in various game, music and video projects.
 
 #### Nicholas Fortugno (Game Designer)
 
