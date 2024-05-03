@@ -12,11 +12,11 @@ maxheader: 3
 
 Junkbot: The mysterious little LEGO robot that relentlessly walked forward, and deserved far more attention than it ever received. 23 years ago, the first of 2 games featuring the orange walker was released on LEGO.com! Who made it, and where is Junkbot today?
 
-This is a (very) long post, so you might want to skip straight to "[How can I play Junkbot today?](#how-can-i-play-junkbot)", or "[Are there any secrets?](#are-there-any-secrets)".
+This is a long article (4k+ words), so you might want to skip straight to "[How can I play Junkbot today?](#how-can-i-play-junkbot)", or "[Are there any secrets?](#are-there-any-secrets)"!
 
 ## What is Junkbot?
 
-Junkbot is a puzzle game from 2001 with 60 levels, previously hosted on LEGO.com. Junkbot relentlessly walks forward, turning around when hitting a wall, the goal is to eat all the trashcans in a level.
+Junkbot is a puzzle game from 2001 with 60 levels, previously hosted on LEGO.com. Junkbot relentlessly walks forward, turning around when hitting a wall, with the goal of eating all the trashcans in a level.
 
 There are environmental threats (fire, drips, fans, springs)[^hazards] and enemies (gearbot, climbbot, flybot), but the main challenge is just getting Junkbot around the level without dying. Whilst most levels can be solved through trial and error, there is also an optional maximum moves target for each level.
 
@@ -36,10 +36,10 @@ There is a sequel, "[Junkbot Undercover](https://en.brickimedia.org/wiki/Junkbot
 
 - **Spring 2000**: gameLab (Junkbot's creator) founded[^gamelab-founded].
 - **October 2000**: gameLab's NYC office opened[^gamelab-office].
-- **August 9th 2001**: Junkbot released[^junkbot-released] (also shown on gameLab's [Junkbot page](https://web.archive.org/web/20031009033531/http://gmlb.com/games/junkbot.html) and in a LEGO press release[^lugnet]).
+- **August 9th 2001**: Junkbot released[^junkbot-released] (also shown on gameLab's Junkbot page[^junkbot-on-gmlb] and in a LEGO press release[^lugnet]).
 - **September / October 2001**: First mentioned in official LEGO mania magazine[^mania].
 - **October 5th 2001**: First archive.org mention of Junkbot on LEGO's site[^archive-first].
-- **August 3rd 2002**: First archive.org copy of Junkbot game files.[^archive-first-files].
+- **August 3rd 2002**: First archive.org copy of Junkbot game files[^archive-first-files].
 - **October 24th 2003**: Junkbot included in a case study by gameLab's CEO for "Design Research"[^case-study].
 - **September 29th 2009**: gameLab acquired[^gamelab-acquired].
 - **July 31st - September 30th 2012**: Junkbot is removed from LEGO.com ([July 30th](https://web.archive.org/web/20120730042921/http://www.lego.com/build/junkbot/junkbot.asp?x=x&login=0), [September 30th](https://web.archive.org/web/20120930001653/http://www.lego.com:80/build/junkbot/junkbot.asp?x=x&login=0)), likely as part of the 2012's site-wide redesign[^lego-redesign](?).
@@ -52,6 +52,7 @@ _Interest since 2004 (earliest available) for "Junkbot", from Google Trends[^tre
 [^gamelab-office]: <https://web.archive.org/web/20011027060409/http://www.gmlb.com/pr1.html>
 [^junkbot-released]: <https://web.archive.org/web/20011027062145/http://www.gmlb.com/pr4.html>
 [^lugnet]: <https://news.lugnet.com/lego/announce/?n=39>
+[^junkbot-on-gmlb]: <https://web.archive.org/web/20031009033531/http://gmlb.com/games/junkbot.html>
 [^mania]: <https://www.parrygamepreserve.com/media/magazines/lego_mania_magazine/2001/lego_mania_magazine_2001_09_September.php> (specifically [Page 23](https://www.parrygamepreserve.com/images/media/magazines/lego_mania_magazine/2001/09_September/lego_mania_magazine_2001_09_September_14_L.jpg))
 [^archive-first]: <https://web.archive.org/web/20011005164311/http://www.lego.com:80/build/>
 [^archive-first-files]: <https://web.archive.org/web/20020803205407/http://www.lego.com:80/build/junkbot/junkbot.asp?x=x&login=0>
@@ -67,7 +68,7 @@ Whilst you absolutely can install and play the original Junkbot, I'd actually re
 
 ### Installing Junkbot
 
-If you'd rather play the original, the Flashpoint Archive project can help ([FAQs](https://flashpointarchive.org/faq)). It's on [Windows](https://flashpointarchive.org/downloads), [Mac](https://flashpointarchive.org/datahub/Mac_Support) & [Linux](https://flashpointarchive.org/datahub/Linux_Support), and currently makes 150k+ old Flash / Macromedia games playable.
+If you'd rather play the original, the Flashpoint Archive project can help ([FAQs](https://flashpointarchive.org/faq)). It's on [Windows](https://flashpointarchive.org/downloads), [Mac](https://flashpointarchive.org/datahub/Mac_Support) & [Linux](https://flashpointarchive.org/datahub/Linux_Support), and currently makes 150k+ old Flash / Macromedia games playable. Here's how to set it up:
 
 1. **Download [Flashpoint Infinity](https://flashpointarchive.org/downloads)**: "Ultimate" includes all games and is _massive_, you don't want that!
 2. **Run the installer**: I only installed the "Core Components", since games prompt for any additional extensions they need.
@@ -86,7 +87,7 @@ Note the game files provided by Flashpoint have a created date of 24/12/1996. Th
 
 Junkbot was created in the now abandoned Adobe Director, a less popular relative of Adobe Flash. To decompile the game files I used "[ProjectorRays](https://github.com/ProjectorRays/ProjectorRays)", and [wrote a full decompiling guide](https://blog.jakelee.co.uk/decompiling-adobe-director-files/).
 
-Whilst working on this post I also [open sourced Junkbot](https://blog.jakelee.co.uk/lego-junkbot-files-and-director-tips/), meaning all the game's code and assets are now [available on GitHub](https://github.com/JakeSteam/junkbot-code)! This lets you dive into how every feature within the game works, like dynamically generated animations, all implemented using the obscure language "Lingo".
+Whilst working on this post I also [open sourced Junkbot](https://blog.jakelee.co.uk/lego-junkbot-files-and-director-tips/), meaning all the game's code and assets are now [available on GitHub](https://github.com/JakeSteam/junkbot-code)! This lets you dive into how every feature within the game works, like dynamically generated animations, all implemented using the obscure language "[Lingo](<https://en.wikipedia.org/wiki/Lingo_(programming_language)>)".
 
 ### Are there any secrets?
 
@@ -110,7 +111,7 @@ This is obviously an informal, casual level list, with some particular highlight
 - _"Temple of Doom! by Eric (hard (but not too frustrating) complex level )"_
 - _"fires and fans by Eric (a few ways to solve it... )"_
 
-More importantly than the actual level names however, is the variety of people creating levels. The fact everyone from the CEO to Programmers are playing around and making levels show up involved the entire team was with Junkbot.
+More importantly than the actual level names however, is the variety of people creating levels. The fact everyone from the CEO to programmers are playing around and making levels show how invested the entire gameLab team was in Junkbot.
 
 ## About Junkbot
 
@@ -118,7 +119,7 @@ More importantly than the actual level names however, is the variety of people c
 
 Junkbot was created by "gameLab", a company of 6 founded in early 2001 by Eric Zimmerman and Peter Lee "_simply because we wanted to make games_"[^vice]. They quickly found work creating web games for LEGO.com due to their connections made whilst working on the extremely popular Sissyfight 2000[^sissyfight]. gameLab's story has been told in detail elsewhere (e.g. [Wikipedia](https://en.wikipedia.org/wiki/Gamelab)), with a LEGO podcast episode centred around Junkbot[^lego-podcast] ([transcript](https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf)).
 
-The game includes credits, although the nature of a small company is roles aren't very strictly defined! For example, Peter is listed as contributing to Art, Code, and Project Management, but also credit for the "cheeky design of the Junkbot itself ... Peter Lee deserves credit for that original design"[^junkbot-design].
+The game includes credits (image below), although the nature of a small company is roles often aren't very strictly defined! For example, Peter is listed as contributing to Art, Code, and Project Management, but also credit for the "cheeky design of the Junkbot itself ... [he] deserves credit for that original design"[^junkbot-design].
 
 [![Junkbot credits](/assets/images/2024/junkbot-credits.png)](/assets/images/2024/junkbot-credits.png)
 
@@ -136,7 +137,7 @@ Zimmerman has continued creating / writing about / speaking about games _relentl
 
 > Peter is a digital media renaissance man, equally skilled in visual design, game design, and game programming. Peter began his career as a designer for TIME online, where he designed the award-winning web content feature "Last call: Face of Alcoholism." He has held a number of positions since then, including Director of Technology at Churchill Communications, a New Jersey-based Medical Communication Company. where he managed web and CD-ROM projects and lead IT research and technical development. Peter also helped found the Game division at Funny Garbage, developing several online games for the Cartoon Network website. He currently holds an Adjunct Professorship at New York University's Interactive Telecommunications Program, where he teaches Game Development.
 
-Lee (no relation) has continued contributing to games (often with Zimmerman) since his time at gameLab, including "Additional Thanks" in 2013's Rogue Legacy[^peter-lee-thanks]. He has since helped start gaming festivals and nonprofit schools[^lee-schools], a Korean "big game" (e.g. immersive experience) design studio Nolgong[^nolgong], and speaks at events worldwide (e.g. Germany[^lee-germany], Hong Kong[^lee-hong-kong]).
+Lee (no relation) has continued contributing to games (often with Zimmerman) since his time at gameLab, including "Additional Thanks" in 2013's Rogue Legacy[^peter-lee-thanks]. He has since helped start gaming festivals and nonprofit schools[^lee-schools], a Korean "big game" (e.g. immersive experience) design studio Nolgong[^nolgong], and speaks at events worldwide (e.g. Germany[^lee-germany] & Hong Kong[^lee-hong-kong]).
 
 #### Frank Lantz (Director of Game Design)
 
@@ -144,7 +145,7 @@ Lee (no relation) has continued contributing to games (often with Zimmerman) sin
 
 Lantz (along with plenty of other former gameLab employees) teaches at NYU Game Center[^lantz-interview], and continues to create games. This includes. Many of his talks, papers, and games (e.g. Junkbot!) are available on [franklantz.net](https://www.franklantz.net/).
 
-Unbelievably, I've spent many hours with one of Lantz's recent games (2017): [Universal Paperclips](https://decisionproblem.com/paperclips/)[^lantz-paperclips]. This is one of the most popular incremental / clicker games of all time, with a detailed Wikipedia article[^paperclips-wiki] and "In the first 11 days, 450,000 people played the game, most to completion"[^paperclips-wired]. It is based on the "[paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)" AI thought experiment, even more relevant today with the relentless pace of AI innovation.
+Coincidentally, I've unknowingly spent many hours with one of Lantz's recent games (2017): [Universal Paperclips](https://decisionproblem.com/paperclips/)[^lantz-paperclips]. This is one of the most popular incremental / clicker games of all time, with a detailed Wikipedia article[^paperclips-wiki] and "In the first 11 days, 450,000 people played the game, most to completion"[^paperclips-wired]. It is based on the "[paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)" AI thought experiment, even more relevant today with the relentless pace of AI innovation.
 
 #### Ranjit Bhatnagar (Director of R&D)
 
@@ -204,7 +205,7 @@ She later ended up working at gameLab (and many other studios) as a Game Designe
 
 ### What inspired Junkbot?
 
-As shown by the [draft list of levels](#secret-level-names), most gameLab employees contributed to Junkbot in one way or another. Due to the highly collaborative nature of gameLab's design process (see next section), it's perhaps impossible to determine exactly who contributed what during the game's < 6 month development[^half-a-year].
+As shown by the [draft list of levels](#secret-level-names), most gameLab employees contributed directly to Junkbot in one way or another. Due to the highly collaborative nature of gameLab's design process (see next section), it's perhaps impossible to determine exactly who contributed what during the game's under 6 month development[^half-a-year].
 
 [^half-a-year]: "Junkbot hit LEGO.com in 2001 after less than half a year of development." <https://www.lego.com/cdn/cs/set/assets/blte95c26554f38a01a/bits_n_bricks_s03e29_feature_and_transcript.pdf>
 
@@ -221,7 +222,9 @@ Eric describes the "important design lesson" the team learned in creating Junkbo
 >
 > ...we had a hard time making levels. We just had to add stuff to the game. We had to add obstacles, hazards, enemies, power-ups, and then the game started getting fun
 
-By this, he means the core mechanic of Junkbot walking and the player moving LEGO bricks is the "cake". It works, it's functional, but it doesn't provide much fun. The enemies, hazards, and hints of story are the "frosting" that make the game what it is. Or, in his words: "the core mechanic was conceptually interesting but experientially lacking".
+By this, he presumably means the core mechanic of Junkbot walking and the player moving LEGO bricks is the "cake". It works, it's functional, but it doesn't provide much fun. The enemies, hazards, and hints of story are the "frosting" that make the game what it is. Or, in his words:
+
+> The core mechanic was conceptually interesting but experientially lacking.
 
 The team evidently spent a lot of time on this core mechanic, as [Michael (Sound Design)](#michael-sweet-music--sound-design) "_sent us dozens of different prototypes for the sounds of bricks clicking together and the sound of bricks being pried apart_". Similarly, "_we had tons of brainstorming meetings, talking about possibilities for, how do you make something that feels like pulling apart and sticking together these LEGO bricks, but also then becomes a really challenging and interesting and fun game?_".
 
@@ -240,9 +243,9 @@ There's an absolutely excellent academic paper by Alice J. Daer in 2010 focused 
 - "_I noticed that Nick, as the lead on the project, turned the argument into a teaching moment, trying to lead Mattia to the same conclusions that he, Nick, had already reached._" (Alice)
 - "_Ultimately, an argument was settled through building the game prototype or level and then playing it_" (Alice)
 
-I'd highly recommend giving the full paper a read if at all interested in game design: <https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7.1.108>
+I'd highly recommend giving the full (free) paper a read if at all interested in game design: <https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7.1.108>
 
-Note that Junkbot is incorrectly referred to only as "Jumpbot" on page 10, suggesting even by 2010 gameLab's first LEGO game had dropped from the public consciousness!
+Note that Junkbot is incorrectly referred to only as "Jumpbot" on page 10, suggesting even by 2010 gameLab's first LEGO game had mostly dropped from the public consciousness!
 
 [^design-processes]: <https://journals.sagepub.com/doi/pdf/10.2304/elea.2010.7.1.108>
 
@@ -333,7 +336,7 @@ There are tens of additional ideas on the [project's GitHub page](?tab=readme-ov
 
 I spent tens of hours playing Junkbot as a child, although I'm sure most of that time was in the first few levels! Junkbot's excellent character design just made the game irresistable, especially at a time when the quality of web games was typically very low.
 
-Junkbot's legacy lives on via projects like Flashpoint, references within LEGO sets, and unofficial rewrites. I hope it makes a proper return one day, I feel like Junkbot never quite got the attention it deserved! Hopefully this article helps the legacy last a little bit longer, and remind people of the little trash-loving robot that just keeps walking.
+Junkbot's legacy lives on via projects like Flashpoint, references within LEGO sets, and unofficial rewrites. I hope it makes a proper return one day, I feel like Junkbot never quite got the attention it deserved! Hopefully this article helps the legacy last a little bit longer, and reminds people of the little trash-loving robot that just keeps walking.
 
 ![Junkbot walking to the right](/assets/images/2024/junkbot-conclusion.png)
 
