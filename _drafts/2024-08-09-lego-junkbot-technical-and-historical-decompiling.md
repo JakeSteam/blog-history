@@ -161,7 +161,7 @@ Additionally, according to Brian Crecente[^lego-podcast]: "_Of all the games he 
 
 > Nick was inducted into role-playing life at the age of five, and has been an avid consumer and producer of role-playing, live-action, and game culture ever since. Nick's bizarre sense of interactive aesthetics have led him to design a number of role-playing universes and narrative games; most notably, he founded and ran the Seasons of Darkness group, a 5 1/2 year live action project which was featured on Showtime. Nick's work on Seasons introduced him to Eric Zimmerman, and that introduction eventually brought him to gameLab. Nick also holds a Adjunct Teaching position at Bronx Community College, where he teaches developmental and compositional English, and is currently pursuing graduate study at Hunter College. In his spare time, Nick studies classical guitar, apprentices in T'ai Chi, and subjects more hapless players to his role-playing/art experiments.
 
-Fortugno continued creating games at various studios (Rebel Monkey, Playmatics), and as with many other gameLab employees, continues writing and teaching[^fortugno-teacher] about games.
+Fortugno continued creating games at various studios (Rebel Monkey, Playmatics), and as with many other gameLab employees, continues writing and teaching[^fortugno-teacher] about games. His work can be seen at [nickfortugno.com](https://www.nickfortugno.com/).
 
 [^fortugno-teacher]: <https://www.nytimes.com/2005/11/22/arts/design/video-games-are-their-major-so-dont-call-them-slackers.html>
 
