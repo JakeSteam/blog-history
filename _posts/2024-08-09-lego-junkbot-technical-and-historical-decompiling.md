@@ -42,7 +42,7 @@ There is a sequel, "[Junkbot Undercover](https://en.brickimedia.org/wiki/Junkbot
 - **August 3rd 2002**: First archive.org copy of Junkbot game files[^archive-first-files].
 - **October 24th 2003**: Junkbot included in a case study by gameLab's CEO for "Design Research"[^case-study].
 - **September 29th 2009**: gameLab acquired[^gamelab-acquired].
-- **July 31st - September 30th 2012**: Junkbot is removed from LEGO.com ([July 30th](https://web.archive.org/web/20120730042921/http://www.lego.com/build/junkbot/junkbot.asp?x=x&login=0), [September 30th](https://web.archive.org/web/20120930001653/http://www.lego.com:80/build/junkbot/junkbot.asp?x=x&login=0)), likely as part of the 2012's site-wide redesign[^lego-redesign](?).
+- **July 31st - September 30th 2012**: Junkbot is removed from LEGO.com ([July 30th](https://web.archive.org/web/20120730042921/http://www.lego.com/build/junkbot/junkbot.asp?x=x&login=0), [September 30th](https://web.archive.org/web/20120930001653/http://www.lego.com:80/build/junkbot/junkbot.asp?x=x&login=0)), likely as part of the 2012 site-wide redesign[^lego-redesign](?).
 - **April 9th 2019**: Shockwave Player (required for Junkbot) no longer available to download[^shockwave-eol].
 
 [![junkbot popularity trend](/assets/images/2024/junkbot-google-trends-740w.png)](/assets/images/2024/junkbot-google-trends.png)
@@ -251,7 +251,7 @@ Note that Junkbot is incorrectly referred to only as "Jumpbot" on page 10, sugge
 
 ## Junkbot's legacy
 
-Despite Junkbot's relative obscure status as a cult classic over the last 20 years, it is by no means forgotten. As well as the occasional fan content or nostalgic Reddit post, there are even subtle references in official LEGO products.
+Despite Junkbot's relatively obscure status as a cult classic over the last 20 years, it is by no means forgotten. As well as the occasional fan content or nostalgic Reddit post, there are even subtle references in official LEGO products.
 
 ### Unofficial LEGO builds
 
@@ -297,7 +297,7 @@ This is just an arcade cabinet with Junkbot's colours and some stickers, but it'
 
 #### 10273: Haunted House
 
-2020's [Haunted House set](https://www.lego.com/en-us/product/haunted-house-10273) is even further detached from Junkbot, and the presence is far more subtle!
+2020's [Haunted House set](https://www.lego.com/en-us/product/haunted-house-10273) is even further detached from Junkbot, and the reference is far more subtle!
 
 |                                           Minifigure [^hauntedhouse-1]                                            |                                     In disguise as a "box of junk" [^hauntedhouse-1]                                     |
 | :---------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: |
