@@ -87,7 +87,7 @@ Note the game files provided by Flashpoint have a created date of 24/12/1996. Th
 
 Junkbot was created in the now abandoned Adobe Director, a less popular relative of Adobe Flash. To decompile the game files I used "[ProjectorRays](https://github.com/ProjectorRays/ProjectorRays)", and [wrote a full decompiling guide](https://blog.jakelee.co.uk/decompiling-adobe-director-files/).
 
-Whilst working on this post I also [open sourced Junkbot](https://blog.jakelee.co.uk/lego-junkbot-files-and-director-tips/), meaning all the game's code and assets are now [available on GitHub](https://github.com/JakeSteam/junkbot-code)! This lets you dive into how every feature within the game works, like dynamically generated animations, all implemented using the obscure language "[Lingo](<https://en.wikipedia.org/wiki/Lingo_(programming_language)>)".
+Whilst working on this post I also [extracted Junkbot's source code](https://blog.jakelee.co.uk/lego-junkbot-files-and-director-tips/), meaning all the game's code and assets are now [available on GitHub](https://github.com/JakeSteam/junkbot-code)! This lets you dive into how every feature within the game works, like dynamically generated animations, all implemented using the obscure language "[Lingo](<https://en.wikipedia.org/wiki/Lingo_(programming_language)>)".
 
 ### Are there any secrets?
 
@@ -143,7 +143,7 @@ Lee (no relation) has continued contributing to games (often with Zimmerman) sin
 
 > Before joining gameLab, Frank was Creative Director of the New York design firm R/GA Interactive, where he worked on a wide variety of game projects including the PC games Gearheads and The Robot Club, as well as multiple online and site-based games for such clients as Microsoft, Sony, The Discovery Channel, NASDAQ, and Children's Television Workshop. Frank is a member of the faculty of NYU's Interactive Telecommunications Program, where he teaches classes in game design and interactive narrative. His writing on games, technology and culture has appeared in a variety of publications. Frank is also the co-designer of several massively multiplayer real-world conference games including Quorum for the Re:Play Conference, MANIFESTO for AIGA's Collison conference, and LiNK for Flashforward 2000.
 
-Lantz (along with plenty of other former gameLab employees) teaches at NYU Game Center[^lantz-interview], and continues to create games. This includes. Many of his talks, papers, and games (e.g. Junkbot!) are available on [franklantz.net](https://www.franklantz.net/).
+Lantz (along with plenty of other former gameLab employees) teaches at NYU Game Center[^lantz-interview], and continues to create games. Many of his talks, papers, and games (e.g. Junkbot!) are available on [franklantz.net](https://www.franklantz.net/).
 
 Coincidentally, I've unknowingly spent many hours with one of Lantz's recent games (2017): [Universal Paperclips](https://decisionproblem.com/paperclips/)[^lantz-paperclips]. This is one of the most popular incremental / clicker games of all time, with a detailed Wikipedia article[^paperclips-wiki] and "In the first 11 days, 450,000 people played the game, most to completion"[^paperclips-wired]. It is based on the "[paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)" AI thought experiment, even more relevant today with the relentless pace of AI innovation.
 
@@ -319,14 +319,14 @@ Whilst Junkbot's game files can be downloaded from LEGO's site directly via arch
 
 [![play LEGO Junkbot online](/assets/images/2024/junkbot-html5.png)](https://1j01.github.io/janitorial-android/#junkbot)
 
-[1j01's "Janitorial Android"](https://1j01.github.io/janitorial-android/#junkbot) has clearly had extreme amounts of care put into it, and made a (controversially!) better game than the original. It contains all original functionality, plus lots of new extras. So, what's changed? Well, here's what I noticed:
+[1j01's "Janitorial Android"](https://1j01.github.io/janitorial-android/#junkbot) has clearly had extreme amounts of care put into it, and maybe even made a (controversially!) better game than the original, at least in my opinion. It contains all original functionality, plus lots of new extras. So, what's changed? Well, here's what I noticed:
 
 1. A complete custom level creator has been added[^custom-level-creator], as well as the ability to export & import.
 2. All levels in all 4 buildings are unlocked from the start, instead of further buildings requiring level completion.
 3. Zooming in and out with mouse wheel (or `+` / `-`).
-4. Minor changes to the sound effects (e.g. no music)[^html5-sound-effects].
+4. Minor changes to the audio (e.g. no music)[^html5-sound-effects].
 
-There are tens of additional ideas on the [project's GitHub page](?tab=readme-ov-file#various-ideas) if you're interested in contributing. The impressive project is based on [rozniak's earlier C# rebuild](https://github.com/rozniak/Junkbot), but has realistically replaced it.
+There are tens of additional ideas on the [project's GitHub page](https://github.com/1j01/janitorial-android?tab=readme-ov-file#various-ideas) if you're interested in contributing. The impressive project is similar on [rozniak's earlier C# rebuild](https://github.com/rozniak/Junkbot), but has realistically surpassed it. It's worth mentioning the two developers [were in contact](https://github.com/rozniak/Junkbot/issues/6), so there's no rivalry!
 
 [^can-be-downloaded]: <https://web.archive.org/web/20020803205407oe_/http://www.lego.com/build/junkbot/junkbot2_13g_asp.dcr> (Note that this will directly download the `.dcr` file)
 [^custom-level-creator]: <https://1j01.github.io/janitorial-android/#level-editor>
