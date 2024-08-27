@@ -8,6 +8,7 @@ tags:
   - LEGO
   - Gaming
 maxheader: 3
+last_modified: 2024-08-27
 ---
 
 Junkbot: The mysterious little LEGO robot that relentlessly walked forward, and deserved far more attention than it ever received. 23 years ago, the first of 2 games featuring the orange walker was released on LEGO.com! Who made it, and where is Junkbot today?
