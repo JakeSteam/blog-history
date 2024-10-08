@@ -30,6 +30,8 @@ Tool already exists: https://github.com/hartator/wayback-machine-downloader
 - Use -s (all snapshots)
 - Use -c (concurrency)
 
+OR one dedicated to multiple versions: https://github.com/jsvine/waybackpack
+
 1. Full list of URLs: http://web.archive.org/cdx/search/cdx?url=http://www.stumbleupon.com/discover/toprated/
 2. Build each URL from this (`id_` suffix strips out wayback): https://web.archive.org/web/20101125161218id_/http://www.stumbleupon.com/discover/toprated/
 3. Download every result

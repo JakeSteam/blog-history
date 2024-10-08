@@ -4,18 +4,32 @@ author: Jake Lee
 layout: post
 image: /assets/images/2023/annoying-header.png
 tags:
-    - 2003
-    - 2004
-    - Pranks
+  - 2003
+  - 2004
+  - Pranks
+dates:
+  - { date: "2003-03-20", title: "Most Annoying Webpage created and launched" }
+  - {
+      date: "2003-04-14",
+      title: "First mention of Most Annoying Webpage (on Slashdot)",
+    }
+  - {
+      date: "2005-03-20",
+      title: "Most Annoying Webpage taken over by advertising / parking services",
+    }
+  - {
+      date: "2014-10-14",
+      title: "Most Annoying Webpage taken over by german spam blog",
+    }
 ---
 
-In 2003, the internet was a lot more innocent. People happily clicked suspicious looking links, browsers trusted websites implicitly, and instead of malware we had pranks and time-wasters. "Most Annoying Webpage" was one of these, taking a few precious minutes out of any victim's day. 
+In 2003, the internet was a lot more innocent. People happily clicked suspicious looking links, browsers trusted websites implicitly, and instead of malware we had pranks and time-wasters. "Most Annoying Webpage" was one of these, taking a few precious minutes out of any victim's day.
 
 ## What was it?
 
-The "Most Annoying Webpage" realistically wasn't *that* annoying. It queued up 151 alerts, forcing the user to click "OK" on each one individually. Due to browsers being a bit too trusting of websites in the early internet, there was no way to change tab, dismiss all remaining alerts or any similar workaround. Additionally, as many users weren't expert computer users, many would have manually clicked the "OK" button instead of holding down enter.
+The "Most Annoying Webpage" realistically wasn't _that_ annoying. It queued up 151 alerts, forcing the user to click "OK" on each one individually. Due to browsers being a bit too trusting of websites in the early internet, there was no way to change tab, dismiss all remaining alerts or any similar workaround. Additionally, as many users weren't expert computer users, many would have manually clicked the "OK" button instead of holding down enter.
 
-You can view an [archived version of the site here](https://web.archive.org/web/20030402051520/http://www.mostannoyingwebpage.com/v1/) and click "Yes, I'm Sure" to begin displaying the alerts. On any modern browser they won't cause any issues, and can be dismissed by just changing tab. 
+You can view an [archived version of the site here](https://web.archive.org/web/20030402051520/http://www.mostannoyingwebpage.com/v1/) and click "Yes, I'm Sure" to begin displaying the alerts. On any modern browser they won't cause any issues, and can be dismissed by just changing tab.
 
 [![](/assets/images/2023/annoying-example.png)](/assets/images/2023/annoying-example.png)
 
@@ -25,14 +39,14 @@ Once a victim makes their way through all the alerts, they are prompted to send 
 
 ## Timeline
 
-* **20th March 2003**: Most Annoying Webpage created and launched[^registered].
-* **1st April 2003**: First Wayback Machine archive of Most Annoying Webpage, appropriately on April Fool's Day[^first-archive].
-* **14th April 2003**: First mention of Most Annoying Webpage online, on Slashdot[^first-mention]
-* **May 2003**: Most Annoying Webpage spreads through technology forum's threads (Anandtech[^anandtech], Howard Forums[^howard-forums], Blender Artists[^blender-artists])
-* **July 2003**: Most Annoying Webpage spreads through general forum's threads (Digital Photography Challenge[^dpchallenge], Airliners.net[^airliners])
-* **11th July 2003**: First and only mention of Most Annoying Webpage in a (political) news site[^national-review].
-* **20th March 2005**: Most Annoying Webpage becomes owned by a series of advertising / parking services[^full-dns-records].
-* Between **17th May - 14th October 2014**, Most Annoying Webpage begins hosting a german spam blog[^german-spam], and continues to this day.
+- **20th March 2003**: Most Annoying Webpage created and launched[^registered].
+- **1st April 2003**: First Wayback Machine archive of Most Annoying Webpage, appropriately on April Fool's Day[^first-archive].
+- **14th April 2003**: First mention of Most Annoying Webpage online, on Slashdot[^first-mention]
+- **May 2003**: Most Annoying Webpage spreads through technology forum's threads (Anandtech[^anandtech], Howard Forums[^howard-forums], Blender Artists[^blender-artists])
+- **July 2003**: Most Annoying Webpage spreads through general forum's threads (Digital Photography Challenge[^dpchallenge], Airliners.net[^airliners])
+- **11th July 2003**: First and only mention of Most Annoying Webpage in a (political) news site[^national-review].
+- **20th March 2005**: Most Annoying Webpage becomes owned by a series of advertising / parking services[^full-dns-records].
+- Between **17th May - 14th October 2014**, Most Annoying Webpage begins hosting a german spam blog[^german-spam], and continues to this day.
 
 [^first-mention]: [https://developers.slashdot.org/story/03/04/14/1154210/java-for-the-gameboy-advance](https://developers.slashdot.org/story/03/04/14/1154210/java-for-the-gameboy-advance)
 [^first-archive]: [https://web.archive.org/web/20030401194229/http://mostannoyingwebpage.com/](https://web.archive.org/web/20030401194229/http://mostannoyingwebpage.com/)
@@ -49,13 +63,13 @@ Once a victim makes their way through all the alerts, they are prompted to send 
 
 ## Alert analysis
 
-The site's source code is available at [annoying-source.txt](/assets/txt/annoying-source.txt), and the plaintext alerts can be viewed at [annoying-alerts.txt](/assets/txt/annoying-alerts.txt). 
+The site's source code is available at [annoying-source.txt](/assets/txt/annoying-source.txt), and the plaintext alerts can be viewed at [annoying-alerts.txt](/assets/txt/annoying-alerts.txt).
 
-### Dynamic alerts 
+### Dynamic alerts
 
 In the plaintext alert file, there are 2 sets of messages that I have annotated with `(DYNAMIC)`. In the original source code these are small JavaScript functions that accept input from the user (for their name and a topic suggestion) before lightly mocking them.
 
-### Alert miscount 
+### Alert miscount
 
 Despite the creator's claim of 150 alerts, there are actually 151! This miscount seems to creep in between alerts #105 and #116:
 
@@ -65,10 +79,10 @@ Despite the creator's claim of 150 alerts, there are actually 151! This miscount
 
 According to an online text analyser[^text-analyser]:
 
-* There are **893 words**.
-* The most used word is **you**, with **59 occurrences**.
-* The most used phrase is **you know** with **11 occurrences**.
-* The longest reused phrases are **alert after alert after alert** and **to get through 150 alerts**, both used twice.
+- There are **893 words**.
+- The most used word is **you**, with **59 occurrences**.
+- The most used phrase is **you know** with **11 occurrences**.
+- The longest reused phrases are **alert after alert after alert** and **to get through 150 alerts**, both used twice.
 
 Whilst this was perhaps obvious from reading a few dialogs, basic online automated readability tools[^readability-tools] agreed the writing was very, very simple and easy to read for almost all ages:
 
@@ -112,14 +126,14 @@ However, considering the different directions & complexity both sites took from 
 
 ## Notes
 
-### Author 
+### Author
 
 I tried to find the creator behind this site, and completely failed:
 
-* Original DNS records have privacy protection.
-* No contact details are provided, the only name in the source code is for a free-to-use code snippet.
-* As mentioned in [Similar sites](#similar-sites), I reached out to the author of a similar site who confirmed there was no connection.
-* The referral link[^referral-link] is on the now defunct "TAFMaster", which appears to have disappeared sometime between 2011 and 2017, with very little trace. It does not appear to have had any customer lookup / database leak.
+- Original DNS records have privacy protection.
+- No contact details are provided, the only name in the source code is for a free-to-use code snippet.
+- As mentioned in [Similar sites](#similar-sites), I reached out to the author of a similar site who confirmed there was no connection.
+- The referral link[^referral-link] is on the now defunct "TAFMaster", which appears to have disappeared sometime between 2011 and 2017, with very little trace. It does not appear to have had any customer lookup / database leak.
 
 ### Technical
 
@@ -131,8 +145,8 @@ It's unlikely the creator had much JavaScript experience. The source code shows 
 
 It's entirely possible the phrase "webpage" looks weird to some readers! For a while this was a common term to refer to a page on a website. Looking at Google Trends however, it's clear "webpage" is now essentially unused, even in comparison to 2004. If the chart extended further back in time, I would expect an even sharper drop.
 
-| Webpage over time | Webpage vs website |
-| --- | --- |
+| Webpage over time                                                                                   | Webpage vs website                                                                                                  |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 | [![](/assets/images/2023/annoying-webpage-thumbnail.png)](/assets/images/2023/annoying-webpage.png) | [![](/assets/images/2023/annoying-webpage-website-thumbnail.png)](/assets/images/2023/annoying-webpage-website.png) |
 
 ## Conclusion
@@ -141,6 +155,6 @@ I'm stunned with how quickly this site dropped off the internet's radar. The fac
 
 I was hoping to be able to find the original creator, but as I write this (Jan 2023), there's no remaining avenues to follow. A couple of DMs / emails might still come back fruitful, but for now it will have to remain a mystery.
 
-Finally, the domain's registration expires *today*. I'd love to rescue the domain from the German spam blog and resurrect the original site, but I strongly suspect it will just be automatically renewed by the current owner and continue to be forgotten about! Perhaps it's a satirical masterpiece, creating a site even more annoying than the original?
+Finally, the domain's registration expires _today_. I'd love to rescue the domain from the German spam blog and resurrect the original site, but I strongly suspect it will just be automatically renewed by the current owner and continue to be forgotten about! Perhaps it's a satirical masterpiece, creating a site even more annoying than the original?
 
 ## References

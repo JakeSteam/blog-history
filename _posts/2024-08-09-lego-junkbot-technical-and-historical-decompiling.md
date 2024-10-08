@@ -9,6 +9,21 @@ tags:
   - Gaming
 maxheader: 3
 last_modified: 2024-08-27
+dates:
+  - { date: "2001-08-09", title: "Junkbot first released on LEGO.com" }
+  - {
+      date: "2001-10-05",
+      title: "First mention of Junkbot in archived LEGO.com files",
+    }
+  - {
+      date: "2003-10-24",
+      title: "Junkbot included in a case study by gameLab's CEO",
+    }
+  - { date: "2009-09-29", title: "Junkbot's creator (gameLab) acquired" }
+  - {
+      date: "2019-04-09",
+      title: "Shockwave Player (required for Junkbot) no longer available to download",
+    }
 ---
 
 Junkbot: The mysterious little LEGO robot that relentlessly walked forward, and deserved far more attention than it ever received. 23 years ago, the first of 2 games featuring the orange walker was released on LEGO.com! Who made it, and where is Junkbot today?
