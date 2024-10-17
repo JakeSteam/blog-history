@@ -30,6 +30,49 @@ more intro
 
 Tool already exists: https://github.com/jsvine/waybackpack
 
+### All top rated
+
+waybackpack ^
+http://www.stumbleupon.com/discover/toprated ^
+-d "/Documents/Projects/StumbleUpon-extract/toprated" ^
+--from-date 20091010 ^
+--to-date 20120312 ^
+--user-agent "waybackpack jake@jakelee.co.uk"
+
+### By interest
+
+http://www.stumbleupon.com/discover/animation/
+http://www.stumbleupon.com/discover/arts/
+http://www.stumbleupon.com/discover/bizarre/
+http://www.stumbleupon.com/discover/books/
+http://www.stumbleupon.com/discover/business/
+http://www.stumbleupon.com/discover/cats/
+http://www.stumbleupon.com/discover/computer-graphics/
+http://www.stumbleupon.com/discover/computers/
+http://www.stumbleupon.com/discover/drawing/
+http://www.stumbleupon.com/discover/food/
+http://www.stumbleupon.com/discover/fun/
+http://www.stumbleupon.com/discover/graphic-design/
+http://www.stumbleupon.com/discover/health/
+http://www.stumbleupon.com/discover/humor/
+http://www.stumbleupon.com/discover/internet-tools/
+http://www.stumbleupon.com/discover/internet/
+http://www.stumbleupon.com/discover/lifestyle/
+http://www.stumbleupon.com/discover/movies/
+http://www.stumbleupon.com/discover/music/
+http://www.stumbleupon.com/discover/news/
+http://www.stumbleupon.com/discover/online-games/
+http://www.stumbleupon.com/discover/photography/
+http://www.stumbleupon.com/discover/politics/
+http://www.stumbleupon.com/discover/psychology/
+http://www.stumbleupon.com/discover/satire/
+http://www.stumbleupon.com/discover/science/
+http://www.stumbleupon.com/discover/self-improvement/
+http://www.stumbleupon.com/discover/sports/
+http://www.stumbleupon.com/discover/technology/
+http://www.stumbleupon.com/discover/travel/
+http://www.stumbleupon.com/discover/videos/
+
 - Scraping tips: https://wiki.archiveteam.org/index.php?title=Restoring
 
 ## Analysing extracted links
