@@ -210,7 +210,7 @@ The process to check links was straightforward, but somewhat technical:
 2. Remove the surrounding HTML using regexes `^.*?(href=")` & `(" title).*$`.
 3. [Sort the domains alphabetically](https://thechrisgreen.com/2021/08/vs-code-sort-lines-of-code-in-ascending-or-descending-order/), and [remove duplicate domains](https://stackoverflow.com/a/45829605/608312).
 4. Manually look for & remove any fake domains (e.g. `http://reserved`).
-5. Check the domains [using `vl`](https://www.ilovefreesoftware.com/26/programming/how-to-bulk-check-http-status-codes-for-urls-from-command-line.html), specifically `vl domains.txt --debug > domain-status.txt` taking around 10 minutes.
+5. Check the domains [using `vl`](https://www.ilovefreesoftware.com/26/programming/how-to-bulk-check-http-status-codes-for-urls-from-command-line.html) (installed via `pip install vl`), specifically `vl domains.txt --debug > domain-status.txt` taking around 10 minutes.
 6. Sorting the results alphabetically, resulting in a list of domains grouped by response codes.
 
 ### How were the colours counted and sorted?

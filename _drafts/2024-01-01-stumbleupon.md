@@ -22,11 +22,16 @@ more intro
 
 ## What was StumbleUpon?
 
+## What happened to StumbleUpon?
+
+- Misc info: https://www.theverge.com/2012/8/1/3207443/stumbleupon-struggles-relevant-social-traffic
+- Google Trends
+
 ## Extracting StumbleUpon content
 
 - Link to programming article
 
-## Analysing extracted links
+## Analysing extracted data
 
 ### User analysis
 
@@ -217,9 +222,28 @@ This perhaps makes sense, as users will be motivated to submit their own videos 
 
 ### Link analysis
 
-Analyse links for whether they work / 404 / domain bought out / other error, plus ideas for future posts
+Using the same technique as the [Million Dollar Homepage article](/million-dollar-homepage/#how-were-the-domains-checked), we can check how many of these submitted URLs are still valid.
 
-## What happened to StumbleUpon?
+Unlike that project, where the domains were at least vaguely intended to persist, submissions to StumbleUpon did not have that intention. Additionally, many of these "funny picture" or listicle sites fold after a few years. Counteracting that however is all the YouTube links, which by default will persist forever.
 
-- Misc info: https://www.theverge.com/2012/8/1/3207443/stumbleupon-struggles-relevant-social-traffic
-- Google Trends
+Once [all the URLs](https://github.com/JakeSteam/StumbleUpon-extract/blob/main/data-parsed/parsed-cleaned-urlsonly.csv) have been [checked for their current status](https://github.com/JakeSteam/StumbleUpon-extract/blob/main/parsed-cleaned-urlschecked.txt), we get the following results.
+
+#### Data
+
+Note that there's a few non-standard status codes returned (e.g. 556, 523), plus pages that to load entirely (671 of them!), these have all been included in the counter for 5XX. Similarly, errors like 409 or 421 are included in the count for 4XX.
+
+| Status code |   Meaning    | Count |
+| :---------: | :----------: | :---: |
+|     200     |  Successful  | 1657  |
+|     4XX     |  Not found   | 2290  |
+|     5XX     | Server error |  765  |
+
+#### Analysis
+
+Most of these links are broken now!
+
+These numbers are also inflated by YouTube returning a 200, even when the video itself is actually unavailable. Given how many sites have a similar scenario, it's even more concerning that over 60% of links are completely broken.
+
+Of course, it's likely that the Wayback Machine managed to grab many of these (since they were linked to by pages it has archived), but the link rot in under 15 years is pretty high.
+
+## Conclusion
