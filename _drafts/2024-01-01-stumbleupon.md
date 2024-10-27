@@ -34,7 +34,7 @@ As with any social media platform, StumbleUpon had "powerusers" who would freque
 
 We also need to remove "Unavailable" and "StumbleUpon" as they are typically used for sponsored posts or those where the user's information wasn't present for whatever reason (perhaps privacy?).
 
-```
+```py
 df = pd.read_csv('data-parsed/parsed-cleaned.csv')
 df_filtered = df[~df['user_name'].isin(['Unavailable', 'StumbleUpon'])]
 user_name_counts = df_filtered.groupby('user_name').size().reset_index(name='count')
@@ -91,7 +91,7 @@ This can be used to get an estimate for how popular these categories were. Befor
 
 These were obtained by analysing the `parsed-nontoprated.csv` using pandas with this Python code (replacing `view_count` with `review_count` for comments):
 
-```
+```py
 df = pd.read_csv('data-parsed/parsed-nontoprated.csv')
 view_count_stats = df.groupby('source')['view_count'].agg(['count', 'median', 'max'])
 print(view_count_stats.to_markdown(floatfmt=".0f"))
@@ -147,7 +147,73 @@ Overall these results really highlight how different the internet was even 15 ye
 
 ### Domain analysis
 
-- Investigate which domains were popular over time
+By taking the root domain of each link, and removing inconsistent prefixes like `www.`, we can get an analysis of the highest average views per domain, and the most frequently submitted domains. We also need to ensure links are _unique_, since the same link can (and frequently is) submitted multiple times.
+
+Of course, as always this only includes links that ended up on the "popular" pages, so it's entirely possible other domains had thousands of unpopular submissions! I also only included domains that had > 5 submissions, as domains with 2-3 submissions are too small a sample size.
+
+The code to obtain this data is:
+
+```py
+df = pd.read_csv('data-parsed/parsed-cleaned.csv')
+df_unique = df.drop_duplicates(subset='url')
+df_unique['domain'] = df_unique['url'].apply(lambda url: urlparse(url).netloc.replace('www.', ''))
+
+domain_stats = df_unique.groupby('domain')['view_count'].agg(['count', 'median']).reset_index()
+
+domain_stats_filtered = domain_stats[domain_stats['count'] > 5]
+
+highest_avg_view_count = domain_stats_filtered.sort_values(by='median', ascending=False).head(10)
+print(highest_avg_view_count.to_markdown(index=False, floatfmt=".0f"))
+
+most_frequent_domains = domain_stats.sort_values(by='count', ascending=False).head(10)
+print(most_frequent_domains.to_markdown(index=False, floatfmt=".0f"))
+```
+
+#### Highest average views
+
+##### Data
+
+| Domain            | Count | Median views |
+| :---------------- | ----: | -----------: |
+| zadan.nl          |     6 |       389406 |
+| marcandangel.com  |     6 |       313002 |
+| wonderfl.net      |     6 |       309949 |
+| mymodernmet.com   |    16 |       191400 |
+| newgrounds.com    |     6 |       180574 |
+| techeblog.com     |     6 |       142934 |
+| lifehacker.com    |     9 |       132097 |
+| listal.com        |    12 |       128312 |
+| twistedsifter.com |     6 |       125023 |
+| yankodesign.com   |    11 |       121044 |
+
+##### Analysis
+
+Topping the list are sites focused on generic images (e.g. zadan.nl's "Ninja Squirrel takes it all"), listicles (e.g. marcandangel.com's "50 Questions That Will Free Your Mind"), and flash games (e.g. wonderfl.net's "\[Stardust\] KiraKira Waypoints").
+
+Most of the top sites are pretty typical for the era (I remember Newgrounds and Lifehacker!), but I was surprised to see "mymodernmet.com" having so many submissions, many of which are popular. The site seems focused on arts, with topics such as "Van Goghs Paintings Get Tilt-Shifted". Higher brow entertainment than I expected!
+
+#### Most frequently submitted
+
+##### Data
+
+| Domain             | Count | Median views |
+| :----------------- | ----: | -----------: |
+| youtube.com        |   426 |        13512 |
+| buzzfeed.com       |    45 |        27898 |
+| flickr.com         |    34 |        31128 |
+| gizmodo.com        |    30 |        47466 |
+| boingboing.net     |    26 |        28746 |
+| telegraph.co.uk    |    25 |        14897 |
+| metacafe.com       |    24 |        37656 |
+| dailymail.co.uk    |    23 |        31550 |
+| funnyjunk.com      |    21 |        20643 |
+| huffingtonpost.com |    19 |         9873 |
+
+##### Analysis
+
+Even 15 years ago, YouTube's dominance on entertainment was absurd. With almost 10x as many popular submissions as the 2nd place Buzzfeed, the overwhelming volume means the lower median is expected. Interestingly, 4 of these sites (YouTube, Flickr, Metacafe, Funnyjunk) are primarily driven by _user_ submissions, with the remaining 6 being journalism (of varying standards admittedly).
+
+This perhaps makes sense, as users will be motivated to submit their own videos (YouTube / Metacafe), images (Flickr) and memes (Funnyjunk), whilst news is always popular content. This is especially true for online-focused journalism like Buzzfeed, Gizmodo, and BoingBoing.
 
 ### Link analysis
 
