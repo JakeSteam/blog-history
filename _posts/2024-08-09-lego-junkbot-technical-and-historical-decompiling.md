@@ -8,7 +8,7 @@ tags:
   - LEGO
   - Gaming
 maxheader: 3
-last_modified: 2024-08-27
+last_modified_at: 2024-08-27
 dates:
   - { date: "2001-08-09", title: "Junkbot first released on LEGO.com" }
   - {
