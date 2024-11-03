@@ -1,7 +1,5 @@
 ---
 title: 18 years ago today, 'The Scary Maze Game' was released, a screamer game that terrified millions
-author: Jake Lee
-layout: post
 image: /assets/images/2023/maze-header.png
 tags:
   - 2005

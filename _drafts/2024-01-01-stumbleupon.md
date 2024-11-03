@@ -1,7 +1,5 @@
 ---
 title: 23 years ago today, StumbleUpon was founded. What happened to all that content?
-author: Jake Lee
-layout: post
 image: /assets/images/2023/
 tags:
   - StumbleUpon

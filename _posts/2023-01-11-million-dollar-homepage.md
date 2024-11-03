@@ -1,7 +1,5 @@
 ---
 title: 17 years ago today, the Million Dollar Homepage was completed, making a student $1m in 5 months
-author: Jake Lee
-layout: post
 image: /assets/images/2023/milliondollarhomepage.png
 tags:
   - 2005
