@@ -1,6 +1,6 @@
 ---
 title: 20 years ago today, the 'Most Annoying Webpage' was launched, trapping victims in popups for a few minutes
-image: /assets/images/2023/annoying-header.png
+image: /assets/images/banners/annoying-header.png
 tags:
   - 2003
   - 2004

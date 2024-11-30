@@ -25,6 +25,7 @@ network:
       name: Internet History,
       url: "https://history.jakelee.co.uk",
       colour: "#075e78",
+      current: true
     }
   - { name: Theme, url: "https://minima.jakelee.co.uk", colour: "#951A00" }
   - { name: Everything Else, url: "https://jakelee.co.uk", colour: "#acacac" }
@@ -94,6 +95,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-webp
 
 # Pagination settings
 paginate: 10
@@ -104,3 +106,12 @@ kramdown:
   syntax_highlighter_opts:
     default_lang: kotlin
     guess_lang: true
+
+# Webp conversion settings
+webp: 
+  enabled: true
+  quality: 95
+  img_dir: ["/assets/images/banners"]
+  nested: true
+  regenerate: false # Set to true if settings have been changed
+  formats: [".jpeg", ".jpg", ".png"]

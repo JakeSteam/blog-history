@@ -1,6 +1,6 @@
 ---
 title: 23 years ago today, LEGO's Junkbot game was released, one of the most popular LEGO.com games of all time 🤖🧱
-image: /assets/images/2024/junkbot-banner.png
+image: /assets/images/banners/junkbot-banner.png
 tags:
   - 2001
   - LEGO

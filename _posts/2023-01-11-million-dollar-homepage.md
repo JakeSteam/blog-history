@@ -1,6 +1,6 @@
 ---
 title: 17 years ago today, the Million Dollar Homepage was completed, making a student $1m in 5 months
-image: /assets/images/2023/milliondollarhomepage.png
+image: /assets/images/banners/milliondollarhomepage.png
 tags:
   - 2005
   - 2006
@@ -22,7 +22,7 @@ This basic idea, simple execution, and astonishing success truly embodied the "n
 
 Of course, this was back when online adverts were a beautiful wild west, where gambling, dating, free software (or malware) and illegal video downloads were all fair game. The end result is a stunning montage of mid-2000s internet, preserved in a 1000 x 1000 pixel bubble. Whilst I'd recommend visiting [the eye burning original](http://www.milliondollarhomepage.com/) for a pixel-perfect version, here's a smaller version (click to view full size):
 
-[![million dollar homepage](/assets/images/2023/milliondollarhomepage.png)](/assets/images/2023/milliondollarhomepage.png)
+[![million dollar homepage](/assets/images/banners/milliondollarhomepage.png)](/assets/images/banners/milliondollarhomepage.png)
 
 So how on earth did this ~~monstrosity~~ masterpiece happen?
 
@@ -140,7 +140,7 @@ For evidence of their similarity, compare the Million Dollar Homepage's final ca
 
 | Million Dollar Homepage                                                                                                              | r/place 2017                                                                                        | r/place 2022                                                                                        |
 | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| [![million dollar homepage](/assets/images/2023/milliondollarhomepage-thumbnail.png)](/assets/images/2023/milliondollarhomepage.png) | [![r/place 2017](/assets/images/2023/rplace2017-thumbnail.png)](/assets/images/2023/rplace2017.png) | [![r/place 2017](/assets/images/2023/rplace2022-thumbnail.png)](/assets/images/2023/rplace2022.png) |
+| [![million dollar homepage](/assets/images/2023/milliondollarhomepage-thumbnail.png)](/assets/images/banners/milliondollarhomepage.png) | [![r/place 2017](/assets/images/2023/rplace2017-thumbnail.png)](/assets/images/2023/rplace2017.png) | [![r/place 2017](/assets/images/2023/rplace2022-thumbnail.png)](/assets/images/2023/rplace2022.png) |
 
 Perhaps even more impressive given how quickly events and websites can fade into obscurity on the internet, Tew's Million Dollar Homepage is still referenced pretty regularly today, usually as a motivational "your idea can go big too!" example. Considering it still lives in mine and others[^rent-free] heads 17 years later, it's hard to understate the effect this relatively simple idea has had on countless online creators over the years.
 
