@@ -6,7 +6,7 @@ tags:
   - LEGO
   - Gaming
 maxheader: 3
-last_modified_at: 2024-08-27
+last_modified_at: 2025-07-03
 dates:
   - { date: "2001-08-09", title: "Junkbot first released on LEGO.com" }
   - {
@@ -289,7 +289,7 @@ In addition to builds of Junkbot itself, there's been all kinds of related conte
 
 ### Official LEGO easter eggs
 
-Junkbot clearly has fans within LEGO too, since it continues to pop up in odd little places now and then. These two sets are explicitly mentioned in a "Bits N' Bricks" podcast, there may be others out there!
+Junkbot clearly has fans within LEGO too, since it continues to pop up in odd little places now and then. The first two sets are explicitly mentioned in a "Bits N' Bricks" podcast, with the third being added as recently as 2025!
 
 > The little bot Junkbot, or references to it, have popped up in a Ninjago theme set and the Haunted House set as well[^podcast-transcript]
 
@@ -318,6 +318,16 @@ This is just an arcade cabinet with Junkbot's colours and some stickers, but it'
 | [![Junkbot minifigure](/assets/images/2024/hauntedhouse-1-thumbnail.jpg)](/assets/images/2024/hauntedhouse-1.jpg) | [![hidden Junkbot minifigure](/assets/images/2024/hauntedhouse-2-thumbnail.jpg)](/assets/images/2024/hauntedhouse-2.jpg) |
 
 [^hauntedhouse-1]: <https://www.eurobricks.com/forum/index.php?/forums/topic/178084-review-creator-expert-10273-haunted-house/>
+
+#### 40805: Arcade Machine
+
+2025's [Arcade Machine set](https://www.lego.com/en-gb/product/arcade-machine-40805) has an absolutely adorable mini-arcade machine directly referencing Junkbot!
+
+|                                         Junkbot arcade machine[^arcademachine-1]                                          |                                                   In context[^arcademachine-1]                                                   |
+| :-----------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------: |
+| [![Junkbot arcade machine](/assets/images/2024/arcade-machine-1-thumbnail.png)](/assets/images/2024/arcade-machine-1.png) | [![Junkbot within arcade machine](/assets/images/2024/arcade-machine-2-thumbnail.png)](/assets/images/2024/arcade-machine-2.png) |
+
+[^arcademachine-1]: <https://www.lego.com/en-gb/product/arcade-machine-40805>
 
 ### LEGO Builder's Journey
 
